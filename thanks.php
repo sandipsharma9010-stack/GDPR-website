@@ -1,5 +1,7 @@
+
+<?php $page = "thanks"; ?>
 <?php include_once('header.php'); ?>
-  <section class="bg-gray-50 dark:bg-gray-900 flex items-center justify-center min-h-screen px-4">
+  <section class="bg-gray-50 dark:bg-gray-900 flex items-center justify-center min-h-screen px-4 py-5 mt-10">
     <div class="bg-white dark:bg-gray-800 shadow-xl rounded-2xl p-8 max-w-md w-full text-center">
       <!-- Success Icon -->
       <div class="flex justify-center mb-6">

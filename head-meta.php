@@ -64,3 +64,12 @@
     <meta name="keywords" content="GDPR consultants EU, GDPR compliance experts, GDPR advisory, GDPR compliance services" />
     <link rel="canonical" href="https://www.gdprconsultants.in/contact-us/" />
 <?php } ?>
+
+
+<?php if ($page == "thanks") { ?>
+    <title>Thankyou</title>
+    <meta name="description"
+        content="thanks" />
+    <meta name="keywords" content="thanks" />
+    <!-- <link rel="canonical" href="https://www.gdprconsultants.in/contact-us/" /> -->
+<?php } ?>
