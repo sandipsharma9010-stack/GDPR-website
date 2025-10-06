@@ -335,7 +335,7 @@ if($_POST) {
 
               <!-- number -->
               <div class="space-y-2 max-w-[364px] w-full">
-                <label for="phone" class="form-label block text-tagline-2 text-secondary dark:text-accent font-medium">Contact.</label>
+                <label for="phone" class="form-label block text-tagline-2 text-secondary dark:text-accent font-medium">Contact</label>
                 <input
                   type="text" maxlength="10" inputmode="numeric" pattern="\d{10}" placeholder="Contact" onchange="this.value=this.value.replace(/\D/g,'').slice(0,10)" name="phoneno" value="<?php echo $phoneno; ?>" required
                   class="form-control w-full px-[18px] dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 py-3 h-[48px] xl:h-[41px] rounded-full dark:bg-background-6 border border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:outline-none focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent placeholder:font-normal font-normal"

@@ -209,7 +209,7 @@ if($_POST) {
                     </div>
 
                     <div class="col-md-6 mb-3">
-                        <label for="phone" class="form-label">Contact.</label>
+                        <label for="phone" class="form-label">Contact</label>
                         <input type="text" maxlength="10" inputmode="numeric" pattern="\d{10}" class="form-control" placeholder="Contact" onchange="this.value=this.value.replace(/\D/g,'').slice(0,10)" name="phoneno" value="<?php echo $phoneno; ?>" required />
                     </div>
                 

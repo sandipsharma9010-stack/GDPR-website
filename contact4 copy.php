@@ -333,7 +333,7 @@ Contact
               <!-- number -->
               <div class="space-y-2 max-w-[364px] w-full">
                 <label for="phone"
-                  class="form-label block text-tagline-2 text-secondary dark:text-accent font-medium">Contact.</label>
+                  class="form-label block text-tagline-2 text-secondary dark:text-accent font-medium">Contact</label>
                 <input type="text" maxlength="10" inputmode="numeric" pattern="\d{10}" placeholder="Contact"
                   onchange="this.value=this.value.replace(/\D/g,'').slice(0,10)" name="phoneno"
                   value="<?php echo $phoneno; ?>" required
