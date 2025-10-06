@@ -1168,7 +1168,7 @@ FAQ section
       <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item active-accordion">
         <button
           class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent">
+          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
             What is the role of the Data Principal Consent Manager (DPCM) in GDPR compliance?
           </span>
           <!-- =========================
@@ -1178,7 +1178,7 @@ Accordian Icon
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary dark:stroke-accent" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
             </svg>
           </span>
 
@@ -1195,7 +1195,7 @@ Accordian Icon
       <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
         <button
           class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent">
+          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
             How does the Data Protection Grievance Redressal (DPGR) system support GDPR obligations?
           </span>
           <!-- =========================
@@ -1205,7 +1205,7 @@ Accordian Icon
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary dark:stroke-accent" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
             </svg>
           </span>
 
@@ -1223,7 +1223,7 @@ Accordian Icon
       <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
         <button
           class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent">
+          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
             Why is a Data Protection Impact Assessment (DPIA) necessary?
           </span>
           <!-- =========================
@@ -1233,7 +1233,7 @@ Accordian Icon
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary dark:stroke-accent" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
             </svg>
           </span>
 
@@ -1251,7 +1251,7 @@ Accordian Icon
       <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
         <button
           class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent">
+          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
             When should a Data Protection Third Party Assessment (DPTPA) be conducted?
           </span>
           <!-- =========================
@@ -1261,7 +1261,7 @@ Accordian Icon
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary dark:stroke-accent" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
             </svg>
           </span>
 
@@ -1280,7 +1280,7 @@ Accordian Icon
       <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
         <button
           class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent">
+          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
             What does the Cookie Consent Manager (CCM) do under GDPR?
           </span>
           <!-- =========================
@@ -1290,7 +1290,7 @@ Accordian Icon
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary dark:stroke-accent" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
             </svg>
           </span>
 
@@ -1310,7 +1310,7 @@ Accordian Icon
       <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
         <button
           class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent">
+          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
             How do these tools collectively strengthen GDPR accountability?
           </span>
           <!-- =========================
@@ -1320,7 +1320,7 @@ Accordian Icon
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary dark:stroke-accent" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
             </svg>
           </span>
 
@@ -1339,7 +1339,7 @@ Accordian Icon
       <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
         <button
           class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent">
+          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
             Do these tools support data subject rights like access, rectification, and erasure?
           </span>
           <!-- =========================
@@ -1349,7 +1349,7 @@ Accordian Icon
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary dark:stroke-accent" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
             </svg>
           </span>
 
@@ -1367,7 +1367,7 @@ Accordian Icon
       <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
         <button
           class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent">
+          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
             How do these tools reduce the risk of GDPR fines?
           </span>
           <!-- =========================
@@ -1377,7 +1377,7 @@ Accordian Icon
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary dark:stroke-accent" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
             </svg>
           </span>
 
@@ -1396,7 +1396,7 @@ Accordian Icon
       <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
         <button
           class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent">
+          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
             Are these tools suitable for both small and large organizations?
           </span>
           <!-- =========================
@@ -1406,7 +1406,7 @@ Accordian Icon
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary dark:stroke-accent" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
             </svg>
           </span>
 
@@ -1424,7 +1424,7 @@ Accordian Icon
       <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
         <button
           class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent">
+          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
             Can these tools integrate with existing IT or legal compliance frameworks?
           </span>
           <!-- =========================
@@ -1434,7 +1434,7 @@ Accordian Icon
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary dark:stroke-accent" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary p-2" />
             </svg>
           </span>
 

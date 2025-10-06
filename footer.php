@@ -13,12 +13,12 @@
         <div class="grid grid-cols-12 lg:gap-x-8 xl:gap-x-0 gap-x-0 gap-y-16 xl:pt-[100px] pt-16 pb-16 justify-between">
             <div class="lg:col-span-4 col-span-12">
                 <div data-ns-animate data-delay="0.3" class="xl:max-w-[306px]">
-                     <figure class="max-w-[40px] sm:max-w-[20px]">
-              <img src="./images/shared/gdpr-logo.png" alt="NextSaaS" class="w-[200px] dark:hidden block" />
-              <img src="./images/shared/gdpr-logo.png" alt="NextSaaS" class="w-[200px] dark:block hidden" />
-            </figure>
+                    <figure class="max-w-[40px] sm:max-w-[20px]">
+                        <img src="./images/shared/gdpr-logo.png" alt="NextSaaS" class="w-[200px] dark:hidden block" />
+                        <img src="./images/shared/gdpr-logo.png" alt="NextSaaS" class="w-[200px] dark:block hidden" />
+                    </figure>
                     <p class="mt-4 mb-7 text-secondary dark:text-accent">
-                       Turning Compliance into Competitive Advantage
+                        Turning Compliance into Competitive Advantage
                     </p>
                     <!-- <div class="flex items-center gap-3">
                         <a href="#" class="footer-social-link">
@@ -120,21 +120,26 @@
                                 <a href="./index.php" class="footer-link-v2"> Home </a>
                             </li>
                             <li>
-                                <a href="./consent-management-tool.php" class="footer-link-v2">Consent Management Tool </a>
+                                <a href="./consent-management-tool.php" class="footer-link-v2">Consent Management Tool
+                                </a>
                             </li>
                             <li>
-                                <a href="./data-protection-third-party.php" class="footer-link-v2"> Data Protection Third Party</a>
+                                <a href="./data-protection-third-party.php" class="footer-link-v2"> Data Protection
+                                    Third Party</a>
                             </li>
                             <li>
-                                <a href="./data-subject-rights-and-grievance-management.php" class="footer-link-v2"> Data Subject Rights And Grievance Management</a>
+                                <a href="./data-subject-rights-and-grievance-management.php" class="footer-link-v2">
+                                    Data Subject Rights And Grievance Management</a>
                             </li>
 
                             <li>
-                                <a href="./data-protection-impact-assessment.php" class="footer-link-v2"> Data Protection Impact Assessment</a>
+                                <a href="./data-protection-impact-assessment.php" class="footer-link-v2"> Data
+                                    Protection Impact Assessment</a>
                             </li>
 
                             <li>
-                                <a href="./cookie-consent-management.php" class="footer-link-v2"> Cookie Consent Management</a>
+                                <a href="./cookie-consent-management.php" class="footer-link-v2"> Cookie Consent
+                                    Management</a>
                             </li>
                         </ul>
                     </div>
@@ -166,23 +171,15 @@
                             Legal Policies
                         </p>
                         <ul class="space-y-5">
-                            <li>
+                            <!-- <li>
                                 <a href="./terms-conditions-page.html" class="footer-link-v2">
                                     Terms & Conditions
                                 </a>
-                            </li>
-                            <li>
-                                <a href="./privacy-page.html" class="footer-link-v2"> Privacy Policy </a>
-                            </li>
-                            <!-- <li>
-                                <a href="./refund-policy-page.html" class="footer-link-v2"> Refund Policy </a>
-                            </li>
-                            <li>
-                                <a href="./gdpr-page.html" class="footer-link-v2"> GDPR Compliance </a>
-                            </li>
-                            <li>
-                                <a href="./affiliate-policy-page.html" class="footer-link-v2"> Affiliate Policy </a>
                             </li> -->
+                            <li>
+                                <a href="./privacy-statement.php" class="footer-link-v2"> Privacy Statement </a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>

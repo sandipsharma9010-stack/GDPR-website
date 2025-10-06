@@ -188,7 +188,7 @@ Mega Menu V1
 </div>
 
         </li> -->
-          <li class="relative nav-item cursor-pointer py-2.5" data-menu="services-menu">
+          <li class="relative nav-item cursor-pointer py-2.5 w-full" data-menu="services-menu">
             <a href="#" class="nav-item-link {=$nav-item-class}">
               <span>Compliance Tools</span>
               <span class="nav-arrow block origin-center transition-all duration-300 translate-y-px">
@@ -298,152 +298,17 @@ Mega Menu V1
           <li class="relative nav-item cursor-pointer py-2.5" data-menu="blog-menu">
             <a href="./blog-page-01.php" class="nav-item-link {=$nav-item-class}">
               <span>Blog</span>
-              <!-- <span class="nav-arrow block origin-center transition-all duration-300 translate-y-px">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-4"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
-                />
-              </svg>
-            </span> -->
+
             </a>
+          </li>
 
             <div>
 
-              <!-- <div
-    class="dropdown-menu-bridge absolute left-1/2 -translate-x-1/2 top-full w-full h-3 bg-transparent z-40 min-w-[280px] pointer-events-none"
-  ></div>
-  <div
-    id="blog-menu"
-    class="dropdown-menu absolute left-1/2 -translate-x-1/2 top-full mt-2 pointer-events-none transition-all duration-300 opacity-0 bg-white dark:bg-background-6 rounded-[20px] px-[60px] py-[70px] z-50 min-w-[280px] w-full overflow-hidden {=$mega-menu-color} border border-stroke-1 dark:border-stroke-6"
-  >
-    <ul class="w-full space-y-5">
-      <li>
-        <a
-          href="./blog-page-01.html"
-          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200"
-        >
-          <span>Blog Page 01</span>
-          <span
-            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-            >
-              <path
-                d="M8 12L12 8L8 4"
-                class="stroke-secondary dark:stroke-accent"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
-        </a>
-      </li>
-      <li>
-        <a
-          href="./blog-page-02.html"
-          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200"
-        >
-          <span>Blog Page 02</span>
-          <span
-            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-            >
-              <path
-                d="M8 12L12 8L8 4"
-                class="stroke-secondary dark:stroke-accent"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
-        </a>
-      </li>
-      <li>
-        <a
-          href="./blog-page-03.html"
-          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200"
-        >
-          <span>Blog Page 03</span>
 
-          <span
-            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-            >
-              <path
-                d="M8 12L12 8L8 4"
-                class="stroke-secondary dark:stroke-accent"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
-        </a>
-      </li>
-      <li>
-        <a
-          href="./blog-details-page.html"
-          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200"
-        >
-          <span>Blog Details</span>
-          <span
-            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-            >
-              <path
-                d="M8 12L12 8L8 4"
-                class="stroke-secondary dark:stroke-accent"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
+          <li class="relative nav-item cursor-pointer py-2.5" data-menu="blog-menu">
+            <a href="./contact.php" class="nav-item-link {=$nav-item-class}">
+              <span>Contact</span>
 
-        </li> -->
-          <li class="py-2.5">
-            <a href="./contact.php"
-              class="flex items-center gap-1 px-4 py-2 border border-transparent hover:border-stroke-2 dark:hover:border-stroke-7 rounded-full text-tagline-1 font-normal text-secondary/60 hover:text-secondary transition-all duration-200 dark:text-accent/60 dark:hover:text-accent {=$nav-item-class}">
-              Contact Us
             </a>
           </li>
         </ul>
@@ -451,7 +316,7 @@ Mega Menu V1
 
       <div class="xl:flex hidden items-center justify-center">
         <a href="#" class="btn btn-md btn-primary hover:bg-secondary dark:hover:btn-accent">
-          <span>1800-5711-333</span>
+          <span>Get started</span>
         </a>
       </div>
       <div class="xl:hidden block">

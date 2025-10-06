@@ -73,3 +73,11 @@
     <meta name="keywords" content="thanks" />
     <!-- <link rel="canonical" href="https://www.gdprconsultants.in/contact-us/" /> -->
 <?php } ?>
+
+<?php if ($page == "privacy") { ?>
+    <title>Privacy Policy</title>
+    <meta name="description"
+        content="Learn about our privacy practices and how we protect your data." />
+    <meta name="keywords" content="privacy policy, data protection, GDPR compliance" />
+    <!-- <link rel="canonical" href="https://www.gdprconsultants.in/privacy-policy/" /> -->
+<?php } ?>

@@ -27474,3 +27474,38 @@ svg.leaflet-zoom-animated {
     opacity: .5;
   }
 }
+
+
+
+/* .dropdown-menu span {
+  white-space: nowrap !important;
+} */
+
+
+
+
+
+.dropdown-menu a span {
+  white-space: nowrap;
+}
+
+
+.dropdown-menu {
+  width: auto !important;
+  min-width: 280px; 
+  padding: 60px 70px; 
+  border-radius: 20px;
+}
+
+
+.dropdown-menu a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.dropdown-menu a:hover span {
+  color: var(--color-secondary); 
+}
+

@@ -2,17 +2,20 @@
 
 //print_r($_POST);
 
-if ( isset($_POST['submit']) && isset($_POST['email']) && isset($_POST['reqsrc']) ) 
+if ( isset($_POST['submit']) && isset($_POST['emailadd']) && isset($_POST['reqsrc']) ) 
 {
     //echo 'mail';
 
     $messagerror = "";
-    $name = @trim(stripslashes($_POST['name']));
-    $email = @trim(stripslashes($_POST['email']));
-    $phone = @trim(stripslashes($_POST['phone']));
+    $fullname = @trim(stripslashes($_POST['fullname']));
+    $emailadd = @trim(stripslashes($_POST['emailadd']));
+    $phoneno = @trim(stripslashes($_POST['phoneno']));
     $subject = @trim(stripslashes($_POST['subject']));
     $message = @trim(stripslashes($_POST['message']));
     $reqsrc = @trim(stripslashes($_POST['reqsrc']));
+
+    $contact_topic = @trim(stripslashes($_POST['contact_topic']));
+    $message .= ' Topic: ' . $contact_topic;
 
     $otp = @trim(stripslashes($_POST['otp']));
 
@@ -21,10 +24,10 @@ if ( isset($_POST['submit']) && isset($_POST['email']) && isset($_POST['reqsrc']
     $httpReferer = $_SERVER['HTTP_REFERER'];
 
     if($POST['schedulecall']=='TRUE') { $date = @trim(stripslashes($_POST['date'])); }
-    $email_from = $email;
+    $email_from = $emailadd;
 
-                        $subject = "An Enquiry from gdprconsultants.in";
-                        $body = "We have received an enquiry from gdprconsultants.in \n User Name : $name \n User Email : $email \n Subject : $subject \n Comment Or Message : \n $message \n ";
+    $subject = "An Enquiry from gdprconsultants.in";
+    $body = "We have received an enquiry from gdprconsultants.in \n User Name : $fullname \n User Email : $emailadd \n User Phone : $phoneno \n Subject : $subject \n Comment Or Message : \n $message \n ";
 
     require_once "Mail.php";
 
@@ -36,10 +39,10 @@ if ( isset($_POST['submit']) && isset($_POST['email']) && isset($_POST['reqsrc']
     $from = "webconnect@gdprconsultants.in";
 
     // $to = 'sandy3073@gmail.com, info@gdprconsultants.in';
-    $to = 'info@gdprconsultants.in';
+    $to = 'connect@gdprconsultants.in';
     // $to = 'jaspal.singh@dpdpconsultants.com, jaspal.dpdp@gmail.com';
 
-    if(str_contains($email,"yopmail") || str_contains($email,"dpdpconsultants")) {
+    if(str_contains($emailadd,"yopmail") || str_contains($emailadd,"dpdpconsultants")) {
         $to = 'jaspal.dpdp@gmail.com';
     }
 
@@ -47,7 +50,7 @@ if ( isset($_POST['submit']) && isset($_POST['email']) && isset($_POST['reqsrc']
 
 
     $subject = "An Enquiry from gdprconsultants.in";
-    $body = "We have received an enquiry from gdprconsultants.in \n User Name : $name \n User Email : $email \n User Phone : $phone \n Subject : $subject \n Comment Or Message : \n $message \n ";
+    $body = "We have received an enquiry from gdprconsultants.in \n User Name : $fullname \n User Email : $emailadd \n User Phone : $phoneno \n Subject : $subject \n Comment Or Message : \n $message \n ";
     if($POST['schedulecall']=='TRUE') { $body .= " \n Schedule Date: $date \n "; }
     $body .= " \n IP Address: $ipAddress \n $userAgent \n $reqsrc - $httpReferer \n ";
 
