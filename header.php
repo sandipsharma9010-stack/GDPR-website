@@ -316,7 +316,7 @@ Mega Menu V1
 
       <div class="xl:flex hidden items-center justify-center">
         <a href="#" class="btn btn-md btn-primary hover:bg-secondary dark:hover:btn-accent">
-          <span>Get started</span>
+          <span>+44-7851313252</span>
         </a>
       </div>
       <div class="xl:hidden block">

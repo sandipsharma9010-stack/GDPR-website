@@ -248,7 +248,7 @@ Services section
 <section class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-24 md:pb-32 lg:pb-44 xl:pb-[200px]">
   <div class="main-container">
     <div class="space-y-5 mb-[70px] text-center">
-      <span data-ns-animate data-delay="0.2" class="badge badge-green">Services</span>
+      <span data-ns-animate data-delay="0.2" class="badge badge-green">Why to choose compliance tools?</span>
       <h2 data-ns-animate data-delay="0.3">Why Choose Our DPIA Solution?</h2>
     </div>
 

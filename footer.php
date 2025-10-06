@@ -13,10 +13,15 @@
         <div class="grid grid-cols-12 lg:gap-x-8 xl:gap-x-0 gap-x-0 gap-y-16 xl:pt-[100px] pt-16 pb-16 justify-between">
             <div class="lg:col-span-4 col-span-12">
                 <div data-ns-animate data-delay="0.3" class="xl:max-w-[306px]">
-                    <figure class="max-w-[40px] sm:max-w-[20px]">
+                    <!-- <figure class="max-w-[40px] sm:max-w-[20px]">
                         <img src="./images/shared/gdpr-logo.png" alt="NextSaaS" class="w-[200px] dark:hidden block" />
                         <img src="./images/shared/gdpr-logo.png" alt="NextSaaS" class="w-[200px] dark:block hidden" />
-                    </figure>
+                    </figure> -->
+
+
+                    <figure class="max-w-[40px] sm:max-w-[20px]">
+            <img src="./images/shared/gdpr-logo.png" alt="NextSaaS" class="dark:invert w-[200px]">
+          </figure>
                     <p class="mt-4 mb-7 text-secondary dark:text-accent">
                         Turning Compliance into Competitive Advantage
                     </p>
