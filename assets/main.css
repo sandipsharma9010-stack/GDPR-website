@@ -17339,7 +17339,7 @@ body {
     }
 
     .md\:max-w-\[472px\] {
-      max-width: 472px;
+      max-width: 780px;
     }
 
     .md\:max-w-\[480px\] {
@@ -27506,6 +27506,6 @@ svg.leaflet-zoom-animated {
 
 
 .dropdown-menu a:hover span {
-  color: var(--color-secondary); 
+  /* color: var(--color-secondary);  */
 }
 

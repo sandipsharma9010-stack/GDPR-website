@@ -154,7 +154,7 @@ if($_POST) {
 
             <div class="contact-box">
                 <h4>Contacts us</h4>
-                <p>DPDP Consultants (A Privacyium Tech Pvt. Ltd. Company)</p>
+                <p>DPDP Consultants (A Privacyium Tech Pvt. Ltd.)</p>
                 <p>Have a query? Feel free to contact our privacy experts</p>
                 <p>
                     <img src="./assets/images/call-contact.png" alt="Phone" width="30" class="my-2"> 1800-5311-777<br>
@@ -209,7 +209,7 @@ if($_POST) {
                     </div>
 
                     <div class="col-md-6 mb-3">
-                        <label for="phone" class="form-label">Contact</label>
+                        <label for="phone" class="form-label">Contact.</label>
                         <input type="text" maxlength="10" inputmode="numeric" pattern="\d{10}" class="form-control" placeholder="Contact" onchange="this.value=this.value.replace(/\D/g,'').slice(0,10)" name="phoneno" value="<?php echo $phoneno; ?>" required />
                     </div>
                 

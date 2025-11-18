@@ -602,8 +602,11 @@ CTA v1 section
 <?php include_once('footer.php'); ?>
 
 <script>
-  gtag('event', 'conversion', { 'send_to': 'AW-16540124026/XOSvCLjTsasZEPqG-c49' });
+  if (typeof gtag !== 'undefined') {
+    gtag('event', 'conversion', { 'send_to': 'AW-16540124026/XOSvCLjTsasZEPqG-c49' });
+  }
 </script>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"
         integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ=="

@@ -5,31 +5,10 @@
   <div class="main-container">
     <!-- Hero content -->
     <div class="text-center space-y-2 pb-14 lg:pb-[72px]">
-      <span data-ns-animate data-delay="0.1"
-        class="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
-        <a href="./index.html"
-          class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300">Home</a>
-        <span class="mx-2">-</span>
-        <a href="#" class="hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-300"> Our
-          Tools</a>
-      </span>
-      <h1 data-ns-animate data-delay="0.2" class="font-normal lg:text-heading-2">Cookie Consent Management (CCM)</h1>
-    </div>
-  </div>
-</section>
-
-<!-- =========================
-Services section
-===========================-->
-<section class="py-14 md:py-16 lg:py-[88px] xl:py-[100px] pt-[100px]">
-  <div class="main-container">
-    <div class="text-center space-y-5 mb-[70px]">
       <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Our Tools</span>
-      <div class="space-y-3">
-        <h2 data-ns-animate data-delay="0.3" class="max-w-[878px] mx-auto">
-          Cookie Consent Management (CCM)
-        </h2>
-        <p data-ns-animate data-delay="0.4" class="max-w-[700px] mx-auto">
+      <h1 data-ns-animate data-delay="0.2" class="font-normal lg:text-heading-2">Cookie Consent Management (CCM)</h1>
+
+      <p data-ns-animate data-delay="0.4" class="max-w-[700px] mx-auto">
           A Cookie Consent Manager enables organizations (Controllers) to comply with the General Data Protection
           Regulation (GDPR), the ePrivacy Directive, and other global privacy laws by managing the lawful use of cookies
           and tracking technologies.
@@ -39,6 +18,53 @@ Services section
           to ensure that processors act only on instructions and apply appropriate security measures (Art. 28 & 32
           GDPR).
         </p>
+
+        <h6 class="max-w-[700px] mx-auto  space-y-2 text-center">Our CCM solution empowers Controllers to:</h6>
+
+        <ul class="list-disc list-inside">
+          <li
+            class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">
+            Obtain, store, and manage consent in a compliant manner.
+          </li>
+          <li
+            class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">
+            Prevent unlawful tracking by blocking non-essential cookies until consent is given.
+          </li>
+          <li
+            class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">
+            Ensure Data Subject rights are respected (e.g., withdrawal of consent).
+          </li>
+          <li
+            class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">
+            Demonstrate accountability with auditable consent logs.</li>
+        </ul>
+
+        <h6>Cookie Consent Manager and GDPR Compliance</h6>
+        <p>GDPR and related EU laws impose strict requirements for cookies and similar tracking technologies:</p>
+        <ul class="max-w-[700px] mx-auto list-disc list-inside space-y-2 text-center">
+          <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3">GDPR (EU) – Prior, informed, and freely given consent (Art. 6(1)(a), Art. 7).</li>
+          <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3">ePrivacy Directive (EU Cookie Law) – Explicit consent before storing or accessing information on a user’s
+            device.</li>
+          <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3">CCPA/CPRA (California, USA) – Right to opt-out of “sale/sharing” of personal data.</li>
+          <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3">DPDP Act, 2023 (India) – Consent-based processing of personal data.</li>
+        </ul>
+        <p>Failure to comply may result in fines, reputational harm, and enforcement actions.</p>
+    </div>
+  </div>
+</section>
+
+<!-- =========================
+Services section
+===========================-->
+<section class="py-14 md:py-16 lg:py-[88px] xl:py-[100px] pt-[100px]">
+  <div class="main-container">
+    <!-- <div class="text-center space-y-5 mb-[70px]">
+      <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Our Tools</span>
+      <div class="space-y-3">
+        <h2 data-ns-animate data-delay="0.3" class="max-w-[878px] mx-auto">
+          Cookie Consent Management (CCM)
+        </h2>
+        
         <h6 class="max-w-[700px] mx-auto  space-y-2 text-center">Our CCM solution empowers Controllers to:</h6>
 
         <ul class="list-disc list-inside">
@@ -70,7 +96,7 @@ Services section
         </ul>
         <p>Failure to comply may result in fines, reputational harm, and enforcement actions.</p>
       </div>
-    </div>
+    </div> -->
 
     <!-- Cards Grid -->
     <div class="grid grid-cols-12 xl:gap-8 md:gap-8 gap-y-5">
@@ -833,10 +859,10 @@ CTA v1 section
 
       <!-- Right Button -->
       <div class="w-full lg:w-auto pt-6 lg:pt-0 flex justify-center lg:justify-end">
-        <button type="submit"
+        <a href="contact.php"><button type="submit"
           class="btn btn-md btn-primary h-12 w-full sm:w-[200px] lg:w-auto hover:btn-secondary dark:hover:btn-white">
           <span>Get started</span>
-        </button>
+        </button></a>
       </div>
       
     </div>

@@ -5,31 +5,10 @@
   <div class="main-container">
     <!-- Hero content -->
     <div class="text-center space-y-2 pb-14 lg:pb-[72px]">
-      <span data-ns-animate data-delay="0.1"
-        class="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
-        <a href="./index.html"
-          class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300">Home</a>
-        <span class="mx-2">-</span>
-        <a href="#" class="hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-300"> Our
-          Tools</a>
-      </span>
+       <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Our Tools</span>
       <h1 data-ns-animate data-delay="0.2" class="font-normal lg:text-heading-2">Data Protection Impact Assessment
         (DPIA)</h1>
-    </div>
-  </div>
-</section>
 
-<!-- =========================
-Services section
-===========================-->
-<section class="py-14 md:py-16 lg:py-[88px] xl:py-[100px] pt-[100px]">
-  <div class="main-container">
-    <div class="text-center space-y-5 mb-[70px]">
-      <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Our Tools</span>
-      <div class="space-y-3">
-        <h2 data-ns-animate data-delay="0.3" class="max-w-[878px] mx-auto">
-          Data Protection Impact Assessment (DPIA)
-        </h2>
         <p data-ns-animate data-delay="0.4" class="max-w-[700px] mx-auto">
           A Data Protection Impact Assessment (DPIA) is a formal process under the General Data Protection Regulation
           (GDPR), Articles 35–36, designed to systematically evaluate and mitigate privacy risks arising from processing
@@ -40,8 +19,24 @@ Services section
           processing activities, helping organizations remain compliant with GDPR obligations while embedding privacy by
           design and by default.
         </p>
-      </div>
     </div>
+  </div>
+</section>
+
+<!-- =========================
+Services section
+===========================-->
+<section class="py-14 md:py-16 lg:py-[88px] xl:py-[100px] pt-[100px]">
+  <div class="main-container">
+    <!-- <div class="text-center space-y-5 mb-[70px]">
+     
+      <div class="space-y-3">
+        <h2 data-ns-animate data-delay="0.3" class="max-w-[878px] mx-auto">
+          Data Protection Impact Assessment (DPIA)
+        </h2>
+        
+      </div>
+    </div> -->
 
     <!-- Cards Grid -->
     <div class="grid grid-cols-12 xl:gap-8 md:gap-8 gap-y-5">
@@ -248,7 +243,7 @@ Services section
 <section class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-24 md:pb-32 lg:pb-44 xl:pb-[200px]">
   <div class="main-container">
     <div class="space-y-5 mb-[70px] text-center">
-      <span data-ns-animate data-delay="0.2" class="badge badge-green">Why to choose compliance tools?</span>
+      <span data-ns-animate data-delay="0.2" class="badge badge-green">Why to choose Our GDPR Compliance Tools?</span>
       <h2 data-ns-animate data-delay="0.3">Why Choose Our DPIA Solution?</h2>
     </div>
 
@@ -709,10 +704,10 @@ CTA v1 section
 
       <!-- Right Button -->
       <div class="w-full lg:w-auto pt-6 lg:pt-0 flex justify-center lg:justify-end">
-        <button type="submit"
+        <a href="contact.php"><button type="submit"
           class="btn btn-md btn-primary h-12 w-full sm:w-[200px] lg:w-auto hover:btn-secondary dark:hover:btn-white">
           <span>Get started</span>
-        </button>
+        </button></a>
       </div>
       
     </div>

@@ -334,7 +334,7 @@ Contact
               </div>
 
               <!-- number -->
-              <div class="space-y-2 max-w-[364px] w-full">
+              <div class="space-y-2 lg:max-w-[364px] w-full">
                 <label for="phone"
                   class="form-label block text-tagline-2 text-secondary dark:text-accent font-medium">Contact</label>
                 <input type="text" maxlength="10" inputmode="numeric" pattern="\d{10}" placeholder="Contact"
@@ -465,7 +465,7 @@ Contact
 
               <div class="text-center">
                 <input type="submit" name="submit" id="submitbtn" value="Submit"
-                  class="bg-gray-[200px]!important text-black font-medium rounded-lg shadow-md px-6 py-6" />
+                  class="btn btn-primary text-white font-medium rounded-4xl shadow-md px-5 py-2" />
               </div>
 
             <?php } ?>
@@ -605,6 +605,7 @@ CTA v1 section
 <?php include_once('footer.php'); ?>
 
 
+
 <!-- Event snippet for Contact conversion page -->
 <script>
   gtag('event', 'conversion', {
@@ -613,6 +614,7 @@ CTA v1 section
       'currency': 'INR'
   });
 </script>
+
 
 
 </body>

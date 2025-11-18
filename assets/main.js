@@ -841,30 +841,8 @@ const sliderAnimation = {
 if (typeof window !== "undefined") {
   sliderAnimation.init();
 }
-const svgDraw = () => {
-  gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin);
-  const selectors = ["#svg-one", "#svg-two", "#svg-three"];
-  gsap.set(selectors.join(", "), { visibility: "visible" });
-  if (selectors.length > 0) {
-    selectors.forEach((selector) => {
-      const tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: selector,
-          start: "top 80%"
-        }
-      });
-      tl.from(selector, {
-        duration: 1,
-        drawSVG: 1,
-        delay: 0.5,
-        ease: "power2.out"
-      });
-    });
-  }
-};
-if (typeof window !== "undefined") {
-  svgDraw();
-}
+
+
 function initReviewsSwiper() {
   const reviewsSwiper = new Swiper(".reviews-swiper", {
     slidesPerView: 1,
@@ -1872,11 +1850,12 @@ class NavigationMenu {
         }
       });
     });
-    document.addEventListener("click", (e) => {
-      if (!e.target.closest(".nav-item") && !e.target.closest(".mega-menu, .dropdown-menu")) {
-        this.hideAllMenus();
-      }
-    });
+document.addEventListener("click", (e) => {
+  if (!e.target?.closest?.(".nav-item") && !e.target?.closest?.(".mega-menu, .dropdown-menu")) {
+    this.hideAllMenus();
+  }
+});
+
     const header = document.querySelector("header");
     if (header) {
       header.addEventListener("mouseenter", () => {
@@ -1892,30 +1871,51 @@ class NavigationMenu {
         }
       });
     }
-    document.addEventListener(
-      "mouseenter",
-      (e) => {
-        if (e.target.closest(".mega-menu, .dropdown-menu, .mega-menu-bridge, .dropdown-menu-bridge")) {
-          this.isMouseInMenu = true;
-          this.cancelHideMenu();
-        }
-      },
-      true
-    );
-    document.addEventListener(
-      "mouseleave",
-      (e) => {
-        if (e.target.closest(".mega-menu, .dropdown-menu, .mega-menu-bridge, .dropdown-menu-bridge")) {
-          this.isMouseInMenu = false;
-          const relatedTarget = e.relatedTarget;
-          const isMovingToHeader = relatedTarget && (relatedTarget.closest("header") || relatedTarget.closest(".mega-menu") || relatedTarget.closest(".dropdown-menu") || relatedTarget.closest(".mega-menu-bridge") || relatedTarget.closest(".dropdown-menu-bridge"));
-          if (!isMovingToHeader) {
-            this.scheduleHideMenu();
-          }
-        }
-      },
-      true
-    );
+document.addEventListener(
+  "mouseenter",
+  (e) => {
+    const el = e.target;
+    if (el instanceof Element && el.closest(".mega-menu, .dropdown-menu, .mega-menu-bridge, .dropdown-menu-bridge")) {
+      this.isMouseInMenu = true;
+      this.cancelHideMenu();
+    }
+  },
+  true
+);
+
+document.addEventListener(
+  "mouseleave",
+  (e) => {
+    const el = e.target;
+    const related = e.relatedTarget;
+
+    // Only run if el is an Element
+    if (!(el instanceof Element)) return;
+
+    if (el.closest(".mega-menu, .dropdown-menu, .mega-menu-bridge, .dropdown-menu-bridge")) {
+      this.isMouseInMenu = false;
+
+      let isMovingToHeader = false;
+
+      // Only check relatedTarget if it is an Element
+      if (related instanceof Element) {
+        isMovingToHeader =
+          related.closest("header") ||
+          related.closest(".mega-menu") ||
+          related.closest(".dropdown-menu") ||
+          related.closest(".mega-menu-bridge") ||
+          related.closest(".dropdown-menu-bridge");
+      }
+
+      if (!isMovingToHeader) {
+        this.scheduleHideMenu();
+      }
+    }
+  },
+  true
+);
+
+
     document.addEventListener("mouseleave", () => {
       this.hideAllMenus();
     });

@@ -79,62 +79,89 @@ if ($act == 'webinars') {
 <!-- =========================
 Contact
 ===========================-->
-<section class="pt-7 pb-14 md:pb-16 lg:pb-20 xl:pb-[100px]" aria-label="Contact Information and Form">
 
-  <div id="consentModal" class="fixed inset-0 z-50 hidden overflow-y-auto">
-    <div class="flex items-center justify-center min-h-screen px-4">
-      <!-- Modal Dialog -->
-      <div class="bg-white w-full max-w-6xl rounded-2xl shadow-xl">
-        <!-- Modal Header -->
-        <div class="flex items-center justify-between border-b px-6 py-4">
-          <h5 class="text-lg font-semibold" id="consentModalLabel">
-            <!-- Consent Notice -->
-          </h5>
-          <div class="flex items-center space-x-2">
-            <span class="text-sm">Language:</span>
-            <select id="languageSelect" name="languageSelect"
-              class="text-sm rounded-md bg-blue-600 text-white px-2 py-1 focus:outline-none">
-              <?php foreach ($decoded_response['data'] as $key => $value) {
-                echo '<option value="' . $key . '">' . $key . '</option>';
-              } ?>
-            </select>
-          </div>
-        </div>
+<div id="consentModal" class="fixed inset-0 z-50 hidden overflow-hidden bg-black/50">
+  <!-- Modal Dialog -->
+  <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+               bg-white dark:bg-background-7 w-full max-w-6xl rounded-2xl shadow-2xl 
+               border border-gray-300 dark:[border-color:#374151] mx-4">
+    
+    <!-- Modal Header -->
+    <div class="flex items-center justify-between border-b border-gray-200 dark:[border-color:#374151] px-6 py-4 rounded-t-2xl">
+      <h5 class="text-lg font-semibold dark:text-white" id="consentModalLabel">
+        Consent Notice
+      </h5>
 
-        <!-- Modal Body -->
-        <div class="p-6">
+      <div class="flex items-center space-x-2">
+        <span class="text-sm text-gray-800 font-medium dark:text-white">Language:</span>
+        <select id="languageSelect" name="languageSelect"
+          class="text-sm rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-300 shadow-lg h-10 dark:bg-background-6 dark:text-white">
           <?php foreach ($decoded_response['data'] as $key => $value) {
-            echo '<div id="' . $key . '" class="language-content hidden"><p>' . $value['content'] . '</p></div>';
+            echo '<option value="' . $key . '">' . $key . '</option>';
           } ?>
-        </div>
-
-        <!-- Modal Footer -->
-        <div class="flex justify-end space-x-3 border-t px-6 py-4">
-          <button type="submit" id="submitFormBtn"
-            class="px-4 py-2 rounded-md bg-green-600 text-white hover:bg-green-700">
-            Agree
-          </button>
-          <button type="button" onclick="toggleModal(false)" class="px-4 py-2 rounded-md bg-gray-200 hover:bg-gray-300">
-            Close
-          </button>
-        </div>
+        </select>
       </div>
     </div>
+
+    <!-- Modal Body -->
+    <div class="p-6 dark:text-accent/60 space-y-4">
+      <?php foreach ($decoded_response['data'] as $key => $value) {
+        echo '<div id="content-' . $key . '" class="language-content hidden"><p>' . $value['content'] . '</p></div>';
+      } ?>
+    </div>
+
+    <!-- Modal Footer -->
+    <div class="flex justify-end space-x-3 border-t px-6 py-4 ms-2 gap-4">
+      <button type="submit" id="submitFormBtn"
+        class="px-5 py-2 rounded-4xl btn-primary text-white cursor-pointer hover:bg-purple-700 transition-colors">
+        Agree
+      </button>
+      <button type="button" onclick="toggleModal(false)"
+        style="background-color: #374151 !important;"  class="px-5 py-2 rounded-4xl  cursor-pointer text-white hover:bg-gray-800 transition-colors">
+        Close
+      </button>
+    </div>
   </div>
+</div>
 
 
 
-  <script>
-    // Show/Hide modal with Tailwind
-    function toggleModal(show) {
-      const modal = document.getElementById('consentModal');
-      if (show) {
-        modal.classList.remove('hidden');
-      } else {
-        modal.classList.add('hidden');
-      }
-    }
-  </script>
+<script>
+  // Function to toggle modal visibility
+  function toggleModal(show) {
+    const modal = document.getElementById('consentModal');
+    modal.classList.toggle('hidden', !show);
+  }
+
+  // Show content based on selected language
+  const languageSelect = document.getElementById('languageSelect');
+  const contents = document.querySelectorAll('.language-content');
+
+  function showLanguageContent(selected) {
+    contents.forEach(div => {
+      div.classList.add('hidden');
+    });
+    const activeContent = document.getElementById('content-' + selected);
+    if (activeContent) activeContent.classList.remove('hidden');
+  }
+
+  // Initial load - show first option
+  showLanguageContent(languageSelect.value);
+
+  // Change content on select change
+  languageSelect.addEventListener('change', (e) => {
+    showLanguageContent(e.target.value);
+  });
+</script>
+
+
+
+
+
+
+<section class="pt-7 pb-14 md:pb-16 lg:pb-20 xl:pb-[100px]" aria-label="Contact Information and Form">
+
+
 
   <div class="main-container">
     <div class="space-y-[70px]">
@@ -210,7 +237,7 @@ Contact
               <div class="space-y-2.5">
                 <p class="text-heading-6 text-accent">Call Us</p>
                 <p class="text-accent/60">
-                  <a href="tel:+391035256845933">1800-5711-333</a>
+                  <a href="tel:+391035256845933">+44-7851313252</a>
                 </p>
               </div>
             </div>
@@ -332,7 +359,7 @@ Contact
               </div>
 
               <!-- number -->
-              <div class="space-y-2 max-w-[364px] w-full">
+              <div class="space-y-2 lg:max-w-[364px] w-full">
                 <label for="phone"
                   class="form-label block text-tagline-2 text-secondary dark:text-accent font-medium">Contact</label>
                 <input type="text" maxlength="10" inputmode="numeric" pattern="\d{10}" placeholder="Contact"
@@ -440,8 +467,8 @@ Contact
                   id="lotp">Enter your OTP shared over Email </label>
                 <input type="text"
                   class="form-control w-full px-[18px] dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 py-3 h-[48px] xl:h-[41px] rounded-full dark:bg-background-6 border border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:outline-none focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent placeholder:font-normal font-normal"
-                  placeholder="OTP" name="otp" id="totp" value="<?php echo $totp; ?>" maxlength="6" required
-                  class="form-control w-full px-[18px] dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 py-3 h-[48px] xl:h-[41px] rounded-full dark:bg-background-6 border border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:outline-none focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent placeholder:font-normal font-normal" />
+                  placeholder="OTP" name="otp" id="totp" value="<?php echo $totp; ?>" maxlength="6" required/>
+                    <span id="otperror" style="color: red; display: none;">Invalid OTP</span>
 
               </div>
 
@@ -453,7 +480,7 @@ Contact
 
               <div class="text-center">
                 <input type="button" name="submit" id="btnproceed" value="PROCEED"
-                  class="btn btn-submit bg-gray-[200px]!important text-black font-medium rounded-lg shadow-md px-6 py-2"
+                  class="btn btn-submit btn-primary text-white font-medium rounded-4xl shadow-md px-5 py-2"
                   xdata-bs-toggle="modal" xdata-bs-target="#consentModal" style="display:none;" />
               </div>
 
@@ -463,7 +490,7 @@ Contact
 
               <div class="text-center">
                 <input type="submit" name="submit" id="submitbtn" value="Submit"
-                  class="bg-gray-[200px]!important text-black font-medium rounded-lg shadow-md px-6 py-6" />
+                  class="btn-primary text-white text-black font-medium rounded-4xl cursor-pointer shadow-md px-5 py-2" />
               </div>
 
             <?php } ?>
@@ -511,6 +538,116 @@ Contact
 </section>
 
 <script>
+  let recaptchaValid = false;
+
+  function Recaptcha_Callback() {
+    recaptchaValid = true;
+    document.getElementById('submitFormBtn').style.display = "block";
+    document.getElementById('btnproceed').style.display = "block";
+  }
+
+  function Recaptcha_Expired() {
+    recaptchaValid = false;
+    grecaptcha.reset();
+    document.getElementById('submitFormBtn').style.display = "none";
+    document.getElementById('btnproceed').style.display = "none";
+  }
+
+
+
+
+  $('#submitFormBtn').click(function () {
+
+    $('#submitbtn').click();
+
+    if (!recaptchaValid) {
+      //alert("Please complete the reCAPTCHA verification.");
+      return false;
+    }
+
+    $('#submitbtn').click();
+  });
+
+
+
+
+  // Tailwind modal toggle
+  function toggleModal(show) {
+    const modal = document.getElementById('consentModal');
+    if (show) modal.classList.remove('hidden');
+    else modal.classList.add('hidden');
+  }
+
+  $(document).ready(function () {
+    // Language selection
+    var selectedLanguage = $("#languageSelect").val();
+    $('#hiddenLanguage').val(selectedLanguage);
+
+    $('#languageSelect').on('change', function () {
+      var selectedLanguage = $(this).val();
+      $('#hiddenLanguage').val(selectedLanguage);
+    });
+
+    // PROCEED button click after OTP
+    $('#btnproceed').click(function() {
+         const otpValue = $("#totp").val().trim();
+
+            // document.getElementById('mainForm').checkValidity();
+
+            let form = document.getElementById("mainForm");
+            let isValid = true;
+
+            const requiredFields = form.querySelectorAll("[required]");
+
+            requiredFields.forEach(field => {
+
+                field.classList.remove("invalid-border");
+
+                if (!field.value.trim()) {
+                field.classList.add("invalid-border");
+                isValid = false;
+                }
+            });
+
+            if ($("#totp").val().trim() == "") {
+                //$("#lotp").css("color", "red");
+                //$("#totp").css("border", "2px solid red");
+            }
+
+            if ($("#totp").val().trim() == $("#taken").val().trim()) {
+                // console.log("OTP matched");
+                $("#otperror").css("display", "none");
+                $("#lotp").css("color", "green");
+                $("#totp").css("border", "2px solid green");
+                isValid = true;
+            } else {
+                // console.log("OTP not matched");
+                $("#otperror").css("display", "block");
+                $("#lotp").css("color", "red");
+                $("#totp").css("border", "2px solid red");
+                isValid = false;
+            }
+
+            if(isValid) {
+                if ($("#totp").val().trim() !== "") {
+                    // $("#consentModal").modal("show");
+                    toggleModal(true);
+                }
+            }
+
+        });
+
+    // Optional: close modal on clicking outside or ESC
+    document.addEventListener('keydown', function(e) {
+      if(e.key === "Escape") toggleModal(false);
+    });
+
+  });
+</script>
+
+
+
+<!-- <script>
   let recaptchaValid = false;
 
   function Recaptcha_Callback() {
@@ -572,17 +709,23 @@ Contact
   // $('#btnproceed').prop('display', true);
 
   // document.getElementById("datetime").value = new Date();
-</script>
+</script> -->
+
+
+
+
+
 
 <?php include_once('footer.php'); ?>
 
 <script>
-  gtag('event', 'conversion', { 'send_to': 'AW-16540124026/XOSvCLjTsasZEPqG-c49' });
+  if (typeof gtag !== 'undefined') {
+    gtag('event', 'conversion', { 'send_to': 'AW-16540124026/XOSvCLjTsasZEPqG-c49' });
+  }
 </script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"
-        integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
 
 
 

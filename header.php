@@ -1,13 +1,12 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <?php include("head-meta.php"); ?>
   <meta name="author" content="NextSaaS" />
-  <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-  <link rel="shortcut icon" href="./favicon.ico" />
+  <link rel="icon" type="image/png" href="./images/gdpr-fav-icon.png" sizes="96x96" />
+  <!-- <link rel="icon" type="image/svg+xml" href="./favicon.svg" /> -->
+  <!-- <link rel="shortcut icon" href="./favicon.ico" /> -->
   <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
   <link rel="manifest" href="./site.webmanifest" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,6 +15,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="./assets/main.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+        integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <meta name="google-site-verification" content="8bc0UcziByrCtZYMkHcj0L6AdfvT_9CnOA7UmlhhEEY" />
+
 </head>
 
 <body class="bg-background-3 dark:bg-background-7">
@@ -27,11 +32,13 @@
         <a href="./index.php">
           <span class="sr-only">Home</span>
           <figure class="max-w-[40px] sm:max-w-[20px]">
-            <img src="./images/shared/gdpr-logo.png" alt="NextSaaS" class="dark:invert w-[153px]" />
+            <!-- <img src="./images/shared/gdpr-logo.png" alt="Gdpr logo" class="dark:invert w-[153px]" /> -->
+             <img src="./images/shared/gdpr-logo.png" alt="NextSaaS" class="w-[150px] dark:hidden block" />
+            <img src="./images/shared/gdpr-logo-dark.png" alt="NextSaaS" class="w-[150px] dark:block hidden" />
           </figure>
           <figure class="max-w-[40px] sm:max-w-[20px] lg:hidden block">
             <!-- <img src="./images/shared/gdpr-logo.png" alt="NextSaaS" class="w-[150px] dark:hidden block" /> -->
-            <img src="./images/shared/gdpr-logo.png" alt="NextSaaS" class="w-[150px] dark:block hidden" />
+            <!-- <img src="./images/shared/gdpr-logo.png" alt="NextSaaS" class="w-[150px] dark:block hidden" /> -->
           </figure>
         </a>
       </div>
@@ -69,6 +76,10 @@ Mega Menu V1
             </div>
 
           </li>
+
+
+
+          
 
           <!-- <li class="relative nav-item cursor-pointer py-2.5" data-menu="about-menu">
           <a href="#" class="nav-item-link {=$nav-item-class}">
@@ -296,7 +307,7 @@ Mega Menu V1
 
           </li>
           <li class="relative nav-item cursor-pointer py-2.5" data-menu="blog-menu">
-            <a href="./blog-page-01.php" class="nav-item-link {=$nav-item-class}">
+            <a href="./blogs.php" class="nav-item-link {=$nav-item-class}">
               <span>Blog</span>
 
             </a>
@@ -356,7 +367,7 @@ Mobile Menu
             <!-- home menu  -->
             <li class="relative space-y-0">
               <button
-                class="sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer">
+                class=" dark:bg-background-9 sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer">
                 <span>Home</span>
                 <span class="sub-menu-arrow transition-all duration-300">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -365,6 +376,8 @@ Mobile Menu
                   </svg>
                 </span>
               </button>
+
+              </li>
               <!-- <div
     class="hidden ml-3.5 transition-all duration-300 w-full bg-white dark:bg-background-7 overflow-y-auto"
   >
@@ -651,7 +664,7 @@ Mobile Menu
       </li>
     </ul>
   </div> -->
-            </li>
+            
 
 
             <!-- about us menu  -->
@@ -718,7 +731,7 @@ Mobile Menu
             <!-- services menu  -->
             <li class="relative space-y-0">
               <button
-                class="sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer">
+                class="dark:bg-background-9 sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer">
                 <span>Compliance Tools</span>
                 <span class="sub-menu-arrow transition-all duration-300">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -769,8 +782,8 @@ Mobile Menu
 
             <li class="relative space-y-0">
               <button
-                class="sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer">
-                <span><a href="./blog.php"
+                class="dark:bg-background-9 sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer">
+                <span><a href="./blogs.php"
                     class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block">
 
                     Blog</a></span>
@@ -1009,7 +1022,7 @@ Mobile Menu
             <!-- login menu  -->
             <li class="relative space-y-0">
               <button
-                class="sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer">
+                class="dark:bg-background-9 sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer">
                 <span><a href="./contact.php"
                     class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block">
 
@@ -1103,4 +1116,4 @@ Mobile Menu
 
   </header>
 
-  <main>
+ 

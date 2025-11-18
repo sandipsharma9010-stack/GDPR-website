@@ -45,7 +45,7 @@ Privacy section
         class="space-y-3 list-inside text-tagline-1 font-normal text-secondary/60 dark:text-accent/60">
         <li>
           <!-- <strong class="text-secondary dark:text-accent font-normal">Cookies – </strong> -->
-          Our websites
+          Our websites <a href="https://www.gdprconsultants.in/">https://www.gdprconsultants.in/</a>
 
         </li>
         <li>
@@ -74,7 +74,7 @@ Privacy section
       </div>
 
 
-      <h4 data-ns-animate data-delay="0.1">Effective Date: 30 September 2025</h4>
+      <h6 data-ns-animate data-delay="0.1">Effective Date: 30 September 2025</h6>
       <ul data-ns-animate data-delay="0.5"
         class="space-y-3 list-inside text-tagline-1 font-normal text-secondary/60 dark:text-accent/60">
         <h6>1. How Does GDPR Consultants Protect Your Personal Data?</h6>
@@ -135,7 +135,8 @@ Privacy section
         the corresponding legal basis under GDPR:</p>
 
       <div class="overflow-x-auto">
-        <table data-ns-animate data-delay="0.5" class="min-w-full border border-gray-300 divide-y divide-gray-300">
+        <table data-ns-animate data-delay="0.5"
+          class="min-w-full border border-gray-300 divide-y divide-gray-300 text-secondary/60 dark:text-accent/60">
           <thead class="bg-gray-100">
             <tr>
               <th class="px-4 py-2 text-left text-sm font-semibold text-gray-700 border">Sr. No.</th>
@@ -237,7 +238,7 @@ Privacy section
 
       <!-- <div data-ns-animate data-delay="0.4" class="space-y-6"> -->
       <div class="space-y-2">
-        <h4>How Do We Safeguard and Process Your Sensitive Personal Data?</h4>
+        <h6>3. How Do We Safeguard and Process Your Sensitive Personal Data?</h6>
         <p>
           We typically do not collect sensitive personal information referred to as special category data under EEA
           regulations through this site or other interactions. In exceptional cases where such information is needed,
@@ -253,7 +254,7 @@ Privacy section
       <!-- <h4> -->
       <!-- <div data-ns-animate data-delay="0.4" class="space-y-6"> -->
       <div class="space-y-2">
-        <h6>3. Who Do We Share Your Personal Data With?</h6>
+        <h6>4. Who Do We Share Your Personal Data With?</h6>
         <p>
           GDPR Consultants may be required to share personal data with third parties under certain
           circumstances. This sharing occurs only when necessary and in compliance with applicable laws and
@@ -356,7 +357,7 @@ Privacy section
 
       <div data-ns-animate data-delay="0.4" class="space-y-6">
         <div class="space-y-2">
-          <h6>4. How Long Do We Retain Personal Data?</h6>
+          <h6>5. How Long Do We Retain Personal Data?</h6>
           <p>
             GDPR Consultants retains personal data only for as long as necessary to fulfil the purposes for which it was
             collected. Our retention practices are guided by regulatory requirements and internal records management
@@ -387,12 +388,12 @@ Privacy section
 
       <div data-ns-animate data-delay="0.4" class="space-y-6">
         <div class="space-y-2">
-          <h6>5. Where Do We Store This Data?</h6>
+          <h6>6. Where Do We Store This Data?</h6>
           <p>
             Information and data files are stored on our servers and the servers of companies we hire to provide
             services to us. We use AWS Cloud, infrastructure to store such data, and the data is stored with strict
             security measures. We do not share, sell, or lease any kind of information collected to any third parties.
-          <p>We retain personal data:</p>
+            <!-- <p>We retain personal data:</p> -->
 
         </div>
       </div>
@@ -400,7 +401,7 @@ Privacy section
 
       <div data-ns-animate data-delay="0.4" class="space-y-6">
         <div class="space-y-2">
-          <h6>6. How do we secure the information collected?</h6>
+          <h6>7. How do we secure the information collected?</h6>
           <p>
             At GDPR Consultants, we understand that the security of your personal information is essential. To ensure
             this, we have implemented robust administrative, technical, and physical security measures designed to
@@ -431,7 +432,7 @@ Privacy section
 
       <div data-ns-animate data-delay="0.4" class="space-y-6">
         <div class="space-y-2">
-          <h6>7. How Is Your Personal Information Transferred Internationally</h6>
+          <h6>8. How Is Your Personal Information Transferred Internationally</h6>
           <p>
             Personal data you provide to us via our website or social media may be transferred to and processed in India
             or other countries, including on our service providers’ cloud servers (such as AWS). We implement
@@ -446,7 +447,7 @@ Privacy section
 
       <div data-ns-animate data-delay="0.4" class="space-y-6">
         <div class="space-y-2">
-          <h6>8. What Are Your Rights Regarding the Processing of Personal Data?</h6>
+          <h6>9. What Are Your Rights Regarding the Processing of Personal Data?</h6>
           <p>
             Under the European Union’s General Data Protection Regulation (GDPR), you have certain rights regarding the
             personal data you share with us when we act as the data controller. Subject to applicable laws, conditions,
@@ -508,7 +509,7 @@ Privacy section
 
       <div data-ns-animate data-delay="0.4" class="space-y-6">
         <div class="space-y-2">
-          <h6>9. Updates to Privacy Statement</h6>
+          <h6>10. Updates to Privacy Statement</h6>
           <p>
             We’re constantly trying to improve our Websites and Services, so we may need to change this Privacy
             Statement from time to time as well. We will inform you regarding material changes, for example, placing a
@@ -535,7 +536,7 @@ Privacy section
 
       <div data-ns-animate data-delay="0.4" class="space-y-6">
         <div class="space-y-2">
-          <h6>11. How to Contact Us</h6>
+          <h6>12. How to Contact Us</h6>
           <p>
             For any questions, concerns, or complaints regarding the handling of your personal data by GDPR Consultants,
             please reach out to us at info@gdprconsultants.in . We are committed to protecting the privacy of all
@@ -552,7 +553,7 @@ Privacy section
 
       <div data-ns-animate data-delay="0.4" class="space-y-6">
         <div class="space-y-2">
-          <h6>12. Definitions</h6>
+          <h6>13. Definitions</h6>
           <ul data-ns-animate data-delay="0.5"
             class="space-y-3 list-inside text-tagline-1 font-normal text-secondary/60 dark:text-accent/60">
 
@@ -573,10 +574,14 @@ Privacy section
             <li><strong>Legitimate Interest</strong> The reasonable grounds GDPR Consultants relies on to process
               personal data. When processing is based on legitimate interest, we ensure that our interests are not
               overridden by the rights and freedoms of the Data Subject. This assessment considers:</li>
+            <div class="ml-6">
+              <ul class="list-disc">
+                <li>Transparency in processing activities.</li>
+                <li>Privacy by design and default.</li>
+                <li>Regular privacy reviews.</li>
 
-            <li>Transparency in processing activities.</li>
-            <li>Privacy by design and default.</li>
-            <li>Regular privacy reviews.</li>
+              </ul>
+            </div>
 
 
             <li><strong>Personal Data:</strong>
@@ -608,7 +613,7 @@ Privacy section
 
 
 
-
+            <!-- 
             <p>Processing of your personal data is based on your consent; you may withdraw that consent at any time by
               contacting dpo@gdprconsultants.in.</p>
             <p>Withdrawing consent will not affect the lawfulness of any processing carried out before the withdrawal,
@@ -620,7 +625,7 @@ Privacy section
               directly with the relevant supervisory authority or to initiate a claim before a competent court in the
               country where you reside, work, or where applicable data protection laws may have been breached.</p>
             <p>For requests regarding erasure, rectification, or access rights of personal data can be submitted
-              directly. Any other data subject rights can be exercised by reaching out to us.</p>
+              directly. Any other data subject rights can be exercised by reaching out to us.</p> -->
 
           </ul>
 

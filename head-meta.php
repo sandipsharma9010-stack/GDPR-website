@@ -45,7 +45,7 @@
     <meta name="keywords"
         content="GDPR impact assessment, GDPR DPIA software, GDPR compliance assessment tools, GDPR risk analysis EU" />
         <link rel="canonical" href="https://www.gdprconsultants.in/Data-Protection-Impact-Assessment/" />
-<?php } ?>`
+<?php } ?>
 
 <?php if ($page == "ccm") { ?>
     <title>Cookie Consent Management Software for GDPR Compliance</title>
@@ -80,4 +80,16 @@
         content="Learn about our privacy practices and how we protect your data." />
     <meta name="keywords" content="privacy policy, data protection, GDPR compliance" />
     <!-- <link rel="canonical" href="https://www.gdprconsultants.in/privacy-policy/" /> -->
+<?php } ?>
+
+<?php if ($page == "blogs") { ?>
+    <title>Blogs updates on DPDP Act compliance</title>
+    <meta name="description"content="Explore articles on DPDP Act updates, privacy enforcement, best practices and guides to strengthen compliance." />
+    <meta name="keywords" content="data privacy blogs, compliance insights, DPDP Act updates, data protection tips, privacy compliance trends, expert data regulations advice, best practices for data protection" />
+<?php } ?>
+
+<?php if ($page == "blog") { ?>
+    <title><?php echo $rectitle; ?></title>
+    <meta name="description" content="<?php echo $metadesc; ?>" />
+    <meta name="keywords" content="<?php echo $metakeyw; ?>" />
 <?php } ?>

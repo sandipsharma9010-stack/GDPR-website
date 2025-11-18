@@ -196,31 +196,30 @@
     </div>
 
     <!-- TabBar large screen -->
-    <div role="tablist"
-      class="tab-bar hidden lg:flex justify-center items-center border-b border-stroke-2 dark:border-stroke-6 dark:bg-background-7 mb-14 lg:mb-[72px] relative">
+    <div role="tablist" class="tab-bar hidden lg:flex justify-center items-center  mb-14 lg:mb-[72px] relative">
       <!-- active-tab-bar  -->
       <div class="active-tab-bar"></div>
 
       <button
-        class="py-3 cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60 ">
-        <span class="text-tagline-1 font-medium">CMP</span>
+        class="py-3 dark:bg-background-6  cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60 ">
+        <span class="text-tagline-1 dark:text-white font-medium">CMP</span>
       </button>
 
       <button
-        class="py-3 cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60 ">
-        <span class="text-tagline-1 font-medium">DSRGM </span>
+        class="py-3 dark:bg-background-6 cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60 ">
+        <span class="text-tagline-1 dark:text-white font-medium">DSRGM </span>
       </button>
       <button
-        class="py-3 cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60 ">
-        <span class="text-tagline-1 font-medium">DPIA </span>
+        class="py-3 dark:bg-background-6 cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60 ">
+        <span class="text-tagline-1 dark:text-white font-medium">DPIA </span>
       </button>
       <button
-        class="py-3 cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60">
-        <span class="text-tagline-1 font-medium">DPTPA </span>
+        class="py-3 dark:bg-background-6 cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60">
+        <span class="text-tagline-1 dark:text-white font-medium">DPTPA </span>
       </button>
       <button
-        class="py-3 cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60">
-        <span class="text-tagline-1 font-medium">CCM</span>
+        class="py-3 dark:bg-background-6 cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60">
+        <span class="text-tagline-1 dark:text-white font-medium">CCM</span>
       </button>
     </div>
     <!-- Tab Content-1 -->
@@ -241,8 +240,8 @@
           <ul class="space-y-1.5 mb-7 xl:mb-14">
             <li class="flex items-center gap-4 list-none py-2">
               <!-- <span class="ns-shape-6 text-[36px] text-secondary dark:text-white"></span> -->
-              <img src="images/home-page-1/1b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/1.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+              <img src="images/home-page-1/1b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden" />
+              <img src="images/home-page-1/1.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block" />
 
               <div>
                 <strong class="text-tagline-1 font-medium text-secondary dark:text-accent">Granular Consent Tracking
@@ -253,8 +252,8 @@
               </div>
             </li>
             <li class="flex items-center gap-4 list-none py-2">
-              <img src="images/home-page-1/2b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/2.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+              <img src="images/home-page-1/2b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden" />
+              <img src="images/home-page-1/2.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block" />
               <div>
                 <strong class="text-tagline-1 font-medium text-secondary dark:text-accent">Easy Withdrawal Support
                 </strong>
@@ -264,8 +263,8 @@
               </div>
             </li>
             <li class="flex items-center gap-4 list-none py-2">
-              <img src="images/home-page-1/3b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/3.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+              <img src="images/home-page-1/3b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden" />
+              <img src="images/home-page-1/3.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block" />
               <div>
                 <strong class="text-tagline-1 font-medium text-secondary dark:text-accent">Audit-Ready Logs
                 </strong>
@@ -311,8 +310,8 @@
           <h6>Key Features:</h6>
           <ul class="space-y-1.5 mb-7 md:mb-14">
             <li class="flex items-center gap-4 list-none py-2">
-              <img src="images/home-page-1/4b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/4.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+              <img src="images/home-page-1/4b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden" />
+              <img src="images/home-page-1/4.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block" />
               <div>
                 <strong class="text-tagline-1 font-medium text-secondary dark:text-accent">Streamlined Rights Requests
                 </strong>
@@ -322,8 +321,8 @@
               </div>
             </li>
             <li class="flex items-center gap-4 list-none py-2">
-              <img src="images/home-page-1/5b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/5.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+              <img src="images/home-page-1/5b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden" />
+              <img src="images/home-page-1/5.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block" />
               <div>
                 <strong class="text-tagline-1 font-medium text-secondary dark:text-accent">Timely Redressal Workflow
                 </strong>
@@ -333,8 +332,8 @@
               </div>
             </li>
             <li class="flex items-center gap-4 list-none py-2">
-              <img src="images/home-page-1/6b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/6.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+              <img src="images/home-page-1/6b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden" />
+              <img src="images/home-page-1/6.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block" />
               <div>
                 <strong class="text-tagline-1 font-medium text-secondary dark:text-accent">Automated Case Tracking
                 </strong>
@@ -378,8 +377,8 @@
           <h6>Key Features:</h6>
           <ul class="space-y-1.5 mb-7 md:mb-14">
             <li class="flex items-center gap-4 list-none py-2">
-              <img src="images/home-page-1/7b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/7.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+              <img src="images/home-page-1/7b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden" />
+              <img src="images/home-page-1/7.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block" />
               <div>
                 <strong class="text-tagline-1 font-medium text-secondary dark:text-accent">Risk Identification Matrix
                 </strong>
@@ -389,8 +388,8 @@
               </div>
             </li>
             <li class="flex items-center gap-4 list-none py-2">
-              <img src="images/home-page-1/8b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/8.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+              <img src="images/home-page-1/8b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden" />
+              <img src="images/home-page-1/8.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block" />
               <div>
                 <strong class="text-tagline-1 font-medium text-secondary dark:text-accent">Mitigation Planning Tools
                 </strong>
@@ -400,8 +399,8 @@
               </div>
             </li>
             <li class="flex items-center gap-4 list-none py-2">
-              <img src="images/home-page-1/9b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/9.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+              <img src="images/home-page-1/9b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden" />
+              <img src="images/home-page-1/9.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block" />
               <div>
                 <strong class="text-tagline-1 font-medium text-secondary dark:text-accent">Regulator-Ready Reports
                 </strong>
@@ -443,8 +442,9 @@
           <h6>Key Features:</h6>
           <ul class="space-y-1.5 mb-7 md:mb-14">
             <li class="flex items-center gap-4 list-none py-2">
-             <img src="images/home-page-1/10b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/10.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+              <img src="images/home-page-1/10b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden" />
+              <img src="images/home-page-1/10.svg" alt="Icon"
+                class="w-[36px] h-[36px] object-cover hidden dark:block" />
               <div>
                 <strong class="text-tagline-1 font-medium text-secondary dark:text-accent">Vendor Risk Evaluation
                 </strong>
@@ -454,8 +454,9 @@
               </div>
             </li>
             <li class="flex items-center gap-4 list-none py-2">
-              <img src="images/home-page-1/11b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/11.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+              <img src="images/home-page-1/11b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden" />
+              <img src="images/home-page-1/11.svg" alt="Icon"
+                class="w-[36px] h-[36px] object-cover hidden dark:block" />
               <div>
                 <strong class="text-tagline-1 font-medium text-secondary dark:text-accent">Contractual Safeguard Checks
                 </strong>
@@ -465,8 +466,9 @@
               </div>
             </li>
             <li class="flex items-center gap-4 list-none py-2">
-              <img src="images/home-page-1/12b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/12.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+              <img src="images/home-page-1/12b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden" />
+              <img src="images/home-page-1/12.svg" alt="Icon"
+                class="w-[36px] h-[36px] object-cover hidden dark:block" />
               <div>
                 <strong class="text-tagline-1 font-medium text-secondary dark:text-accent">Continuous Monitoring
                 </strong>
@@ -514,8 +516,9 @@
           <h6>Key Features:</h6>
           <ul class="space-y-1.5 mb-7 md:mb-14">
             <li class="flex items-center gap-4 list-none py-2">
-              <img src="images/home-page-1/13b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/13.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+              <img src="images/home-page-1/13b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden" />
+              <img src="images/home-page-1/13.svg" alt="Icon"
+                class="w-[36px] h-[36px] object-cover hidden dark:block" />
               <div>
                 <strong class="text-tagline-1 font-medium text-secondary dark:text-accent">Customizable Consent Banners
                 </strong>
@@ -525,8 +528,9 @@
               </div>
             </li>
             <li class="flex items-center gap-4 list-none py-2">
-              <img src="images/home-page-1/14b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/14.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+              <img src="images/home-page-1/14b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden" />
+              <img src="images/home-page-1/14.svg" alt="Icon"
+                class="w-[36px] h-[36px] object-cover hidden dark:block" />
               <div>
                 <strong class="text-tagline-1 font-medium text-secondary dark:text-accent">Granular Cookie Categories
                 </strong>
@@ -536,8 +540,9 @@
               </div>
             </li>
             <li class="flex items-center gap-4 list-none py-2">
-             <img src="images/home-page-1/15b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/15.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+              <img src="images/home-page-1/15b.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden" />
+              <img src="images/home-page-1/15.svg" alt="Icon"
+                class="w-[36px] h-[36px] object-cover hidden dark:block" />
               <div>
                 <strong class="text-tagline-1 font-medium text-secondary dark:text-accent">Real-Time Consent Updates
                 </strong>
@@ -574,13 +579,12 @@
       <!-- feature heading  -->
       <div class="space-y-3 text-center">
         <h2 data-ns-animate data-delay="0.3" class="max-w-[814px] mx-auto">
-          Is Your Organization’s Data Privacy Program AI Agent Studio–Enabled?
+          Is Your Organization’s Data Privacy Program AI Ready?
         </h2>
         <p data-ns-animate data-delay="0.4" class="max-w-[734px] mx-auto">
-          Introducing the Data Privacy Automation Suite, <strong>AI Agent Studio Enabled.</strong> Transform your
-          privacy management with
-          intelligent automation which responsibly collects data, helps in compliance decisions, and enforces policies
-          programmatically at the pace of intelligent automation.
+          Introducing the <strong>Data Privacy Automation Suite — </strong> designed for seamless use with any AI agent
+          framework. Transform your privacy management with intelligent automation that responsibly collects data,
+          supports compliance decisions, and programmatically enforces policies at the pace of automation.
         </p>
 
         <!-- <h4 data-ns-animate data-delay="0.3" class="max-w-[814px] mx-auto">
@@ -615,9 +619,9 @@
           <!-- card img  -->
           <div class="max-w-[409px] w-full rounded-[20px] bg-white dark:bg-background-5 p-2.5">
             <figure class="overflow-hidden p-4 bg-background-3 dark:bg-background-7 rounded-2xl">
-              <img src="images/home-page-9/Programmatic.svg" alt="Automated workflows feature"
+              <img src="images/home-page-9/AI-Enable-Consent.svg" alt="Automated workflows feature"
                 class="w-full h-full object-cover dark:hidden" loading="lazy" />
-              <img src="images/home-page-9/Programmatic.svg" alt="Automated workflows feature"
+              <img src="images/home-page-9/AI-Enable-Consent.svg" alt="Automated workflows feature"
                 class="w-full h-full object-cover hidden dark:block" loading="lazy" />
             </figure>
           </div>
@@ -819,38 +823,47 @@ How it works section
 
     <!-- Content -->
     <div
-      class="flex mx-auto max-md:flex-wrap max-md:items-center max-md:justify-center items-start md:items-center justify-start md:justify-center gap-y-10 gap-x-8 max-xl:px-8 max-[400px]:px-6">
-      <div class="text-left" data-ns-animate data-duration="0.5" data-delay="0.5">
-       <img src="images/home-page-1/16.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/16.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+      class="flex flex-wrap items-start justify-center text-center md:text-left gap-y-10 gap-x-8 px-6 md:px-8 xl:px-10 mx-auto">
+      <div class="max-w-[375px]" data-ns-animate data-duration="0.5" data-delay="0.5">
+        <img src="images/home-page-1/16.svg" alt="Icon"
+          class="w-[36px] h-[36px] object-cover mx-auto md:mx-0 dark:hidden" />
+        <img src="images/home-page-1/16.svg" alt="Icon"
+          class="w-[36px] h-[36px] object-cover mx-auto md:mx-0 hidden dark:block" />
         <h3 class="text-heading-6 md:text-heading-5 font-normal mt-4 mb-2 text-white">
           Centralize Compliance Data
         </h3>
-        <p class="text-tagline-1 text-accent/60 max-w-[375px]">
+        <p class="text-tagline-1 text-accent/60">
           Manage GDPR activities in one dashboard.
         </p>
       </div>
-      <div class="text-left" data-ns-animate data-duration="0.5" data-delay="0.6">
-        <img src="images/home-page-1/17.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/17.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+
+      <div class="max-w-[375px]" data-ns-animate data-duration="0.5" data-delay="0.6">
+        <img src="images/home-page-1/17.svg" alt="Icon"
+          class="w-[36px] h-[36px] object-cover mx-auto md:mx-0 dark:hidden" />
+        <img src="images/home-page-1/17.svg" alt="Icon"
+          class="w-[36px] h-[36px] object-cover mx-auto md:mx-0 hidden dark:block" />
         <h3 class="text-heading-6 md:text-heading-5 font-normal mt-4 mb-2 text-white">
           Automate Compliance Processes
         </h3>
-        <p class="text-tagline-1 text-accent/60 max-w-[375px]">
+        <p class="text-tagline-1 text-accent/60">
           Streamline consent, rights, DPIAs, and vendor checks with AI-enabled workflows and webhook triggers.
         </p>
       </div>
-      <div class="text-left" data-ns-animate data-duration="0.5" data-delay="0.7">
-        <img src="images/home-page-1/18.svg" alt="Icon" class="w-[36px] h-[36px] object-cover dark:hidden"/>
-               <img src="images/home-page-1/18.svg" alt="Icon" class="w-[36px] h-[36px] object-cover hidden dark:block"/>
+
+      <div class="max-w-[375px]" data-ns-animate data-duration="0.5" data-delay="0.7">
+        <img src="images/home-page-1/18.svg" alt="Icon"
+          class="w-[36px] h-[36px] object-cover mx-auto md:mx-0 dark:hidden" />
+        <img src="images/home-page-1/18.svg" alt="Icon"
+          class="w-[36px] h-[36px] object-cover mx-auto md:mx-0 hidden dark:block" />
         <h3 class="text-heading-6 md:text-heading-5 font-normal mt-4 mb-2 text-white">
           Generate Audit-Ready Reports
         </h3>
-        <p class="text-tagline-1 text-accent/60 max-w-[375px]">
+        <p class="text-tagline-1 text-accent/60">
           Stay prepared for regulators anytime.
         </p>
       </div>
     </div>
+
   </div>
 </section>
 
@@ -1047,7 +1060,7 @@ Services section
 
 
 <section
-  class="relative md:pt-[10px] lg:pt-[50px]  pb-14  bg-background-3 dark:bg-background-6 max-sm:pt-10 max-sm:pb-10">
+  class="relative md:pt-[10px] lg:pt-[50px]  pb-14 py-14  bg-background-3 dark:bg-background-6 max-sm:pt-10 max-sm:pb-10">
   <div class="main-container flex flex-col gap-[70px]">
     <div class="grid grid-cols-12 max-sm:gap-y-[42px] max-sm:gap-x-0 gap-[42px]">
       <div data-ns-animate data-delay="0.3" class="col-span-12 relative z-10">
@@ -1151,7 +1164,7 @@ FAQ section
 <section class="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
   <div class="main-container">
     <div class="text-center space-y-3 mb-14 md:mb-[70px]">
-      <span data-ns-animate data-delay="0.1" class="badge badge-green mb-3.5 md:mb-5"> Faq’s</span>
+      <span data-ns-animate data-delay="0.1" class="badge badge-green mb-3.5 md:mb-5"> FAQ's</span>
       <h2 data-ns-animate data-delay="0.2">
         Commonly
         <span class="text-primary-500 inline-block">asked</span>
@@ -1165,47 +1178,51 @@ FAQ section
 
     <!-- faq items -->
     <div data-ns-animate data-delay="0.4" class="accordion max-w-[850px] w-full space-y-4 mx-auto">
-      <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item active-accordion">
-        <button
-          class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
-            What is the role of the Data Principal Consent Manager (DPCM) in GDPR compliance?
+      <div class="dark:bg-background-6 !important bg-white rounded-[20px] px-6 sm:px-8 accordion-item active-accordion">
+        <button class="dark:bg-background-6 !important accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full 
+         rounded-xl transition-colors duration-300 
+         bg-white dark:bg-gray-800 ">
+          <span
+            class="dark:text-white flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
+            1. What is the role of the Consent Management Tool in GDPR compliance?
           </span>
-          <!-- =========================
-Accordian Icon
-===========================-->
           <span class="sm:ml-auto ml-2.5 block accordion-arrow">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
-              height="16">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="16" height="16"
+              class="transition-colors duration-300 stroke-secondary dark:stroke-white">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
           </span>
 
         </button>
+
         <div class="accordion-content">
           <div class="border-t border-t-stroke-2 dark:border-t-stroke-6 sm:pt-6 pt-5 sm:pb-8 pb-5">
             <p>
-              DPCM helps organizations obtain, track, and manage valid consent from data subjects. It ensures consent is
-              freely given, informed, specific, and can be easily withdrawn, aligning with GDPR Articles 6, 7, and 21.
+              The Consent Management Tool helps organizations obtain, track, and manage valid consent from data
+              subjects. It ensures consent is freely given, informed, specific, and can be easily withdrawn, in line
+              with GDPR Articles 6, 7, and 21.
             </p>
           </div>
         </div>
       </div>
-      <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
-        <button
-          class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
-            How does the Data Protection Grievance Redressal (DPGR) system support GDPR obligations?
+      <div class="dark:bg-background-6 !important bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
+        <button class="dark:bg-background-6 !important accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full 
+         rounded-xl transition-colors duration-300 
+         bg-white ">
+          <span
+            class="dark:text-white flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
+            2. How does Data Subject Rights and Grievance Management support GDPR obligations?
           </span>
           <!-- =========================
 Accordian Icon
 ===========================-->
           <span class="sm:ml-auto ml-2.5 block accordion-arrow">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
+            <svg class="transition-colors duration-300 stroke-secondary dark:stroke-white"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
           </span>
 
@@ -1213,27 +1230,31 @@ Accordian Icon
         <div class="accordion-content">
           <div class="border-t border-t-stroke-2 dark:border-t-stroke-6 sm:pt-6 pt-5 sm:pb-8 pb-5">
             <p>
-              DPGR provides a structured mechanism for data subjects to raise complaints or grievances about data
-              misuse, breaches, or rights violations. It helps organizations respond within statutory timelines,
-              demonstrating compliance with GDPR’s accountability and transparency principles.
+              The Data Subject Rights and Grievance Management platform provides mechanisms for data subjects to raise
+              complaints, request access, or exercise other rights. It assists organizations in responding within
+              statutory timelines, supporting GDPR’s accountability, transparency, and data subject empowerment
+              principles.
             </p>
           </div>
         </div>
       </div>
-      <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
-        <button
-          class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
-            Why is a Data Protection Impact Assessment (DPIA) necessary?
+      <div class="dark:bg-background-6 !important bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
+        <button class="dark:bg-background-6 !important accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full 
+         rounded-xl transition-colors duration-300 
+         bg-white dark:bg-gray-800">
+          <span
+            class="dark:text-white flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
+            3. Why is a Data Protection Impact Assessment (DPIA) necessary?
           </span>
           <!-- =========================
 Accordian Icon
 ===========================-->
           <span class="sm:ml-auto ml-2.5 block accordion-arrow">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
+            <svg class="transition-colors duration-300 stroke-secondary dark:stroke-white"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
           </span>
 
@@ -1241,27 +1262,30 @@ Accordian Icon
         <div class="accordion-content">
           <div class="border-t border-t-stroke-2 dark:border-t-stroke-6 sm:pt-6 pt-5 sm:pb-8 pb-5">
             <p>
-              A DPIA is required when processing activities may pose high risks to individuals’ rights and freedoms
-              (e.g., large-scale profiling or sensitive data use). The DPIA tool helps identify risks, evaluate their
-              impact, and document mitigation steps, supporting compliance with Articles 35 and 36.
+              A DPIA is required for processing that may pose high risks to individuals’ rights and freedoms (such as
+              large-scale profiling or use of sensitive data). The process helps identify risks, assess their impact,
+              and document mitigation steps, ensuring compliance with GDPR Articles 35 and 36.
             </p>
           </div>
         </div>
       </div>
-      <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
-        <button
-          class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
-            When should a Data Protection Third Party Assessment (DPTPA) be conducted?
+      <div class="dark:bg-background-6 !important bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
+        <button class="dark:bg-background-6 !important accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full 
+         rounded-xl transition-colors duration-300 
+         bg-white dark:bg-gray-800">
+          <span
+            class="dark:text-white flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
+            4. When should the Data Protection Third Party tool be used?
           </span>
           <!-- =========================
 Accordian Icon
 ===========================-->
           <span class="sm:ml-auto ml-2.5 block accordion-arrow">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
+            <svg class="transition-colors duration-300 stroke-secondary dark:stroke-white"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
           </span>
 
@@ -1269,58 +1293,31 @@ Accordian Icon
         <div class="accordion-content">
           <div class="border-t border-t-stroke-2 dark:border-t-stroke-6 sm:pt-6 pt-5 sm:pb-8 pb-5">
             <p>
-              DPTPA should be performed before engaging processors, vendors, or partners who handle personal data. It
-              ensures contractual and technical safeguards are in place, fulfilling GDPR obligations under Articles 28
-              and 46 for third-party risk management.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
-        <button
-          class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
-            What does the Cookie Consent Manager (CCM) do under GDPR?
-          </span>
-          <!-- =========================
-Accordian Icon
-===========================-->
-          <span class="sm:ml-auto ml-2.5 block accordion-arrow">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
-              height="16">
-              <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
-            </svg>
-          </span>
-
-        </button>
-        <div class="accordion-content">
-          <div class="border-t border-t-stroke-2 dark:border-t-stroke-6 sm:pt-6 pt-5 sm:pb-8 pb-5">
-            <p>
-              CCM enables websites to capture, store, and manage user consent for cookies and similar tracking
-              technologies. It ensures users can provide granular choices (e.g., strictly necessary vs. marketing
-              cookies) and withdraw consent at any time, meeting requirements under Articles 6, 7, and Recital 30.
+              Data Protection Third Party assessments should be carried out before engaging any processors, vendors, or
+              partners who handle personal data. This tool ensures proper contractual and technical safeguards are in
+              place, in line with GDPR Articles 28 and 46 for third-party risk management.
             </p>
           </div>
         </div>
       </div>
 
-
-      <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
-        <button
-          class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
-            How do these tools collectively strengthen GDPR accountability?
+      <div class="dark:bg-background-6 !important bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
+        <button class="dark:bg-background-6 !important accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full 
+         rounded-xl transition-colors duration-300 
+         bg-white dark:bg-gray-800">
+          <span
+            class="dark:text-white flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
+            5. What does Cookie Consent Management do under GDPR?
           </span>
           <!-- =========================
 Accordian Icon
 ===========================-->
           <span class="sm:ml-auto ml-2.5 block accordion-arrow">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
+            <svg class="transition-colors duration-300 stroke-secondary dark:stroke-white"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
           </span>
 
@@ -1328,28 +1325,31 @@ Accordian Icon
         <div class="accordion-content">
           <div class="border-t border-t-stroke-2 dark:border-t-stroke-6 sm:pt-6 pt-5 sm:pb-8 pb-5">
             <p>
-              Together, the tools ensure organizations meet GDPR’s “accountability principle” (Article 5(2)) by
-              providing audit-ready records of consent, grievance handling, risk assessments, third-party due diligence,
-              and cookie compliance.
+              Cookie Consent Management allows websites to capture, store, and manage user consent for cookies and
+              similar technologies. It gives users granular choices (e.g., strictly necessary vs. marketing cookies) and
+              allows consent withdrawal at any time, satisfying GDPR Articles 6, 7, and Recital 30.
             </p>
           </div>
         </div>
       </div>
 
-      <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
-        <button
-          class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
-            Do these tools support data subject rights like access, rectification, and erasure?
+      <div class="dark:bg-background-6 !important bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
+        <button class="dark:bg-background-6 !important accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full 
+         rounded-xl transition-colors duration-300 
+         bg-white dark:bg-gray-800">
+          <span
+            class="dark:text-white flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
+            6. How do these tools collectively strengthen GDPR accountability?
           </span>
           <!-- =========================
 Accordian Icon
 ===========================-->
           <span class="sm:ml-auto ml-2.5 block accordion-arrow">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
+            <svg class="transition-colors duration-300 stroke-secondary dark:stroke-white"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
           </span>
 
@@ -1357,27 +1357,31 @@ Accordian Icon
         <div class="accordion-content">
           <div class="border-t border-t-stroke-2 dark:border-t-stroke-6 sm:pt-6 pt-5 sm:pb-8 pb-5">
             <p>
-              Yes. DPCM and DPGR, in particular, make it easier to process Data Subject Access Requests (DSARs) and
-              respond to rectification or erasure requests within GDPR’s one-month timeline (Articles 12–23).
+              Together, these tools ensure organizations comply with GDPR’s accountability principle (Article 5(2)),
+              offering audit-ready records for consent, grievances, risk assessments, third-party due diligence, and
+              cookie compliance.
             </p>
           </div>
         </div>
       </div>
 
-      <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
-        <button
-          class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
-            How do these tools reduce the risk of GDPR fines?
+      <div class="dark:bg-background-6 !important bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
+        <button class="dark:bg-background-6 !important accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full 
+         rounded-xl transition-colors duration-300 
+         bg-white dark:bg-gray-800">
+          <span
+            class="dark:text-white flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
+            7. Do these tools support data subject rights like access, rectification, and erasure?
           </span>
           <!-- =========================
 Accordian Icon
 ===========================-->
           <span class="sm:ml-auto ml-2.5 block accordion-arrow">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
+            <svg class="transition-colors duration-300 stroke-secondary dark:stroke-white"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
           </span>
 
@@ -1385,28 +1389,63 @@ Accordian Icon
         <div class="accordion-content">
           <div class="border-t border-t-stroke-2 dark:border-t-stroke-6 sm:pt-6 pt-5 sm:pb-8 pb-5">
             <p>
-              By automating compliance tasks such as consent tracking, third-party reviews, cookie management, and
-              grievance resolution, the tools minimize errors and delays that often lead to regulatory fines under
+              Yes. The Consent Management Tool and Data Subject Rights and Grievance Management platform facilitate the
+              processing of Data Subject Access Requests (DSARs) and enable fast, compliant responses to rectification
+              or erasure requests within the GDPR’s one-month timeline (Articles 12–23).
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="dark:bg-background-6 !important bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
+        <button class="dark:bg-background-6 !important accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full 
+         rounded-xl transition-colors duration-300 
+         bg-white dark:bg-gray-800">
+          <span
+            class="dark:text-white flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
+            8. How do these tools reduce the risk of GDPR fines?
+          </span>
+          <!-- =========================
+Accordian Icon
+===========================-->
+          <span class="sm:ml-auto ml-2.5 block accordion-arrow">
+            <svg class="transition-colors duration-300 stroke-secondary dark:stroke-white"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
+              height="16">
+              <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+            </svg>
+          </span>
+
+        </button>
+        <div class="accordion-content">
+          <div class="border-t border-t-stroke-2 dark:border-t-stroke-6 sm:pt-6 pt-5 sm:pb-8 pb-5">
+            <p>
+              Automating compliance tasks like consent tracking, third-party reviews, cookie management, and grievance
+              resolution with these tools helps minimize the errors and delays that can result in regulatory fines under
               Articles 83 and 84.
             </p>
           </div>
         </div>
       </div>
 
-      <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
-        <button
-          class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
-            Are these tools suitable for both small and large organizations?
+      <div class="dark:bg-background-6 !important bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
+        <button class="dark:bg-background-6 !important accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full 
+         rounded-xl transition-colors duration-300 
+         bg-white dark:bg-gray-800">
+          <span
+            class="dark:text-white flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
+            9. Are these tools suitable for both small and large organizations?
           </span>
           <!-- =========================
 Accordian Icon
 ===========================-->
           <span class="sm:ml-auto ml-2.5 block accordion-arrow">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
+            <svg class="transition-colors duration-300 stroke-secondary dark:stroke-white"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
           </span>
 
@@ -1414,27 +1453,30 @@ Accordian Icon
         <div class="accordion-content">
           <div class="border-t border-t-stroke-2 dark:border-t-stroke-6 sm:pt-6 pt-5 sm:pb-8 pb-5">
             <p>
-              Yes. They are scalable solutions—SMEs can use them for simplified compliance, while larger enterprises can
-              integrate them with governance, risk, and compliance (GRC) systems for enterprise-wide GDPR adherence.
+              Yes. The tools are scalable—SMEs can use them for simplified compliance, while large enterprises can
+              integrate them with governance, risk, and compliance (GRC) systems for organization-wide GDPR adherence.
             </p>
           </div>
         </div>
       </div>
 
-      <div class="dark:bg-background-7 bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
-        <button
-          class="accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full">
-          <span class="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
-            Can these tools integrate with existing IT or legal compliance frameworks?
+      <div class="dark:bg-background-6 !important bg-white rounded-[20px] px-6 sm:px-8 accordion-item">
+        <button class="dark:bg-background-6 !important accordion-action flex items-center cursor-pointer justify-between sm:pt-8 pt-5 sm:pb-8 pb-5 w-full 
+         rounded-xl transition-colors duration-300 
+         bg-white dark:bg-gray-800">
+          <span
+            class="dark:text-white flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary p-2">
+            10. Can these tools integrate with existing IT or legal compliance frameworks?
           </span>
           <!-- =========================
 Accordian Icon
 ===========================-->
           <span class="sm:ml-auto ml-2.5 block accordion-arrow">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
+            <svg class="transition-colors duration-300 stroke-secondary dark:stroke-white"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16"
               height="16">
               <path stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m19.5 8.25-7.5 7.5-7.5-7.5" class="stroke-secondary p-2" />
+                d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
           </span>
 
@@ -1442,8 +1484,8 @@ Accordian Icon
         <div class="accordion-content">
           <div class="border-t border-t-stroke-2 dark:border-t-stroke-6 sm:pt-6 pt-5 sm:pb-8 pb-5">
             <p>
-              Absolutely. They can be linked with HR, CRM, marketing automation, and vendor management platforms, making
-              GDPR compliance seamless across multiple business functions.
+              Absolutely. These tools can be integrated with HR, CRM, marketing automation, and vendor management
+              platforms, making GDPR compliance seamless across various business functions.
             </p>
           </div>
         </div>
@@ -1451,6 +1493,10 @@ Accordian Icon
     </div>
   </div>
 </section>
+
+
+
+
 
 <!-- =========================
 Timeline Integration section
@@ -1878,152 +1924,7 @@ Testimonail section
 Blog section
 ===========================-->
 
-<section
-  class="sm:pt-28 pt-20 sm:pb-28 pb-20 md:pt-32 md:pb-32 lg:pt-[128px] lg:pb-[128px] xl:pt-[200px] xl:pb-[200px] bg-background-3 dark:bg-background-7"
-  aria-label="Blog posts and insights">
-  <div class="main-container">
-    <div class="text-center mb-14 md:mb-[70px]">
-      <span data-ns-animate data-delay="0.3" class="badge badge-green mb-3.5 md:mb-5">Blog</span>
-      <h2 data-ns-animate data-delay="0.4" class="mb-3">
-        Our recent
-        <span class="text-primary-500 inline-block">news & insights</span>
-      </h2>
-      <p data-ns-animate data-delay="0.5" class="max-w-[738px] mx-auto">
-        Our recent news and insights highlight the latest developments, achievements, and thought
-        leadership shaping our journey forward. From product innovations and strategic partnerships
-        to industry trends
-      </p>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7 md:gap-10">
-      <!-- Blog Card 1 -->
-      <article data-ns-animate data-delay="0.6">
-        <div
-          class="bg-background-1 dark:bg-background-6 rounded-[20px] overflow-hidden relative md:min-h-[552px] scale-100 hover:scale-[102%] transition-transform duration-500 hover:transition-transform hover:duration-500">
-          <figure class="max-w-full xl:max-w-[409px] overflow-hidden">
-            <img src="images/blogs/blog-01.png"
-              alt="Illustration representing electronic prescription in finance sector" loading="lazy"
-              class="w-full h-full object-cover" />
-          </figure>
-          <div class="p-6 space-y-6">
-            <div class="flex items-center gap-2">
-              <span class="badge badge-green mr-1">Finance</span>
-
-              <span rel="author" class="text-tagline-3 font-normal text-secondary/60 dark:text-accent/60">Kristin
-                Wat</span>
-              <span class="w-[5px] h-[6px] bg-[#ECE8FF] rounded-full"> </span>
-              <time datetime="2025-03-20" class="text-tagline-3 font-normal text-secondary/60 dark:text-accent/60">May
-                20, 2025</time>
-            </div>
-            <div>
-              <h3 class="font-normal sm:text-heading-5 text-heading-6 mb-2">
-                <a href="./blog-details-page.html"
-                  aria-label="Read more about electronic prescription in finance sector">
-                  An electronic prescription tailored for the finance sector
-                </a>
-              </h3>
-              <p class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 line-clamp-2">
-                An electronic prescription tailored for the finance sector refers to a structured,
-                digital solution that streamlines the process of issuing and managing prescriptions
-                in the financial sector.
-              </p>
-            </div>
-            <div class="flex justify-start md:block">
-              <a href="./blog-details-page.html"
-                class="btn btn-md btn-white hover:btn-secondary dark:btn-transparent dark:hover:btn-accent dark:hover:text-secondary w-full sm:w-auto"
-                aria-label="Read full article about electronic prescription">
-                <span>Read more</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <!-- Blog Card 2 -->
-      <article data-ns-animate data-delay="0.7">
-        <div
-          class="bg-background-1 dark:bg-background-6 rounded-[20px] overflow-hidden relative md:min-h-[552px] scale-100 hover:scale-[102%] transition-transform duration-500 hover:transition-transform hover:duration-500">
-          <figure class="max-w-full xl:max-w-[409px] overflow-hidden bg-red-400">
-            <img src="images/blogs/blog-02.png" alt="A hand holding a bitcoin, representing online banking and rewards"
-              loading="lazy" class="w-full h-full object-contain" />
-          </figure>
-          <div class="p-6 space-y-6">
-            <div class="flex items-center gap-2">
-              <span class="badge badge-green mr-1">Crypto</span>
-              <span rel="author" class="text-tagline-3 font-normal text-secondary/60 dark:text-accent/60">Kristin
-                Watson</span>
-              <span class="w-[5px] h-[6px] bg-[#ECE8FF] rounded-full"> </span>
-              <time datetime="2025-03-31" class="text-tagline-3 font-normal text-secondary/60 dark:text-accent/60">March
-                31, 2025</time>
-            </div>
-            <div>
-              <h3 class="font-normal sm:text-heading-5 text-heading-6 mb-2 line-clamp-2">
-                <a href="./blog-details-page.html" aria-label="Read more about online banking and rewards">
-                  Take control of your online banking and earn rewards.
-                </a>
-              </h3>
-              <p class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 line-clamp-2">
-                Turpis tortor nunc sed amet et faucibus vitae morbi congue sed id mauris.
-              </p>
-            </div>
-            <div class="flex justify-start md:block">
-              <a href="./blog-details-page.html"
-                class="btn btn-md btn-white hover:btn-secondary dark:btn-transparent dark:hover:btn-accent dark:hover:text-secondary w-full sm:w-auto"
-                aria-label="Read full article about electronic prescription">
-                <span>Read more</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <!-- Blog Card 3 -->
-      <article data-ns-animate data-delay="0.8">
-        <div
-          class="bg-background-1 dark:bg-background-6 rounded-[20px] overflow-hidden relative md:min-h-[552px] scale-100 hover:scale-[102%] transition-transform duration-500 hover:transition-transform hover:duration-500">
-          <figure class="max-w-full xl:max-w-[409px] overflow-hidden">
-            <img src="images/blogs/blog-03.png"
-              alt="Person analyzing financial data on multiple monitors, representing banking operations" loading="lazy"
-              class="w-full h-full object-cover" />
-          </figure>
-          <div class="p-6 space-y-6">
-            <div class="flex items-center gap-2">
-              <span class="badge badge-green mr-1">Banking</span>
-              <span rel="author" class="text-tagline-3 font-normal text-secondary/60 dark:text-accent/60">Bessie
-                Cooper</span>
-              <span class="w-[5px] h-[6px] bg-[#ECE8FF] rounded-full"> </span>
-              <time datetime="2025-04-28" class="text-tagline-3 font-normal text-secondary/60 dark:text-accent/60">April
-                28, 2025</time>
-            </div>
-            <div>
-              <h3 class="font-normal sm:text-heading-5 text-heading-6 mb-2">
-                <a href="./blog-details-page.html" aria-label="Read more about efficient banking operations">
-                  We've mastered the craft of efficient operations.
-                </a>
-              </h3>
-              <p class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 line-clamp-2">
-                Turpis tortor nunc sed amet et faucibus vitae morbi congue sed id mauris.
-              </p>
-            </div>
-            <div class="flex justify-start md:block">
-              <a href="./blog-details-page.html"
-                class="btn btn-md btn-white hover:btn-secondary dark:btn-transparent dark:hover:btn-accent dark:hover:text-secondary w-full sm:w-auto"
-                aria-label="Read full article about electronic prescription">
-                <span>Read more</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </article>
-    </div>
-    <div data-ns-animate data-delay="0.9" class="flex justify-center mt-10 md:mt-14">
-      <a href="./blog-page-01.html"
-        class="btn btn-white btn-lg md:btn-xl hover:btn-primary dark:btn-transparent w-full md:w-auto mx-auto md:mx-0"
-        aria-label="View all blog posts">
-        <span>Explore all</span>
-      </a>
-    </div>
-  </div>
-</section>
+<?php include_once('blog-home.php'); ?>
 
 <!-- =========================
 CTA v1 section
@@ -2031,7 +1932,7 @@ CTA v1 section
 <section class="py-[50px] md:py-20 lg:py-28 dark:bg-background-6 bg-white" aria-label="Use Case Overview">
   <div class="main-container">
     <div class="flex flex-col lg:flex-row items-center justify-between">
-      
+
       <!-- Left Content -->
       <div
         class="xl:max-w-[1150px] lg:max-w-[1176px] max-[1000px]:max-w-[1000px] w-full space-y-5 text-center lg:text-left">
@@ -2039,23 +1940,25 @@ CTA v1 section
         <div class="space-y-3">
           <h4 data-ns-animate data-delay="0.4"
             class="text-secondary dark:text-accent text-heading-4 sm:text-heading-4 lg:text-heading-2">
-           Secure compliance starts with a 
+            Secure compliance starts with a
             <span class="text-primary-500 {=$span-class}">conversation.</span>
           </h4>
           <p data-ns-animate data-delay="0.5">
-           Connect with us today and take the first step toward seamless GDPR compliance and stronger data protection for your business.
+            Connect with us today and take the first step toward seamless GDPR compliance and stronger data protection
+            for your business.
           </p>
         </div>
       </div>
 
       <!-- Right Button -->
       <div class="w-full lg:w-auto pt-6 lg:pt-0 flex justify-center lg:justify-end">
-        <button type="submit"
-          class="btn btn-md btn-primary h-12 w-full sm:w-[200px] lg:w-auto hover:btn-secondary dark:hover:btn-white">
-          <span>Get started</span>
-        </button>
+        <a href="contact.php"><button type="submit"
+            class="btn btn-md btn-primary h-12 w-full sm:w-[200px] lg:w-auto hover:btn-secondary dark:hover:btn-white">
+            <span>Get started</span>
+          </button>
+        </a>
       </div>
-      
+
     </div>
   </div>
 </section>

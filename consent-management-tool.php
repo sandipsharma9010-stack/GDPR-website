@@ -5,15 +5,16 @@
   <div class="main-container">
     <!-- Hero content -->
     <div class="text-center space-y-2 pb-14 lg:pb-[72px]">
-      <span data-ns-animate data-delay="0.1"
-        class="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
-        <a href="./index.html"
-          class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300">Home</a>
-        <span class="mx-2">-</span>
-        <a href="#" class="hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-300"> Our
-          Tools</a>
-      </span>
+       <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Our Tools</span>
       <h1 data-ns-animate data-delay="0.2" class="font-normal lg:text-heading-2">Consent Management Tool</h1>
+      <p data-ns-animate data-delay="0.4" class="max-w-[700px] mx-auto">
+          Under the General Data Protection Regulation (GDPR), consent management is a critical requirement for
+          protecting the fundamental rights of EU citizens, ensuring that their personal data is collected, processed,
+          and stored lawfully, transparently, and with full control. Our Consent Management Platform (CMP) empowers data
+          controllers and processors to collect, store, and process personal data lawfully, ensuring that consent is
+          always freely given, specific, informed, and unambiguous. Individuals retain full control over their personal
+          data through the ability to grant, withdraw, or modify consent at any time.
+        </p>
     </div>
   </div>
 </section>
@@ -23,22 +24,15 @@ Services section
 ===========================-->
 <section class="py-14 md:py-16 lg:py-[88px] xl:py-[100px] pt-[100px]">
   <div class="main-container">
-    <div class="text-center space-y-5 mb-[70px]">
+    <!-- <div class="text-center space-y-5 mb-[70px]">
       <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Our Tools</span>
       <div class="space-y-3">
         <h2 data-ns-animate data-delay="0.3" class="max-w-[878px] mx-auto">
-          Consent Management across Digital Ecosystems
+         Consent Management Tool
         </h2>
-        <p data-ns-animate data-delay="0.4" class="max-w-[700px] mx-auto">
-          Under the General Data Protection Regulation (GDPR), consent management is a critical requirement for
-          protecting the fundamental rights of EU citizens, ensuring that their personal data is collected, processed,
-          and stored lawfully, transparently, and with full control. Our Consent Management Platform (CMP) empowers data
-          controllers and processors to collect, store, and process personal data lawfully, ensuring that consent is
-          always freely given, specific, informed, and unambiguous. Individuals retain full control over their personal
-          data through the ability to grant, withdraw, or modify consent at any time.
-        </p>
+        
       </div>
-    </div>
+    </div> -->
     <div class="grid grid-cols-12 xl:gap-8 md:gap-8 gap-y-5">
       <div data-ns-animate data-delay="0.5" class="col-span-12 md:col-span-6 xl:col-span-4">
         <div
@@ -288,57 +282,57 @@ Services section
 
           </h2>
 
-          <ul class="space-y-4 mb-14">
-
-            <li data-ns-animate data-delay="0.3" class="flex items-center lg:justify-start justify-center gap-2">
+          <ul class="space-y-4 mb-14 px-4 sm:px-0">
+            <li data-ns-animate data-delay="0.3" class="flex items-center justify-start gap-2 lg:justify-start">
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true" focusable="false" class="shrink-0">
-                <rect width="18" height="18" rx="9" fill="" class="fill-secondary/10 dark:fill-accent/10" />
-
+                <rect width="18" height="18" rx="9" class="fill-secondary/10 dark:fill-accent/10" />
                 <path
                   d="M8.31661 12.7561L13.7491 7.42144C14.0836 7.0959 14.0836 6.5697 13.7491 6.24416C13.4145 5.91861 12.8736 5.91861 12.539 6.24416L7.7116 10.9901L5.46096 8.78807C5.12636 8.46253 4.58554 8.46253 4.25095 8.78807C3.91635 9.11362 3.91635 9.63982 4.25095 9.96536L7.1066 12.7561C7.27347 12.9184 7.49253 13 7.7116 13C7.93067 13 8.14974 12.9184 8.31661 12.7561Z"
-                  fill="" class="fill-secondary/80 dark:fill-accent/80" />
+                  class="fill-secondary/80 dark:fill-accent/80" />
               </svg>
               <span class="text-secondary/40 dark:text-accent/60"><b>EU</b> – Adheres to GDPR standards</span>
             </li>
-            <li data-ns-animate data-delay="0.3" class="flex items-center lg:justify-start justify-center gap-2">
+
+            <li data-ns-animate data-delay="0.3" class="flex items-center justify-start gap-2 lg:justify-start">
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true" focusable="false" class="shrink-0">
-                <rect width="18" height="18" rx="9" fill="" class="fill-secondary/10 dark:fill-accent/10" />
-
+                <rect width="18" height="18" rx="9" class="fill-secondary/10 dark:fill-accent/10" />
                 <path
                   d="M8.31661 12.7561L13.7491 7.42144C14.0836 7.0959 14.0836 6.5697 13.7491 6.24416C13.4145 5.91861 12.8736 5.91861 12.539 6.24416L7.7116 10.9901L5.46096 8.78807C5.12636 8.46253 4.58554 8.46253 4.25095 8.78807C3.91635 9.11362 3.91635 9.63982 4.25095 9.96536L7.1066 12.7561C7.27347 12.9184 7.49253 13 7.7116 13C7.93067 13 8.14974 12.9184 8.31661 12.7561Z"
-                  fill="" class="fill-secondary/80 dark:fill-accent/80" />
+                  class="fill-secondary/80 dark:fill-accent/80" />
               </svg>
               <span class="text-secondary/40 dark:text-accent/60"><b>India</b> – Fully aligned with DPDP Act,
                 2023</span>
             </li>
-            <li data-ns-animate data-delay="0.4" class="flex items-center lg:justify-start justify-center gap-2">
+
+            <li data-ns-animate data-delay="0.4" class="flex items-center justify-start gap-2 lg:justify-start">
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true" focusable="false" class="shrink-0">
-                <rect width="18" height="18" rx="9" fill="" class="fill-secondary/10 dark:fill-accent/10" />
+                <rect width="18" height="18" rx="9" class="fill-secondary/10 dark:fill-accent/10" />
                 <path
                   d="M8.31661 12.7561L13.7491 7.42144C14.0836 7.0959 14.0836 6.5697 13.7491 6.24416C13.4145 5.91861 12.8736 5.91861 12.539 6.24416L7.7116 10.9901L5.46096 8.78807C5.12636 8.46253 4.58554 8.46253 4.25095 8.78807C3.91635 9.11362 3.91635 9.63982 4.25095 9.96536L7.1066 12.7561C7.27347 12.9184 7.49253 13 7.7116 13C7.93067 13 8.14974 12.9184 8.31661 12.7561Z"
-                  fill="" class="fill-secondary/80 dark:fill-accent/80" />
+                  class="fill-secondary/80 dark:fill-accent/80" />
               </svg>
-
               <span class="text-secondary/40 dark:text-accent/60"><b>USA</b> – Supports CCPA/CPRA compliance</span>
             </li>
-            <li data-ns-animate data-delay="0.5" class="flex items-center lg:justify-start justify-center gap-2">
+
+            <li data-ns-animate data-delay="0.5" class="flex items-center justify-start gap-2 lg:justify-start">
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true" focusable="false" class="shrink-0">
-                <rect width="18" height="18" rx="9" fill="" class="fill-secondary/10 dark:fill-accent/10" />
+                <rect width="18" height="18" rx="9" class="fill-secondary/10 dark:fill-accent/10" />
                 <path
                   d="M8.31661 12.7561L13.7491 7.42144C14.0836 7.0959 14.0836 6.5697 13.7491 6.24416C13.4145 5.91861 12.8736 5.91861 12.539 6.24416L7.7116 10.9901L5.46096 8.78807C5.12636 8.46253 4.58554 8.46253 4.25095 8.78807C3.91635 9.11362 3.91635 9.63982 4.25095 9.96536L7.1066 12.7561C7.27347 12.9184 7.49253 13 7.7116 13C7.93067 13 8.14974 12.9184 8.31661 12.7561Z"
-                  fill="" class="fill-secondary/80 dark:fill-accent/80" />
+                  class="fill-secondary/80 dark:fill-accent/80" />
               </svg>
-
               <span class="text-secondary/40 dark:text-accent/60"><b>Saudi Arabia</b> – Compliant with PDPL
                 requirements</span>
             </li>
           </ul>
+
+
           <div data-ns-animate data-delay="0.6">
-            <a href="./features-page-01.html"
+            <a href="contact.php"
               class="btn btn-xl dark:btn-transparent hover:btn-primary btn-secondary"><span>Get started</span></a>
           </div>
         </div>
@@ -362,8 +356,8 @@ Services section
 
             <div class="bg-white dark:bg-background-8 p-6 rounded-2xl w-full sm:w-[45%]">
 
-             <img src="images/icons/fully-gdpr.svg" alt="avatar" class="max-w-full" />
-              
+              <img src="images/icons/fully-gdpr.svg" alt="avatar" class="max-w-full" />
+
             </div>
           </div>
 
@@ -383,7 +377,7 @@ Services section
 <section class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-24 md:pb-32 lg:pb-44 xl:pb-[200px]">
   <div class="main-container">
     <div class="space-y-5 mb-[70px] text-center">
-      <span data-ns-animate data-delay="0.2" class="badge badge-green">Why to choose compliance tools?</span>
+      <span data-ns-animate data-delay="0.2" class="badge badge-green">Why to choose our GDPR Compliance Tools?</span>
       <h2 data-ns-animate data-delay="0.3">Why Choose Consent Management platform by Data Privacy Automation Suite?</h2>
     </div>
 
@@ -828,7 +822,7 @@ CTA v1 section
 <section class="py-[50px] md:py-20 lg:py-28 dark:bg-background-6 bg-white" aria-label="Use Case Overview">
   <div class="main-container">
     <div class="flex flex-col lg:flex-row items-center justify-between">
-      
+
       <!-- Left Content -->
       <div
         class="xl:max-w-[1150px] lg:max-w-[1176px] max-[1000px]:max-w-[1000px] w-full space-y-5 text-center lg:text-left">
@@ -836,23 +830,25 @@ CTA v1 section
         <div class="space-y-3">
           <h4 data-ns-animate data-delay="0.4"
             class="text-secondary dark:text-accent text-heading-4 sm:text-heading-4 lg:text-heading-2">
-           Secure compliance starts with a 
+            Secure compliance starts with a
             <span class="text-primary-500 {=$span-class}">conversation.</span>
           </h4>
           <p data-ns-animate data-delay="0.5">
-           Connect with us today and take the first step toward seamless GDPR compliance and stronger data protection for your business.
+            Connect with us today and take the first step toward seamless GDPR compliance and stronger data protection
+            for your business.
           </p>
         </div>
       </div>
 
       <!-- Right Button -->
       <div class="w-full lg:w-auto pt-6 lg:pt-0 flex justify-center lg:justify-end">
-        <button type="submit"
+        <a href="contact.php"><button type="submit"
           class="btn btn-md btn-primary h-12 w-full sm:w-[200px] lg:w-auto hover:btn-secondary dark:hover:btn-white">
           <span>Get started</span>
         </button>
+        </a>
       </div>
-      
+
     </div>
   </div>
 </section>
