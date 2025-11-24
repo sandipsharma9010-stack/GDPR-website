@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <?php include("head-meta.php"); ?>
@@ -15,9 +16,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="./assets/main.css">
+  <link rel="stylesheet" href="./assets/style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"
-        integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <meta name="google-site-verification" content="8bc0UcziByrCtZYMkHcj0L6AdfvT_9CnOA7UmlhhEEY" />
 
@@ -33,7 +35,7 @@
           <span class="sr-only">Home</span>
           <figure class="max-w-[40px] sm:max-w-[20px]">
             <!-- <img src="./images/shared/gdpr-logo.png" alt="Gdpr logo" class="dark:invert w-[153px]" /> -->
-             <img src="./images/shared/gdpr-logo.png" alt="NextSaaS" class="w-[150px] dark:hidden block" />
+            <img src="./images/shared/gdpr-logo.png" alt="NextSaaS" class="w-[150px] dark:hidden block" />
             <img src="./images/shared/gdpr-logo-dark.png" alt="NextSaaS" class="w-[150px] dark:block hidden" />
           </figure>
           <figure class="max-w-[40px] sm:max-w-[20px] lg:hidden block">
@@ -44,7 +46,7 @@
       </div>
       <nav class="hidden xl:flex items-center">
         <ul class="flex items-center">
-          <li class="relative nav-item cursor-pointer py-2.5" data-menu="home-mega-menu">
+          <li class="relative nav-item cursor-pointer py-2.5" data-menu="home-mega-menu1">
             <a href="index.php" class="nav-item-link {=$nav-item-class}">
               <span>Home</span>
               <span class="nav-arrow block origin-center transition-all duration-300 translate-y-px">
@@ -79,7 +81,42 @@ Mega Menu V1
 
 
 
-          
+          <li class="relative nav-item cursor-pointer py-2.5" data-menu="about-mega-menu">
+            <a href="about-us.php" class="nav-item-link {=$nav-item-class}">
+              <span>About Us</span>
+              <span class="nav-arrow block origin-center transition-all duration-300 translate-y-px">
+                <!-- <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg> -->
+              </span>
+            </a>
+            <!-- =========================
+Mega Menu V1
+===========================-->
+            <div>
+              <!-- Transparent bridge to prevent gap -->
+              <div
+                class="mega-menu-bridge py-6 fixed left-1/2 -translate-x-1/2 top-full w-full bg-transparent z-40 max-w-[1290px]">
+              </div>
+
+            </div>
+
+          </li>
+
+
+
+
 
           <!-- <li class="relative nav-item cursor-pointer py-2.5" data-menu="about-menu">
           <a href="#" class="nav-item-link {=$nav-item-class}">
@@ -199,7 +236,7 @@ Mega Menu V1
 </div>
 
         </li> -->
-          <li class="relative nav-item cursor-pointer py-2.5 w-full" data-menu="services-menu">
+          <li class="relative nav-item cursor-pointer py-2.5 " data-menu="services-menu">
             <a href="#" class="nav-item-link {=$nav-item-class}">
               <span>Compliance Tools</span>
               <span class="nav-arrow block origin-center transition-all duration-300 translate-y-px">
@@ -306,6 +343,419 @@ Mega Menu V1
             </div>
 
           </li>
+
+
+
+
+          <!-- <li class="relative nav-item cursor-pointer py-2.5" data-menu="about-menu">
+            <a href="#" class="nav-item-link {=$nav-item-class}">
+              <span>Services</span>
+              <span class="nav-arrow block origin-center transition-all duration-300 translate-y-px">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="size-4">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                </svg>
+              </span>
+            </a>
+
+            <div class="">
+
+              <div
+                class="dropdown-menu-bridge absolute left-1/2 -translate-x-1/2 top-full w-full h-3 bg-transparent z-40 min-w-[280px] pointer-events-none">
+              </div>
+              <div id="about-menu"
+                class="dropdown-menu absolute left-1/2 -translate-x-1/2 top-full mt-2 pointer-events-none transition-all duration-300 opacity-0 bg-white dark:bg-background-6 rounded-[20px] px-[60px] py-[70px] z-50 min-w-[280px] w-full overflow-hidden {=$mega-menu-color} border border-stroke-1 dark:border-stroke-6">
+                <ul class="w-full space-y-5">
+                  <li>
+                    <a href="./readiness-review.php"
+                      class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                      <span>Gap Assessment Review</span>
+                      <span
+                        class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                          <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="consulting-advisory-and-audit.php"
+                      class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                      <span>Consulting Advisory And Audit</span>
+
+                      <span
+                        class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                          <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </li> -->
+
+
+
+
+
+
+
+          <li class="relative nav-item cursor-pointer py-2.5" data-menu="home-mega-menu">
+            <a href="#" class="nav-item-link {=$nav-item-class}">
+              <span>GDPR Issues</span>
+              <span class="nav-arrow block origin-center transition-all duration-300 translate-y-px">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="size-4">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                </svg>
+              </span>
+            </a>
+            <!-- =========================
+Mega Menu V1
+===========================-->
+            <div>
+              <!-- Transparent bridge to prevent gap -->
+              <div
+                class="mega-menu-bridge py-6 fixed left-1/2 -translate-x-1/2 top-full w-full bg-transparent z-40 max-w-[1290px]">
+              </div>
+              <div id="home-mega-menu" class="mega-menu fixed mt-2 left-1/2 -translate-x-1/2 top-full pointer-events-none
+                 transition-all duration-300 opacity-0 bg-white rounded-[20px] z-50 max-w-[750px] w-full
+                  overflow-hidden dark:bg-background-6 shadow-1 border dark:border-background-5 border-stroke-4 
+                  dark:!bg-background-7">
+                <div class="flex w-full relative">
+                  <div class="flex justify-between flex-1 gap-10 px-[60px] py-[70px]">
+                    <!-- Column 1 -->
+                    <ul class="space-y-5 pr-4">
+                      <li>
+                        <a href="administrative-fines-and-penalties.php"
+                          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                          <span>Administrative Fines and Penalties</span>
+                          <span
+                            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                              fill="none">
+                              <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="data-transfer-issues.php"
+                          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                          <span>Data Transfer Issues</span>
+                          <span
+                            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                              fill="none">
+                              <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="GDPR-and-rest-of-the-world.php"
+                          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                          <span>GDPR and Rest of The World</span>
+                          <span
+                            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                              fill="none">
+                              <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="GDPR-and-business-development.php"
+                          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                          <span>GDPR and Business Development</span>
+                          <span
+                            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                              fill="none">
+                              <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="GDPR-and-hotel-Industry.php"
+                          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                          <span>GDPR and Hotel Industry</span>
+                          <span
+                            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                              fill="none">
+                              <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="GDPR-and-software-development.php"
+                          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                          <span>GDPR And Software Development</span>
+                          <span
+                            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                              fill="none">
+                              <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="GDPR-and-elearning-business.php"
+                          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                          <span>GDPR and Elearning Business</span>
+                          <span
+                            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                              fill="none">
+                              <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="subcontract-and-third-party-issues.php"
+                          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                          <span>subcontract and Third Party Issues</span>
+                          <span
+                            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                              fill="none">
+                              <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </li>
+
+                    </ul>
+                    <div class="w-px h-full bg-secondary/10 dark:bg-accent/10"></div>
+                    <!-- Column 2 -->
+                    <ul class="space-y-5 px-4">
+                      <li>
+                        <a href="GDPR-and-BIO.php"
+                          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                          <span>GDPR and BIO</span>
+                          <span
+                            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                              fill="none">
+                              <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="GDPR-and-crypto-world.php"
+                          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                          <span>GDPR and Crypto World</span>
+                          <span
+                            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                              fill="none">
+                              <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </li>
+
+
+
+                      <li>
+                        <a href="gdpr-certification.php"
+                          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                          <span>GDPR Certification</span>
+                          <span
+                            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                              fill="none">
+                              <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="business-discontinuity.php"
+                          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                          <span>Business Discontinuity</span>
+                          <span
+                            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                              fill="none">
+                              <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="GDPR-and-EU-Representation.php"
+                          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                          <span>GDPR and EU Representation</span>
+                          <span
+                            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                              fill="none">
+                              <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="GDPR-and-NGO.php"
+                          class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                          <span>GDPR-and-NGO</span>
+                          <span
+                            class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                              fill="none">
+                              <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </span>
+                        </a>
+                      </li>
+
+                    </ul>
+                    <div class="w-px h-full bg-secondary/10 dark:bg-accent/10"></div>
+                    <!-- Column 3 -->
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </li>
+
+
+
+
+          <!-- <li class="relative nav-item cursor-pointer py-2.5 w-full" data-menu="services-menu">
+            <a href="#" class="nav-item-link {=$nav-item-class}">
+              <span>Gdpr Issues</span>
+              <span class="nav-arrow block origin-center transition-all duration-300 translate-y-px">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="size-4">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                </svg>
+              </span>
+            </a>
+
+            <div>
+
+              <div
+                class="dropdown-menu-bridge absolute left-1/2 -translate-x-1/2 top-full w-full h-3 bg-transparent z-40 min-w-[280px] pointer-events-none">
+              </div>
+              <div id="services-menu"
+                class="dropdown-menu absolute left-1/2 -translate-x-1/2 top-full mt-2 pointer-events-none transition-all duration-300 opacity-0 bg-white dark:bg-background-6 rounded-[20px] px-[60px] py-[70px] z-50 min-w-[280px] w-full overflow-hidden {=$mega-menu-color} border border-stroke-1 dark:border-stroke-6">
+                <ul class="w-full space-y-5">
+                  <li>
+                    <a href="./consent-management-tool.php"
+                      class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                      <span>Consent Management Platform </span>
+                      <span
+                        class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                          <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./data-protection-third-party.php"
+                      class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                      <span>Data Protection Third Party Compliance</span>
+                      <span
+                        class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                          <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./data-subject-rights-and-grievance-management.php"
+                      class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                      <span>Data Subject Rights And Grievance Management</span>
+
+                      <span
+                        class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                          <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="./data-protection-impact-assessment.php"
+                      class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                      <span>Data Protection Impact Assessment</span>
+
+                      <span
+                        class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                          <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="./cookie-consent-management.php"
+                      class="text-secondary/60 dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 group/item font-normal text-tagline-1 hover:text-secondary transition-all duration-200">
+                      <span>Cookie Consent Management </span>
+
+                      <span
+                        class="group-hover/item:translate-x-2 group-hover/item:opacity-100 opacity-0 transition-all duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                          <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+              
+                </ul>
+              </div>
+            </div>
+
+          </li> -->
+
+
+
+
+
+
+
+
+
+
+
           <li class="relative nav-item cursor-pointer py-2.5" data-menu="blog-menu">
             <a href="./blogs.php" class="nav-item-link {=$nav-item-class}">
               <span>Blog</span>
@@ -313,15 +763,15 @@ Mega Menu V1
             </a>
           </li>
 
-            <div>
+          <div>
 
 
-          <li class="relative nav-item cursor-pointer py-2.5" data-menu="blog-menu">
-            <a href="./contact.php" class="nav-item-link {=$nav-item-class}">
-              <span>Contact</span>
+            <li class="relative nav-item cursor-pointer py-2.5" data-menu="blog-menu">
+              <a href="./contact.php" class="nav-item-link {=$nav-item-class}">
+                <span>Contact</span>
 
-            </a>
-          </li>
+              </a>
+            </li>
         </ul>
       </nav>
 
@@ -377,9 +827,12 @@ Mobile Menu
                 </span>
               </button>
 
-              </li>
-              <!-- <div
-    class="hidden ml-3.5 transition-all duration-300 w-full bg-white dark:bg-background-7 overflow-y-auto"
+            </li>
+
+
+
+            <!-- <div
+                 class="hidden ml-3.5 transition-all duration-300 w-full bg-white dark:bg-background-7 overflow-y-auto"
   >
     <ul>
       <li>
@@ -664,7 +1117,7 @@ Mobile Menu
       </li>
     </ul>
   </div> -->
-            
+
 
 
             <!-- about us menu  -->
@@ -750,9 +1203,9 @@ Mobile Menu
                     </a>
                   </li>
                   <li>
-                    <a href="./our-services-page-02.html"
+                    <a href="data-protection-impact-assessment.php"
                       class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block">
-                      Our Services Page 02
+                      Data Protection Impact Assessment.php
                     </a>
                   </li>
                   <li>
@@ -777,6 +1230,149 @@ Mobile Menu
                 </ul>
               </div>
             </li>
+
+
+
+            <!-- <li class="relative space-y-0">
+              <button
+                class="sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer">
+                <span>Services</span>
+                <span class="sub-menu-arrow transition-all duration-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </button>
+              <div
+                class="hidden ml-3.5 transition-all duration-300 w-full bg-white dark:bg-background-7 max-h-[500px] overflow-y-auto scroll-bar">
+                <ul>
+                  <li>
+                    <a href="readiness-review.php"
+                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block">
+                      Readiness Review
+                    </a>
+                  </li>
+                  <li>
+                    <a href="consulting-advisory-and-audit.php"
+                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block">
+                      Consulting Advisory and Audit
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li> -->
+
+
+
+
+            <li class="relative space-y-0">
+              <button
+                class="sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer">
+                <span>GDPR Issues</span>
+                <span class="sub-menu-arrow transition-all duration-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </button>
+              <div
+                class="hidden ml-3.5 transition-all duration-300 w-full bg-white dark:bg-background-7 max-h-[500px] overflow-y-auto scroll-bar">
+                <ul>
+                  <li>
+                    <a href="administrative-fines-and-penalties.php"
+                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block">
+                      Administrative Fines and Penalties
+                    </a>
+                  </li>
+                  <li>
+                    <a href="data-transfer-issues.php"
+                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block">
+                      Data Transfer Issues
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="GDPR-and-rest-of-the-world.php"
+                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block">
+                      GDPR and Rest of the World
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="GDPR-and-business-development.php"
+                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block">
+                      GDPR and Business Development </a>
+                  </li>
+                  <li>
+                    <a href="GDPR-and-hotel-Industry.php"
+                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block">
+                      GDPR and Hotel Industry </a>
+                  </li>
+
+
+                  <li>
+                    <a href="GDPR-and-software-development.php"
+                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block">
+                      GDPR and Software Development </a>
+                  </li>
+                  <li>
+                    <a href="GDPR-and-elearning-business.php"
+                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block">
+                      GDPR and Elearning Business </a>
+                  </li>
+
+                  <li>
+                    <a href="subcontract-and-third-party-issues.php"
+                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block">
+                      Subcontract and Third Party Issues </a>
+                  </li>
+
+                  <li>
+                    <a href="GDPR-and-BIO.php"
+                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block">
+                      GDPR and BIO </a>
+                  </li>
+
+                  <li>
+                    <a href="GDPR-and-crypto-world.php"
+                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block">
+                      GDPR and Crypto World </a>
+                  </li>
+
+
+                  <li>
+                    <a href="gdpr-certification.php"
+                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block">
+                      GDPR Certification</a>
+                  </li>
+                  <li>
+                    <a href="business-discontinuity.php"
+                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block">
+                      Business Discontinuity</a>
+                  </li>
+
+                  <li>
+                    <a href="GDPR-and-EU-Representation.php"
+                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block">
+                      GDPR and EU Representation</a>
+                  </li>
+
+                  <li>
+                    <a href="GDPR-and-NGO.php"
+                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block">
+                      GDPR-and-NGO</a>
+                  </li>
+
+
+
+                </ul>
+              </div>
+            </li>
+
+
+
 
 
 
@@ -848,35 +1444,6 @@ Mobile Menu
 
 
             <!-- features menu  -->
-            <!-- <li class="relative space-y-0">
-              <button
-                class="sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer">
-                <span>Features</span>
-                <span class="sub-menu-arrow transition-all duration-300">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M8 12L12 8L8 4" class="stroke-secondary dark:stroke-accent" stroke-width="1.5"
-                      stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>
-                </span>
-              </button>
-              <div
-                class="hidden ml-3.5 transition-all duration-300 w-full bg-white dark:bg-background-7 max-h-[500px] overflow-y-auto scroll-bar">
-                <ul>
-                  <li>
-                    <a href="./features-page-01.html"
-                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block">
-                      Features Page 01
-                    </a>
-                  </li>
-                  <li>
-                    <a href="./features-page-02.html"
-                      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block">
-                      Features Page 02
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li> -->
 
 
             <!-- process menu  -->
@@ -1115,5 +1682,3 @@ Mobile Menu
     </aside>
 
   </header>
-
- 

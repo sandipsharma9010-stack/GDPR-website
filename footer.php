@@ -197,7 +197,7 @@
     <!-- =========================
 Theme Toggle Button
 ===========================-->
-    <button id="theme-toggle" aria-label="Theme toggle button"
+    <!-- <button id="theme-toggle" aria-label="Theme toggle button"
         class="size-12 bg-background-8 !z-[9999] dark:bg-white rounded-l-2xl cursor-pointer flex items-center justify-center fixed right-0 bottom-5">
         <span id="dark-theme-icon">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -213,7 +213,7 @@ Theme Toggle Button
                     d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
             </svg>
         </span>
-    </button>
+    </button> -->
 
     <script src="./vendor/swiper.min.js"></script>
     <script src="./vendor/leaflet.min.js"></script>
@@ -234,7 +234,7 @@ Theme Toggle Button
 </footer>
 
 
-<?php include_once('jaspal-footer.php'); ?>
+
 
 
 <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17599220076"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-17599220076'); </script>

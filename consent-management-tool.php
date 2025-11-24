@@ -7,7 +7,7 @@
     <div class="text-center space-y-2 pb-14 lg:pb-[72px]">
        <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Our Tools</span>
       <h1 data-ns-animate data-delay="0.2" class="font-normal lg:text-heading-2">Consent Management Tool</h1>
-      <p data-ns-animate data-delay="0.4" class="max-w-[700px] mx-auto">
+      <p data-ns-animate data-delay="0.4" class="max-w-[1000px] mx-auto">
           Under the General Data Protection Regulation (GDPR), consent management is a critical requirement for
           protecting the fundamental rights of EU citizens, ensuring that their personal data is collected, processed,
           and stored lawfully, transparently, and with full control. Our Consent Management Platform (CMP) empowers data
@@ -22,253 +22,7 @@
 <!-- =========================
 Services section
 ===========================-->
-<section class="py-14 md:py-16 lg:py-[88px] xl:py-[100px] pt-[100px]">
-  <div class="main-container">
-    <!-- <div class="text-center space-y-5 mb-[70px]">
-      <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Our Tools</span>
-      <div class="space-y-3">
-        <h2 data-ns-animate data-delay="0.3" class="max-w-[878px] mx-auto">
-         Consent Management Tool
-        </h2>
-        
-      </div>
-    </div> -->
-    <div class="grid grid-cols-12 xl:gap-8 md:gap-8 gap-y-5">
-      <div data-ns-animate data-delay="0.5" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <!-- <span class="ns-shape-47 text-[52px] text-secondary dark:text-accent"></span> -->
-            <figure class="max-w-[26px] max-h-[17px]">
-              <img src="images/gdpr-iconb/1.svg" alt="revenue" class="w-full h-full object-cover dark:hidden" />
-              <img src="images/gdpr-icon/1.svg" alt="revenue" class="w-full h-full object-cover hidden dark:block" />
-            </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Live Consent Acquisition Across All Channels</h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Effortlessly capture and document Data Subject consent across multiple platforms. Whether during service
-              sign-ups, app interactions, or marketing communications, our system ensures that each consent request is
-              lawful, freely given, specific, informed, and unambiguous as required under GDPR Articles 6(1)(a) and
-              Article 7. With real-time tracking and automated reminders, data controllers are empowered to stay
-              compliant.
-            </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-              <img src="images/gdpr-iconb/2.svg" alt="revenue" class="w-full h-full object-cover dark:hidden" />
-              <img src="images/gdpr-icon/2.svg" alt="revenue" class="w-full h-full object-cover hidden dark:block" />
-            </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Advanced Consent Tracking & Management</h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Monitor and manage all consents along with their respective purposes from a single, centralized dashboard.
-              Detailed reporting ensures audit readiness, supports accountability under Article 5(2), reduces legal
-              risks, and enhances transparency for data subjects.
-            </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div data-ns-animate data-delay="0.7" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-              <img src="images/gdpr-iconb/3.svg" alt="revenue" class="w-full h-full object-cover dark:hidden" />
-              <img src="images/gdpr-icon/3.svg" alt="revenue" class="w-full h-full object-cover hidden dark:block" />
-            </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Seamless Compliance for Historical Data</h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Bring past personal data into compliance with GDPR through automated consent requests and privacy
-              notifications. The system updates historical records automatically, eliminating manual intervention and
-              ensuring ongoing legal compliance, data security, and respect for data subject rights under <b>Articles 6,
-                7,
-                and 17</b>.
-            </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div data-ns-animate data-delay="0.8" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-              <img src="images/gdpr-iconb/4.svg" alt="revenue" class="w-full h-full object-cover dark:hidden" />
-              <img src="images/gdpr-icon/4.svg" alt="revenue" class="w-full h-full object-cover hidden dark:block" />
-            </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Comprehensive, Compliant, and Configurable
-            </h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Our solution provides a robust framework for handling consents across digital platforms for clearly
-              defined purposes. Designed to meet GDPR standards, it ensures compliance while offering high customization
-              to match organizational workflows and business requirements.
-            </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div data-ns-animate data-delay="0.9" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-              <img src="images/gdpr-iconb/5.svg" alt="revenue" class="w-full h-full object-cover dark:hidden" />
-              <img src="images/gdpr-icon/5.svg" alt="revenue" class="w-full h-full object-cover hidden dark:block" />
-            </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5"> End-to-End Solution for Data Controllers and Processors
-            </h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              The Consent Management Platform aligns consent management with Data Subject Rights under GDPR, ensuring
-              the user/data subject’s preferences are respected. It guarantees that consents are properly recorded,
-              updated, and enforced across all systems, enhancing privacy control and regulatory compliance.
-            </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div data-ns-animate data-delay="1.0" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-              <img src="images/gdpr-iconb/6.svg" alt="revenue" class="w-full h-full object-cover dark:hidden" />
-              <img src="images/gdpr-icon/6.svg" alt="revenue" class="w-full h-full object-cover hidden dark:block" />
-            </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5"> Automated Consent Renewal and Expiry Management
-            </h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Stay compliant with evolving regulatory requirements by automatically managing consent validity periods.
-              The platform tracks consent expiry dates, triggers timely renewal requests, and ensures expired consents
-              are removed from processing activities. This safeguards compliance with GDPR principles of lawfulness,
-              fairness, and transparency under Articles 5(1)(a) and 7, while minimizing operational burden for Data
-              Controllers and Processors.
-            </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- <div data-ns-animate data-delay="1.1" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out"
-        >
-          <div class="flex items-center justify-center">
-            <span class="ns-shape-48 text-[52px] text-secondary dark:text-accent"></span>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Monitor conversion rates</h3>
-            <p class="max-w-[361px] mx-auto">
-              Gain deep insights into your contacts at a glance and easily track
-            </p>
-          </div>
-          <div>
-            <a
-              href="./our-services-details-page.html"
-              class="btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md"
-              ><span>Read more</span></a
-            >
-          </div>
-        </div>
-      </div>
-      <div data-ns-animate data-delay="1.2" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out"
-        >
-          <div class="flex items-center justify-center">
-            <span class="ns-shape-54 text-[52px] text-secondary dark:text-accent"></span>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Live data insights</h3>
-            <p class="max-w-[361px] mx-auto">
-              Gain deep insights into your contacts at a glance and easily track
-            </p>
-          </div>
-          <div>
-            <a
-              href="./our-services-details-page.html"
-              class="btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md"
-              ><span>Read more</span></a
-            >
-          </div>
-        </div>
-      </div>
-      <div data-ns-animate data-delay="1.3" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out"
-        >
-          <div class="flex items-center justify-center">
-            <span class="ns-shape-57 text-[52px] text-secondary dark:text-accent"></span>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Measure conversion metrics</h3>
-            <p class="max-w-[361px] mx-auto">
-              Gain deep insights into your contacts at a glance and easily track
-            </p>
-          </div>
-          <div>
-            <a
-              href="./our-services-details-page.html"
-              class="btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md"
-              ><span>Read more</span></a
-            >
-          </div>
-        </div>
-      </div> -->
-    </div>
-  </div>
-</section>
+
 <section
   class="relative pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-24 md:pb-36 lg:pb-40 xl:pb-[200px] {=$class} overflow-hidden">
   <div class="main-container">
@@ -819,6 +573,258 @@ Pricing section
 <!-- =========================
 CTA v1 section
 ===========================-->
+
+
+
+
+
+<section class="">
+  <div class="main-container">
+    <div class="text-center space-y-5 mb-[70px]">
+      <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Key Features</span>
+      <div class="space-y-3">
+        <!-- <h2 data-ns-animate data-delay="0.3" class="max-w-[878px] mx-auto">
+         Consent Management Tool
+        </h2> -->
+        
+      </div>
+    </div>
+    <div class="grid grid-cols-12 xl:gap-8 md:gap-8 gap-y-5">
+      <div data-ns-animate data-delay="0.5" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <!-- <span class="ns-shape-47 text-[52px] text-secondary dark:text-accent"></span> -->
+            <figure class="max-w-[26px] max-h-[17px]">
+              <img src="images/gdpr-iconb/1.svg" alt="revenue" class="w-full h-full object-cover dark:hidden" />
+              <img src="images/gdpr-icon/1.svg" alt="revenue" class="w-full h-full object-cover hidden dark:block" />
+            </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Live Consent Acquisition Across All Channels</h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Effortlessly capture and document Data Subject consent across multiple platforms. Whether during service
+              sign-ups, app interactions, or marketing communications, our system ensures that each consent request is
+              lawful, freely given, specific, informed, and unambiguous as required under GDPR Articles 6(1)(a) and
+              Article 7. With real-time tracking and automated reminders, data controllers are empowered to stay
+              compliant.
+            </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+              <img src="images/gdpr-iconb/2.svg" alt="revenue" class="w-full h-full object-cover dark:hidden" />
+              <img src="images/gdpr-icon/2.svg" alt="revenue" class="w-full h-full object-cover hidden dark:block" />
+            </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Advanced Consent Tracking & Management</h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Monitor and manage all consents along with their respective purposes from a single, centralized dashboard.
+              Detailed reporting ensures audit readiness, supports accountability under Article 5(2), reduces legal
+              risks, and enhances transparency for data subjects.
+            </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="0.7" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+              <img src="images/gdpr-iconb/3.svg" alt="revenue" class="w-full h-full object-cover dark:hidden" />
+              <img src="images/gdpr-icon/3.svg" alt="revenue" class="w-full h-full object-cover hidden dark:block" />
+            </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Seamless Compliance for Historical Data</h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Bring past personal data into compliance with GDPR through automated consent requests and privacy
+              notifications. The system updates historical records automatically, eliminating manual intervention and
+              ensuring ongoing legal compliance, data security, and respect for data subject rights under <b>Articles 6,
+                7,
+                and 17</b>.
+            </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="0.8" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+              <img src="images/gdpr-iconb/4.svg" alt="revenue" class="w-full h-full object-cover dark:hidden" />
+              <img src="images/gdpr-icon/4.svg" alt="revenue" class="w-full h-full object-cover hidden dark:block" />
+            </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Comprehensive, Compliant, and Configurable
+            </h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Our solution provides a robust framework for handling consents across digital platforms for clearly
+              defined purposes. Designed to meet GDPR standards, it ensures compliance while offering high customization
+              to match organizational workflows and business requirements.
+            </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="0.9" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+              <img src="images/gdpr-iconb/5.svg" alt="revenue" class="w-full h-full object-cover dark:hidden" />
+              <img src="images/gdpr-icon/5.svg" alt="revenue" class="w-full h-full object-cover hidden dark:block" />
+            </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5"> End-to-End Solution for Data Controllers and Processors
+            </h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              The Consent Management Platform aligns consent management with Data Subject Rights under GDPR, ensuring
+              the user/data subject’s preferences are respected. It guarantees that consents are properly recorded,
+              updated, and enforced across all systems, enhancing privacy control and regulatory compliance.
+            </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="1.0" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+              <img src="images/gdpr-iconb/6.svg" alt="revenue" class="w-full h-full object-cover dark:hidden" />
+              <img src="images/gdpr-icon/6.svg" alt="revenue" class="w-full h-full object-cover hidden dark:block" />
+            </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5"> Automated Consent Renewal and Expiry Management
+            </h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Stay compliant with evolving regulatory requirements by automatically managing consent validity periods.
+              The platform tracks consent expiry dates, triggers timely renewal requests, and ensures expired consents
+              are removed from processing activities. This safeguards compliance with GDPR principles of lawfulness,
+              fairness, and transparency under Articles 5(1)(a) and 7, while minimizing operational burden for Data
+              Controllers and Processors.
+            </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- <div data-ns-animate data-delay="1.1" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out"
+        >
+          <div class="flex items-center justify-center">
+            <span class="ns-shape-48 text-[52px] text-secondary dark:text-accent"></span>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Monitor conversion rates</h3>
+            <p class="max-w-[361px] mx-auto">
+              Gain deep insights into your contacts at a glance and easily track
+            </p>
+          </div>
+          <div>
+            <a
+              href="./our-services-details-page.html"
+              class="btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md"
+              ><span>Read more</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="1.2" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out"
+        >
+          <div class="flex items-center justify-center">
+            <span class="ns-shape-54 text-[52px] text-secondary dark:text-accent"></span>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Live data insights</h3>
+            <p class="max-w-[361px] mx-auto">
+              Gain deep insights into your contacts at a glance and easily track
+            </p>
+          </div>
+          <div>
+            <a
+              href="./our-services-details-page.html"
+              class="btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md"
+              ><span>Read more</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="1.3" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out"
+        >
+          <div class="flex items-center justify-center">
+            <span class="ns-shape-57 text-[52px] text-secondary dark:text-accent"></span>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Measure conversion metrics</h3>
+            <p class="max-w-[361px] mx-auto">
+              Gain deep insights into your contacts at a glance and easily track
+            </p>
+          </div>
+          <div>
+            <a
+              href="./our-services-details-page.html"
+              class="btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md"
+              ><span>Read more</span></a
+            >
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</section>
 <section class="py-[50px] md:py-20 lg:py-28 dark:bg-background-6 bg-white" aria-label="Use Case Overview">
   <div class="main-container">
     <div class="flex flex-col lg:flex-row items-center justify-between">

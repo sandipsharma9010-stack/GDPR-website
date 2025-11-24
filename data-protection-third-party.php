@@ -8,13 +8,13 @@
        <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Our Tools</span>
       <h1 data-ns-animate data-delay="0.2" class="font-normal lg:text-heading-2">Data Protection Third Party/Processors
         Assessment and Compliance (DPTPA)</h1>
-         <p data-ns-animate data-delay="0.4" class="max-w-[700px] mx-auto">
+         <p data-ns-animate data-delay="0.4" class="max-w-[1000px] mx-auto">
           Under the General Data Protection Regulation (GDPR), Controllers remain accountable for ensuring that any
           personal data processed on their behalf by Processors is done securely and lawfully. This includes conducting
           due diligence before onboarding a Processor, implementing binding contractual measures (Data Processing
           Agreements DPAs), and monitoring Processor compliance on an ongoing basis.
         </p>
-        <p data-ns-animate data-delay="0.4" class="max-w-[700px] mx-auto">Our DPTPA solution helps Controllers manage
+        <p data-ns-animate data-delay="0.4" class="max-w-[1000px] mx-auto">Our DPTPA solution helps Controllers manage
           their obligations by enabling oversight of Processor activities, ensuring instructions are followed, and
           confirming that appropriate technical and organizational measures are implemented. If a Processor fails to
           comply, the Controller is automatically notified and can take immediate risk-mitigation actions.</p>
@@ -25,261 +25,7 @@
 <!-- =========================
 Services section
 ===========================-->
-<section class="py-14 md:py-16 lg:py-[88px] xl:py-[100px] pt-[100px]">
-  <div class="main-container">
-    <!-- <div class="text-center space-y-5 mb-[70px]">
-      <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Our Tools</span>
-      <div class="space-y-3">
-        <h2 data-ns-animate data-delay="0.3" class="max-w-[878px] mx-auto">
-          Consent Management across Digital Ecosystems
-        </h2>
-       
-      </div>
-    </div> -->
-    <div class="grid grid-cols-12 xl:gap-8 md:gap-8 gap-y-5">
-      <div data-ns-animate data-delay="0.5" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-           <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/7.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/7.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Third-Party (Processor) Due Diligence</h3>
-           <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Effortlessly capture and document the security, privacy, and compliance measures implemented by
-              Processors. With real-time tracking and automated reminders, Controllers can continuously assess the risks
-              associated with their Processors and Sub-processors, fulfilling GDPR obligations under Art. 28(1) & Art.
-              32.
-            </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-           <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/8.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/8.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Processor Risk Evaluation</h3>
-           <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Based on responses from the Processor and reviews by the Controller’s DPO or compliance team, the platform
-              automatically calculates a configurable risk score. This ensures a consistent and transparent approach to
-              vendor risk assessment, enabling compliance with Art. 28(3)(h) (audits and inspections).
-            </p>
-          </div>
-          <div>
-           <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div data-ns-animate data-delay="0.7" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/9.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/9.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Integrated Data Subject Rights Management</h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Our solution enables Controllers to notify Processors when a Data Subject exercises rights (e.g., erasure,
-              restriction, rectification, or withdrawal of consent). The system ensures that Processors act promptly,
-              with compliance evidence retained — aligning with Art. 19 & 28(3)(e).</b>.
-            </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- <div data-ns-animate data-delay="0.8" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/10.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/10.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Comprehensive, Compliant, and Configurable 
-            </h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Our solution provides a robust framework for handling consents across digital platforms for clearly
-              defined purposes. Designed to meet GDPR standards, it ensures compliance while offering high customization
-              to match organizational workflows and business requirements.
-            </p>
-          </div>
-          <div>
-           <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div> -->
-      <div data-ns-animate data-delay="0.9" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/10.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/10.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Consent Verification Across Processors
-            </h3>
-           <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              DPTPA provides a mechanism for Processors to validate whether valid consent exists before processing
-              begins, while ensuring no unnecessary personal data is shared. This strengthens GDPR compliance under Art.
-              7 (conditions for consent).
-            </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div data-ns-animate data-delay="1.0" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/11.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/11.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5"> Automated Consent Renewal and Expiry Management
-            </h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Stay compliant with evolving regulatory requirements by automatically managing consent validity periods.
-              The platform tracks consent expiry dates, triggers timely renewal requests, and ensures expired consents
-              are removed from processing activities. This safeguards compliance with GDPR principles of lawfulness,
-              fairness, and transparency under Articles 5(1)(a) and 7, while minimizing operational burden for Data
-              Controllers and Processors.
-            </p>
-          </div>
-          <div>
-           <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- <div data-ns-animate data-delay="1.1" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out"
-        >
-          <div class="flex items-center justify-center">
-            <span class="ns-shape-48 text-[52px] text-secondary dark:text-accent"></span>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Monitor conversion rates</h3>
-            <p class="max-w-[361px] mx-auto">
-              Gain deep insights into your contacts at a glance and easily track
-            </p>
-          </div>
-          <div>
-            <a
-              href="./our-services-details-page.html"
-              class="btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md"
-              ><span>Read more</span></a
-            >
-          </div>
-        </div>
-      </div>
-      <div data-ns-animate data-delay="1.2" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out"
-        >
-          <div class="flex items-center justify-center">
-            <span class="ns-shape-54 text-[52px] text-secondary dark:text-accent"></span>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Live data insights</h3>
-            <p class="max-w-[361px] mx-auto">
-              Gain deep insights into your contacts at a glance and easily track
-            </p>
-          </div>
-          <div>
-            <a
-              href="./our-services-details-page.html"
-              class="btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md"
-              ><span>Read more</span></a
-            >
-          </div>
-        </div>
-      </div>
-      <div data-ns-animate data-delay="1.3" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out"
-        >
-          <div class="flex items-center justify-center">
-            <span class="ns-shape-57 text-[52px] text-secondary dark:text-accent"></span>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Measure conversion metrics</h3>
-            <p class="max-w-[361px] mx-auto">
-              Gain deep insights into your contacts at a glance and easily track
-            </p>
-          </div>
-          <div>
-            <a
-              href="./our-services-details-page.html"
-              class="btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md"
-              ><span>Read more</span></a
-            >
-          </div>
-        </div>
-      </div> -->
-    </div>
-  </div>
-</section>
+
 <!-- <section
   class="relative pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-24 md:pb-36 lg:pb-40 xl:pb-[200px] {=$class} overflow-hidden">
   <div class="main-container">
@@ -876,9 +622,261 @@ Solutions section
   </div>
 </section> -->
 
-<!-- =========================
-Pricing section
-===========================-->
+<section class="">
+  <div class="main-container">
+    <div class="text-center space-y-5 mb-[70px]">
+      <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Key Features</span>
+      <div class="space-y-3">
+        <!-- <h2 data-ns-animate data-delay="0.3" class="max-w-[878px] mx-auto">
+          Consent Management across Digital Ecosystems
+        </h2> -->
+       
+      </div>
+    </div>
+    <div class="grid grid-cols-12 xl:gap-8 md:gap-8 gap-y-5">
+      <div data-ns-animate data-delay="0.5" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+           <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/7.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/7.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Third-Party (Processor) Due Diligence</h3>
+           <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Effortlessly capture and document the security, privacy, and compliance measures implemented by
+              Processors. With real-time tracking and automated reminders, Controllers can continuously assess the risks
+              associated with their Processors and Sub-processors, fulfilling GDPR obligations under Art. 28(1) & Art.
+              32.
+            </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+           <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/8.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/8.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Processor Risk Evaluation</h3>
+           <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Based on responses from the Processor and reviews by the Controller’s DPO or compliance team, the platform
+              automatically calculates a configurable risk score. This ensures a consistent and transparent approach to
+              vendor risk assessment, enabling compliance with Art. 28(3)(h) (audits and inspections).
+            </p>
+          </div>
+          <div>
+           <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="0.7" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/9.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/9.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Integrated Data Subject Rights Management</h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Our solution enables Controllers to notify Processors when a Data Subject exercises rights (e.g., erasure,
+              restriction, rectification, or withdrawal of consent). The system ensures that Processors act promptly,
+              with compliance evidence retained — aligning with Art. 19 & 28(3)(e).</b>.
+            </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- <div data-ns-animate data-delay="0.8" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/10.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/10.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Comprehensive, Compliant, and Configurable 
+            </h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Our solution provides a robust framework for handling consents across digital platforms for clearly
+              defined purposes. Designed to meet GDPR standards, it ensures compliance while offering high customization
+              to match organizational workflows and business requirements.
+            </p>
+          </div>
+          <div>
+           <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div> -->
+      <div data-ns-animate data-delay="0.9" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/10.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/10.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Consent Verification Across Processors
+            </h3>
+           <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              DPTPA provides a mechanism for Processors to validate whether valid consent exists before processing
+              begins, while ensuring no unnecessary personal data is shared. This strengthens GDPR compliance under Art.
+              7 (conditions for consent).
+            </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="1.0" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/11.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/11.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5"> Automated Consent Renewal and Expiry Management
+            </h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Stay compliant with evolving regulatory requirements by automatically managing consent validity periods.
+              The platform tracks consent expiry dates, triggers timely renewal requests, and ensures expired consents
+              are removed from processing activities. This safeguards compliance with GDPR principles of lawfulness,
+              fairness, and transparency under Articles 5(1)(a) and 7, while minimizing operational burden for Data
+              Controllers and Processors.
+            </p>
+          </div>
+          <div>
+           <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- <div data-ns-animate data-delay="1.1" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out"
+        >
+          <div class="flex items-center justify-center">
+            <span class="ns-shape-48 text-[52px] text-secondary dark:text-accent"></span>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Monitor conversion rates</h3>
+            <p class="max-w-[361px] mx-auto">
+              Gain deep insights into your contacts at a glance and easily track
+            </p>
+          </div>
+          <div>
+            <a
+              href="./our-services-details-page.html"
+              class="btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md"
+              ><span>Read more</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="1.2" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out"
+        >
+          <div class="flex items-center justify-center">
+            <span class="ns-shape-54 text-[52px] text-secondary dark:text-accent"></span>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Live data insights</h3>
+            <p class="max-w-[361px] mx-auto">
+              Gain deep insights into your contacts at a glance and easily track
+            </p>
+          </div>
+          <div>
+            <a
+              href="./our-services-details-page.html"
+              class="btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md"
+              ><span>Read more</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="1.3" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out"
+        >
+          <div class="flex items-center justify-center">
+            <span class="ns-shape-57 text-[52px] text-secondary dark:text-accent"></span>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Measure conversion metrics</h3>
+            <p class="max-w-[361px] mx-auto">
+              Gain deep insights into your contacts at a glance and easily track
+            </p>
+          </div>
+          <div>
+            <a
+              href="./our-services-details-page.html"
+              class="btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md"
+              ><span>Read more</span></a
+            >
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</section>
 
 
 <!-- =========================

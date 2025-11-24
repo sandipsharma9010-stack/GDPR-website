@@ -9,7 +9,7 @@
       <h1 data-ns-animate data-delay="0.2" class="font-normal lg:text-heading-2">Data Protection Impact Assessment
         (DPIA)</h1>
 
-        <p data-ns-animate data-delay="0.4" class="max-w-[700px] mx-auto">
+        <p data-ns-animate data-delay="0.4" class="max-w-[1000px] mx-auto">
           A Data Protection Impact Assessment (DPIA) is a formal process under the General Data Protection Regulation
           (GDPR), Articles 35–36, designed to systematically evaluate and mitigate privacy risks arising from processing
           activities that are likely to result in high risks to the rights and freedoms of individuals. Organizations
@@ -26,218 +26,7 @@
 <!-- =========================
 Services section
 ===========================-->
-<section class="py-14 md:py-16 lg:py-[88px] xl:py-[100px] pt-[100px]">
-  <div class="main-container">
-    <!-- <div class="text-center space-y-5 mb-[70px]">
-     
-      <div class="space-y-3">
-        <h2 data-ns-animate data-delay="0.3" class="max-w-[878px] mx-auto">
-          Data Protection Impact Assessment (DPIA)
-        </h2>
-        
-      </div>
-    </div> -->
 
-    <!-- Cards Grid -->
-    <div class="grid grid-cols-12 xl:gap-8 md:gap-8 gap-y-5">
-
-      <!-- CARD 1 -->
-      <div data-ns-animate data-delay="0.5" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/17.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/17.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Streamlined Workflow and Efficiency</h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Pre-built GDPR-aligned templates guide users through every stage of the DPIA process, ensuring
-              consistency and accuracy.<br>Pre-seeded questionnaires aligned with GDPR and global privacy frameworks,
-              customizable to reflect
-              organizational needs and sector-specific processing activities.<br>Configurable DPIA scheduling aligned
-              with audit requirements and risk-based triggers.<br>
-              Automated generation of action trackers with defined timelines, ensuring identified risks are
-              addressed and monitored effectively.
-            </p>
-
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 2 -->
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-           <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/18.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/18.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Risk Assessment and Mitigations</h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Automated calculation of risk levels based on configurable criteria, aligned with GDPR’s high-risk
-              processing considerations.<br>
-              Real-time insights into potential impacts on data subjects’ rights and freedoms.<br>
-              System-suggested mitigation measures with integration into subsequent DPIA cycles.<br>
-              Continuous update of residual risks, ensuring accountability and evidence of improvement.
-            </p>
-
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/19.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/19.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Risk Tracking and Management</h3>
-
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Automated Action Trackers generated for each identified risk, mapped to GDPR principles and security
-              controls.<br>
-              Tracking of mitigation progress with defined ownership, responsibilities, and timelines.<br>
-              Status dashboards to ensure risk closure and proactive reporting to DPOs and senior stakeholders.
-            </p>
-
-
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/20.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/20.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Reporting</h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Automated generation of GDPR-compliant reports detailing risks, mitigations, and residual impact.<br>
-              Exportable reports ready for submission to supervisory authorities or for internal governance use.<br>
-              Comprehensive audit trails capturing who performed each action, when, and why, in line with GDPR’s
-              accountability principle (Art. 5(2)).<br>
-              Visual dashboards summarizing risks, compliance status, and progress for executive oversight.
-            </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-           <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/21.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/21.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Collaboration and Version Control </h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-            Multi-stakeholder collaboration capabilities, enabling DPOs, legal teams, IT, and business owners to
-                contribute simultaneously.<br>Version control to maintain historical DPIA records for ongoing compliance monitoring.
-            </p>
-
-           
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/22.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/22.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5"> Audit and Documentation </h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-            Real-time audit trail ensuring transparency, accountability, and compliance with GDPR documentation
-                requirements.<br>Centralized storage of all DPIA-related documents (e.g., risk analyses, mitigations, approvals).<br>
-                Action tracker logs with target vs. completion dates, demonstrating compliance with timelines and
-                regulatory expectations.
-              </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-
-
-    </div>
-  </div>
-</section>
 
 
 <section class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-24 md:pb-32 lg:pb-44 xl:pb-[200px]">
@@ -674,9 +463,218 @@ Solutions section
   </div>
 </section> -->
 
-<!-- =========================
-Pricing section
-===========================-->
+<section class="">
+  <div class="main-container">
+    <div class="text-center space-y-5 mb-[70px]">
+     <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Key Features</span>
+      <div class="space-y-3">
+        <!-- <h2 data-ns-animate data-delay="0.3" class="max-w-[878px] mx-auto">
+          Data Protection Impact Assessment (DPIA)
+        </h2> -->
+        
+      </div>
+    </div>
+
+    <!-- Cards Grid -->
+    <div class="grid grid-cols-12 xl:gap-8 md:gap-8 gap-y-5">
+
+      <!-- CARD 1 -->
+      <div data-ns-animate data-delay="0.5" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/17.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/17.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Streamlined Workflow and Efficiency</h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Pre-built GDPR-aligned templates guide users through every stage of the DPIA process, ensuring
+              consistency and accuracy.<br>Pre-seeded questionnaires aligned with GDPR and global privacy frameworks,
+              customizable to reflect
+              organizational needs and sector-specific processing activities.<br>Configurable DPIA scheduling aligned
+              with audit requirements and risk-based triggers.<br>
+              Automated generation of action trackers with defined timelines, ensuring identified risks are
+              addressed and monitored effectively.
+            </p>
+
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+           <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/18.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/18.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Risk Assessment and Mitigations</h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Automated calculation of risk levels based on configurable criteria, aligned with GDPR’s high-risk
+              processing considerations.<br>
+              Real-time insights into potential impacts on data subjects’ rights and freedoms.<br>
+              System-suggested mitigation measures with integration into subsequent DPIA cycles.<br>
+              Continuous update of residual risks, ensuring accountability and evidence of improvement.
+            </p>
+
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/19.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/19.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Risk Tracking and Management</h3>
+
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Automated Action Trackers generated for each identified risk, mapped to GDPR principles and security
+              controls.<br>
+              Tracking of mitigation progress with defined ownership, responsibilities, and timelines.<br>
+              Status dashboards to ensure risk closure and proactive reporting to DPOs and senior stakeholders.
+            </p>
+
+
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/20.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/20.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Reporting</h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Automated generation of GDPR-compliant reports detailing risks, mitigations, and residual impact.<br>
+              Exportable reports ready for submission to supervisory authorities or for internal governance use.<br>
+              Comprehensive audit trails capturing who performed each action, when, and why, in line with GDPR’s
+              accountability principle (Art. 5(2)).<br>
+              Visual dashboards summarizing risks, compliance status, and progress for executive oversight.
+            </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+           <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/21.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/21.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Collaboration and Version Control </h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+            Multi-stakeholder collaboration capabilities, enabling DPOs, legal teams, IT, and business owners to
+                contribute simultaneously.<br>Version control to maintain historical DPIA records for ongoing compliance monitoring.
+            </p>
+
+           
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/22.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/22.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5"> Audit and Documentation </h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+            Real-time audit trail ensuring transparency, accountability, and compliance with GDPR documentation
+                requirements.<br>Centralized storage of all DPIA-related documents (e.g., risk analyses, mitigations, approvals).<br>
+                Action tracker logs with target vs. completion dates, demonstrating compliance with timelines and
+                regulatory expectations.
+              </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
 
 
 <!-- =========================

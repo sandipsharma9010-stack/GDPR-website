@@ -1,0 +1,13 @@
+/* Normal (light) mode: black icon */
+.icon-dark-mode {
+  filter: invert(1); /* No inversion, stays black */
+}
+
+/* Dark mode: white icon */
+.dark .icon-dark-mode {
+  filter: invert(0); /* Inverts black to white */
+}
+
+
+
+

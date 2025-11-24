@@ -9,7 +9,7 @@
       <h1 data-ns-animate data-delay="0.2" class="font-normal lg:text-heading-2">Data Subject Rights and Grievance
         Management</h1>
 
-         <p data-ns-animate data-delay="0.4" class="max-w-[700px] mx-auto">
+         <p data-ns-animate data-delay="0.4" class="max-w-[1000px] mx-auto">
           The General Data Protection Regulation (GDPR) provides Data Subjects with extensive rights over their personal
           data, ensuring fairness, transparency, and accountability in processing activities. Organizations acting as
           Data Controllers are required to establish clear, accessible, and effective mechanisms to enable Data Subjects
@@ -24,186 +24,7 @@
 <!-- =========================
 Services section
 ===========================-->
-<section class="py-14 md:py-16 lg:py-[88px] xl:py-[100px] pt-[100px]">
-  <div class="main-container">
-    <!-- <div class="text-center space-y-5 mb-[70px]">
-     
-      <div class="space-y-3">
-        <h2 data-ns-animate data-delay="0.3" class="max-w-[878px] mx-auto">
-          Consent Management across Digital Ecosystems
-        </h2>
-       
-      </div>
-    </div> -->
 
-    <!-- Cards Grid -->
-    <div class="grid grid-cols-12 xl:gap-8 md:gap-8 gap-y-5">
-
-      <!-- CARD 1 -->
-      <div data-ns-animate data-delay="0.5" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-           <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/12.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/12.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Mechanism to Exercise Data Subject Rights under GDPR</h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Data Subjects can exercise any of their rights under the GDPR including the Right of Access (Art. 15),
-              Right to Rectification (Art. 16), Right to Erasure (Art. 17), Right to Restriction of Processing (Art.
-              18), Right to Data Portability (Art. 20), and Right to Object (Art. 21) through our DSRGM platform. Each
-              request is captured in a structured format and automatically routed to the relevant data owner, processing
-              activity manager, or Data Protection Officer (DPO). The DSRGM platform can be seamlessly embedded into any
-              website, portal, or customer service interface of the Data Controller.
-            </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 2 -->
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-           <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/13.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/13.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Complaint Mechanism / Grievance Redressal</h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              GDPR requires organizations to provide Data Subjects with effective channels to raise concerns about data
-              processing activities, including issues such as denial of rights, misuse of personal data, or unlawful
-              processing. Through our DSRGM platform, Data Subjects can easily lodge complaints, which are centrally
-              tracked, assigned, and resolved within the prescribed timelines.
-            </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/14.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/14.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Timely Response, Automated Acknowledgement, and Notifications</h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Under GDPR, organizations are required to respond to Data Subject requests within one month (with limited
-              extensions where applicable). The DSRGM platform enables controllers to configure SLAs for each request
-              type, issue automatic acknowledgements upon receipt, and send proactive status updates to Data Subjects.
-              Built-in reminders and escalations ensure all requests and complaints are addressed promptly, reducing the
-              risk of non-compliance.
-            </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-           <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/15.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/15.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Advanced Rights and Grievance Tracking & Management</h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              Compliance teams and DPOs can monitor the progress of each rights request or complaint in real-time. The
-              DSRGM solution maintains a secure, auditable log of all submissions, updates, decisions, and
-              communications, thereby supporting GDPR’s accountability principle (Art. 5). Notifications are
-              automatically triggered for Data Subjects whenever their request status changes, ensuring transparency and
-              confidence in the process.
-            </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/16.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/16.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Seamless Integration with Digital Ecosystem and Consent Management </h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              The DSRGM solution integrates with existing organizational systems (e.g., CRM, HRMS, ERP, data management
-              platforms) to facilitate swift identification, retrieval, and correction of personal data. It also
-              connects with our Consent Management Platform to validate and update consent records in line with GDPR
-              requirements.
-              Furthermore, when a Data Subject exercises the Right to Withdraw Consent or the Right to Erasure, the
-              DSRGM system can automatically notify relevant third-party processors or partners to stop processing or
-              erase the affected data. This ensures end-to-end compliance across the data processing chain, maintaining
-              consistency and regulatory adherence.
-            </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      
-
-      <!-- बाकी cards same रहेंगे (जिनमें सिर्फ short text है वहाँ button की ज़रूरत नहीं है) -->
-
-    </div>
-  </div>
-</section>
 <!-- <section
   class="relative pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-24 md:pb-36 lg:pb-40 xl:pb-[200px] {=$class} overflow-hidden">
   <div class="main-container">
@@ -800,9 +621,186 @@ Solutions section
   </div>
 </section> -->
 
-<!-- =========================
-Pricing section
-===========================-->
+<section class="">
+  <div class="main-container">
+    <div class="text-center space-y-5 mb-[70px]">
+     <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Key Features</span>
+      <div class="space-y-3">
+        <h2 data-ns-animate data-delay="0.3" class="max-w-[878px] mx-auto">
+          Consent Management across Digital Ecosystems
+        </h2>
+       
+      </div>
+    </div>
+
+    <!-- Cards Grid -->
+    <div class="grid grid-cols-12 xl:gap-8 md:gap-8 gap-y-5">
+
+      <!-- CARD 1 -->
+      <div data-ns-animate data-delay="0.5" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+           <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/12.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/12.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Mechanism to Exercise Data Subject Rights under GDPR</h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Data Subjects can exercise any of their rights under the GDPR including the Right of Access (Art. 15),
+              Right to Rectification (Art. 16), Right to Erasure (Art. 17), Right to Restriction of Processing (Art.
+              18), Right to Data Portability (Art. 20), and Right to Object (Art. 21) through our DSRGM platform. Each
+              request is captured in a structured format and automatically routed to the relevant data owner, processing
+              activity manager, or Data Protection Officer (DPO). The DSRGM platform can be seamlessly embedded into any
+              website, portal, or customer service interface of the Data Controller.
+            </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+           <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/13.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/13.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Complaint Mechanism / Grievance Redressal</h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              GDPR requires organizations to provide Data Subjects with effective channels to raise concerns about data
+              processing activities, including issues such as denial of rights, misuse of personal data, or unlawful
+              processing. Through our DSRGM platform, Data Subjects can easily lodge complaints, which are centrally
+              tracked, assigned, and resolved within the prescribed timelines.
+            </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/14.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/14.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Timely Response, Automated Acknowledgement, and Notifications</h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Under GDPR, organizations are required to respond to Data Subject requests within one month (with limited
+              extensions where applicable). The DSRGM platform enables controllers to configure SLAs for each request
+              type, issue automatic acknowledgements upon receipt, and send proactive status updates to Data Subjects.
+              Built-in reminders and escalations ensure all requests and complaints are addressed promptly, reducing the
+              risk of non-compliance.
+            </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+           <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/15.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/15.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Advanced Rights and Grievance Tracking & Management</h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              Compliance teams and DPOs can monitor the progress of each rights request or complaint in real-time. The
+              DSRGM solution maintains a secure, auditable log of all submissions, updates, decisions, and
+              communications, thereby supporting GDPR’s accountability principle (Art. 5). Notifications are
+              automatically triggered for Data Subjects whenever their request status changes, ensuring transparency and
+              confidence in the process.
+            </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/16.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/16.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Seamless Integration with Digital Ecosystem and Consent Management </h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              The DSRGM solution integrates with existing organizational systems (e.g., CRM, HRMS, ERP, data management
+              platforms) to facilitate swift identification, retrieval, and correction of personal data. It also
+              connects with our Consent Management Platform to validate and update consent records in line with GDPR
+              requirements.
+              Furthermore, when a Data Subject exercises the Right to Withdraw Consent or the Right to Erasure, the
+              DSRGM system can automatically notify relevant third-party processors or partners to stop processing or
+              erase the affected data. This ensures end-to-end compliance across the data processing chain, maintaining
+              consistency and regulatory adherence.
+            </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- बाकी cards same रहेंगे (जिनमें सिर्फ short text है वहाँ button की ज़रूरत नहीं है) -->
+
+    </div>
+  </div>
+</section>
 
 
 <!-- =========================

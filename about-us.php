@@ -59,7 +59,7 @@ Our Mission section
   <div class="main-container">
     <div class="flex items-center flex-wrap lg:flex-nowrap gap-8 lg:gap-4 xl:gap-8">
       <div class="w-full lg:w-1/2">
-        <span data-ns-animate data-delay="0.1" class="badge badge-cyan mb-5"> Our Mission </span>
+        <span data-ns-animate data-delay="0.1" class="badge badge-cyan mb-5"> About Us </span>
         <div class="space-y-3 md:max-w-[550px]">
           <h2 data-ns-animate data-delay="0.2">
             Empowering Businesses to Seamlessly Navigate Data Protection Compliance
@@ -85,39 +85,23 @@ Our Mission section
         class="w-full lg:w-1/2 max-w-[650px] rounded-[20px] bg-background-2 dark:bg-background-5 p-5 md:p-8 xl:p-[50px]">
         <div class="flex gap-4 sm:gap-2.5 flex-wrap sm:flex-nowrap">
           <div class="bg-white dark:bg-background-8 p-6 rounded-2xl w-full sm:w-[55%]">
-            <h5 class="mb-4">
-              Task <br class="hidden lg:block" />
-              management
-            </h5>
             <div class="flex items-center gap-4 mb-7">
               <figure
-                class="inline-block size-14 rounded-full ring-4 ring-white bg-linear-[135deg,#ffffff_0%,#a585ff_100%] overflow-hidden relative">
-                <img src="images/avatar/avatar-7.png" alt="avatar" class="max-w-full" />
-                <img src="images/avatar/author-avatar-bg.png" alt="avatar" class="absolute top-0 left-0 -z-10" />
-              </figure>
-              <div>
-                <h5 class="text-secondary dark:text-accent">Curious george</h5>
+                class="inline-block ring-4 ring-white bg-linear-[135deg,#ffffff_0%,#a585ff_100%] overflow-hidden relative">
+                <img src="images/about/1.svg" alt="avatar" class="max-w-full" />
 
-                <p class="text-secondary/60 dark:text-accent/60">UI UX designer</p>
-              </div>
+              </figure>
+             
             </div>
-            <div class="w-full h-[1px] bg-secondary/10 dark:bg-accent/10 mb-7"></div>
-            <div class="flex items-center justify-between">
-              <p class="text-secondary/60 dark:text-accent/60 text-tagline-2 font-medium">
-                1 days Ago
-              </p>
-              <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M9.34462 13.401L13.2849 15.8974C13.7886 16.2165 14.4139 15.7419 14.2644 15.154L13.126 10.6756C13.0939 10.5509 13.0977 10.4197 13.137 10.297C13.1762 10.1743 13.2492 10.0652 13.3477 9.98222L16.8811 7.04132C17.3453 6.6549 17.1057 5.88439 16.5092 5.84567L11.8949 5.5462C11.7706 5.53732 11.6514 5.49332 11.5511 5.41931C11.4509 5.34531 11.3737 5.24435 11.3286 5.12819L9.60765 0.794357C9.56087 0.671064 9.47769 0.564919 9.36915 0.490017C9.26062 0.415115 9.13187 0.375 9 0.375C8.86813 0.375 8.73938 0.415115 8.63085 0.490017C8.52232 0.564919 8.43914 0.671064 8.39236 0.794357L6.6714 5.12819C6.6263 5.24435 6.54914 5.34531 6.4489 5.41931C6.34865 5.49332 6.22944 5.53732 6.10515 5.5462L1.49078 5.84567C0.894294 5.88439 0.654664 6.6549 1.11894 7.04132L4.65232 9.98222C4.75079 10.0652 4.82383 10.1743 4.86305 10.297C4.90226 10.4197 4.90606 10.5509 4.874 10.6756L3.81824 14.8288C3.63889 15.5343 4.38929 16.1038 4.99369 15.7209L8.65539 13.401C8.75837 13.3354 8.87792 13.3006 9 13.3006C9.12208 13.3006 9.24163 13.3354 9.34462 13.401Z"
-                  fill="" class="fill-secondary dark:fill-accent" />
-              </svg>
-            </div>
+            
           </div>
 
           <div class="bg-white dark:bg-background-8 p-6 rounded-2xl w-full sm:w-[45%]">
-            <h5 class="mb-4">Progress Tracking</h5>
+            <!-- <h5 class="mb-4">Progress Tracking</h5> -->
             <div class="relative w-fit flex items-center justify-center">
-              <svg class="animate-pulse" width="176" height="176" viewBox="0 0 176 176" fill="none"
+
+            <img src="images/about/3.svg" alt="">
+              <!-- <svg class="animate-pulse" width="176" height="176" viewBox="0 0 176 176" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M15.4106 38.2529C5.02285 53.4103 -0.359462 71.4393 0.0186306 89.8107C0.396723 108.182 6.51625 125.974 17.5188 140.692C28.5213 155.409 43.8549 166.313 61.3685 171.874C78.8822 177.434 97.6973 177.373 115.175 171.699C132.652 166.025 147.914 155.022 158.821 140.234C169.728 125.445 175.732 107.614 175.991 89.2404C176.25 70.8669 170.751 52.8732 160.265 37.7834C149.78 22.6937 134.833 11.2648 117.523 5.10011L116.189 8.84623C132.717 14.7324 146.988 25.6448 157 40.0526C167.012 54.4605 172.262 71.6411 172.015 89.1843C171.768 106.728 166.035 123.753 155.621 137.873C145.207 151.993 130.634 162.499 113.947 167.917C97.2591 173.335 79.2942 173.393 62.572 168.083C45.8497 162.774 31.2091 152.363 20.7037 138.31C10.1984 124.258 4.35538 107.27 3.99437 89.7289C3.63337 72.1876 8.77246 54.9734 18.6908 40.5009L15.4106 38.2529Z"
@@ -145,19 +129,20 @@ Our Mission section
                     <stop offset="1" stop-color="#864FFE" stop-opacity="0.28" />
                   </linearGradient>
                 </defs>
-              </svg>
+              </svg> -->
 
-              <figure
+              <!-- <figure
                 class="inline-block size-14 rounded-full ring-4 ring-white bg-linear-[135deg,#ffffff_0%,#a585ff_100%] overflow-hidden absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                 <img src="images/avatar/avatar-2.png" alt="avatar" class="max-w-full" />
-              </figure>
+              </figure> -->
             </div>
           </div>
         </div>
         <div
           class="flex flex-col sm:flex-row sm:items-center justify-start gap-5 p-6 rounded-2xl bg-secondary dark:bg-background-6 max-w-[370px] mt-2.5 z-10 relative">
           <div class="flex -space-x-3.5 cursor-pointer">
-            <img
+            <img src="images/about/2.svg" alt="">
+            <!-- <img
               class="inline-block size-14 rounded-full ring-4 ring-ns-yellow bg-linear-[156deg,_#FFF_32.92%,_#A585FF_91%]"
               src="images/avatar/avatar-1.png" alt="Avatar 1" />
             <img
@@ -165,7 +150,7 @@ Our Mission section
               src="images/avatar/avatar-2.png" alt="Avatar 2" />
             <img
               class="inline-block size-14 rounded-full ring-4 ring-ns-yellow bg-linear-[156deg,_#FFF_32.92%,_#A585FF_91%]"
-              src="images/avatar/avatar-3.png" alt="Avatar 3" />
+              src="images/avatar/avatar-3.png" alt="Avatar 3" /> -->
           </div>
 
           <div>
@@ -198,7 +183,11 @@ Our Success section
     <div data-ns-animate data-delay="0.5"
       class="flex py-6 bg-secondary dark:bg-background-6 rounded-[20px] flex-col gap-y-6 md:flex-row items-center justify-center [&>*:not(:last-child)]:max-md:border-b [&>*:not(:last-child)]:md:border-r [&>*:not(:last-child)]:max-md:border-b-accent/20 dark:[&>*:not(:last-child)]:max-md:border-b-stroke-5 [&>*:not(:last-child)]:md:border-r-accent/20 dark:[&>*:not(:last-child)]:md:border-r-stroke-5">
       <div class="py-6 space-y-6 flex-1">
-        <div class="w-20 h-[52px] bg-ns-yellow rounded-full mx-auto flex items-center justify-center">
+        <div class="mx-auto flex items-center justify-center">
+
+      <img src="images/about/Avoid-Financial.svg" alt="">
+      </div>
+        <!-- <div class="w-20 h-[52px] bg-ns-yellow rounded-full mx-auto flex items-center justify-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path
               d="M22 11.0799V11.9999C21.9988 14.1563 21.3005 16.2545 20.0093 17.9817C18.7182 19.7088 16.9033 20.9723 14.8354 21.5838C12.7674 22.1952 10.5573 22.1218 8.53447 21.3744C6.51168 20.6271 4.78465 19.246 3.61096 17.4369C2.43727 15.6279 1.87979 13.4879 2.02168 11.3362C2.16356 9.18443 2.99721 7.13619 4.39828 5.49694C5.79935 3.85768 7.69279 2.71525 9.79619 2.24001C11.8996 1.76477 14.1003 1.9822 16.07 2.85986"
@@ -206,14 +195,19 @@ Our Success section
             <path d="M22 4L12 14.01L9 11.01" stroke="#1A1A1C" stroke-width="2" stroke-linecap="round"
               stroke-linejoin="round" />
           </svg>
-        </div>
+        </div> -->
 
         <h3 class="text-white flex items-center justify-center text-center text-xl leading-[1.5] font-normal">
           Avoid Financial Penalties
         </h3>
       </div>
       <div class="py-6 space-y-6 flex-1">
-        <div class="w-20 h-[52px] bg-ns-cyan rounded-full mx-auto flex items-center justify-center">
+        <div class="mx-auto flex items-center justify-center">
+
+      <img src="images/about/Enhance.svg" alt="">
+      </div>
+        
+        <!-- <div class="w-20 h-[52px] bg-ns-cyan rounded-full mx-auto flex items-center justify-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path
               d="M23 21.0009V19.0009C22.9993 18.1146 22.7044 17.2536 22.1614 16.5532C21.6184 15.8527 20.8581 15.3524 20 15.1309"
@@ -228,7 +222,7 @@ Our Success section
               d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z"
               stroke="#1A1A1C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
-        </div>
+        </div> -->
 
         <h3 class="text-white flex items-center justify-center gap-0.5 text-center text-xl leading-[1.5] font-normal">
 
@@ -236,13 +230,18 @@ Our Success section
         </h3>
       </div>
       <div class="py-6 space-y-6 flex-1">
-        <div class="w-20 h-[52px] bg-ns-red rounded-full mx-auto flex items-center justify-center">
+
+      <div class="mx-auto flex items-center justify-center">
+
+      <img src="images/about/Improve-Business.svg" alt="">
+      </div>
+        <!-- <div class="w-20 h-[52px] bg-ns-red rounded-full mx-auto flex items-center justify-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path
               d="M7 22H4C3.46957 22 2.96086 21.7893 2.58579 21.4142C2.21071 21.0391 2 20.5304 2 20V13C2 12.4696 2.21071 11.9609 2.58579 11.5858C2.96086 11.2107 3.46957 11 4 11H7M14 9V5C14 4.20435 13.6839 3.44129 13.1213 2.87868C12.5587 2.31607 11.7956 2 11 2L7 11V22H18.28C18.7623 22.0055 19.2304 21.8364 19.5979 21.524C19.9654 21.2116 20.2077 20.7769 20.28 20.3L21.66 11.3C21.7035 11.0134 21.6842 10.7207 21.6033 10.4423C21.5225 10.1638 21.3821 9.90629 21.1919 9.68751C21.0016 9.46873 20.7661 9.29393 20.5016 9.17522C20.2371 9.0565 19.9499 8.99672 19.66 9H14Z"
               stroke="#1A1A1C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
-        </div>
+        </div> -->
 
         <h3 class="text-white flex items-center justify-center gap-0.5 text-center text-xl leading-[1.5] font-normal">
 
@@ -251,13 +250,18 @@ Our Success section
       </div>
 
       <div class="py-6 space-y-6 flex-1">
-        <div class="w-20 h-[52px] bg-ns-red rounded-full mx-auto flex items-center justify-center">
+
+      <div class="mx-auto flex items-center justify-center">
+
+      <img src="images/about/Reputation.svg" alt="">
+      </div>
+        <!-- <div class="w-20 h-[52px] bg-ns-red rounded-full mx-auto flex items-center justify-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path
               d="M7 22H4C3.46957 22 2.96086 21.7893 2.58579 21.4142C2.21071 21.0391 2 20.5304 2 20V13C2 12.4696 2.21071 11.9609 2.58579 11.5858C2.96086 11.2107 3.46957 11 4 11H7M14 9V5C14 4.20435 13.6839 3.44129 13.1213 2.87868C12.5587 2.31607 11.7956 2 11 2L7 11V22H18.28C18.7623 22.0055 19.2304 21.8364 19.5979 21.524C19.9654 21.2116 20.2077 20.7769 20.28 20.3L21.66 11.3C21.7035 11.0134 21.6842 10.7207 21.6033 10.4423C21.5225 10.1638 21.3821 9.90629 21.1919 9.68751C21.0016 9.46873 20.7661 9.29393 20.5016 9.17522C20.2371 9.0565 19.9499 8.99672 19.66 9H14Z"
               stroke="#1A1A1C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
-        </div>
+        </div> -->
 
         <h3 class="text-white flex items-center justify-center gap-0.5 text-center text-xl leading-[1.5] font-normal">
 
@@ -466,7 +470,7 @@ Team section
       <span data-ns-animate data-delay="0.1" class="badge mb-5 badge-cyan">Customer success</span>
       <h2 data-ns-animate data-delay="0.2">Enabling Secure and Compliant Data Practices with Innovative Compliance Tools
         and Expertise</h2>
-      <p data-ns-animate data-delay="0.3" class="md:max-w-[472px] mx-auto">
+      <p data-ns-animate data-delay="0.3" class="md:max-w-[1000px] mx-auto">
         We provide a comprehensive suite of DPDPA compliance services, tailored to meet the unique needs of your
         business. Partnering with organizations of all sizes and industries, we take a personalized approach to
         effectively address data protection and privacy compliance challenges.
@@ -482,14 +486,14 @@ Team section
             <div
               class="bg-background-2 dark:bg-background-5 rounded-[20px] relative overflow-hidden p-8 flex flex-col gap-y-6 z-0">
               <!-- Gradient overlay for active slide -->
-              <div
+              <!-- <div
                 class="absolute max-md:w-[350px] max-md:h-[300px] -left-[180px] -top-[180px] md:-left-[190px] md:-top-[190px] lg:-left-[150px] lg:-top-[150px] xl:-left-[225px] xl:-top-[225px] w-full h-full -z-10 opacity-0 transition-opacity duration-300 gradient-overlay select-none pointer-events-none">
-                <img src="./images/gradient/gradient-9.png" alt="Decorative background gradient"
+                <img src="images/about/Compliance-Assessment.svg" alt="Decorative background gradient"
                   class="-rotate-[90deg]" />
-              </div>
+              </div> -->
               <figure
                 class="inline-block size-14 rounded-full bg-linear-[156deg,_#FFF_32.92%,_#FFB9A2_91%] overflow-hidden relative">
-                <img src="images/avatar/avatar-7.png" alt="Robert Anderson avatar" class="max-w-full" />
+                <img src="images/about/Compliance-Assessment.svg" alt="Robert Anderson avatar" class="max-w-full" />
               </figure>
               <p class="text-secondary/60 dark:text-accent/60 review-text">
                 We conduct in-depth assessments of your data processing practices to identify potential compliance gaps.
@@ -511,14 +515,14 @@ Team section
             <div
               class="bg-background-2 dark:bg-background-5 rounded-[20px] relative p-8 flex flex-col gap-y-6 z-0 overflow-hidden">
               <!-- Gradient overlay for active slide -->
-              <div
+              <!-- <div
                 class="absolute max-md:w-[350px] max-md:h-[300px] -left-[180px] -top-[180px] md:-left-[190px] md:-top-[190px] lg:-left-[150px] lg:-top-[150px] xl:-left-[225px] xl:-top-[225px] w-full h-full -z-10 opacity-0 transition-opacity duration-300 gradient-overlay select-none pointer-events-none">
                 <img src="./images/gradient/gradient-9.png" alt="Decorative background gradient"
                   class="-rotate-[90deg]" />
-              </div>
+              </div> -->
               <figure
                 class="inline-block size-14 rounded-full bg-linear-[156deg,_#FFF_32.92%,_#83E7EE_91%] overflow-hidden relative">
-                <img src="images/avatar/avatar-1.png" alt="Jennifer Martinez avatar" class="max-w-full" />
+                <img src="images/about/Policy-Development.svg" alt="Jennifer Martinez avatar" class="max-w-full" />
               </figure>
               <p class="text-secondary/60 dark:text-accent/60 review-text">
                 Our team assists in the development of robust data protection policies, ensuring they align with DPDP
@@ -540,14 +544,14 @@ Team section
             <div
               class="bg-background-2 dark:bg-background-5 rounded-[20px] relative overflow-hidden p-8 z-10 flex flex-col gap-y-6">
               <!-- Gradient overlay for active slide -->
-              <div
+              <!-- <div
                 class="absolute max-md:w-[350px] max-md:h-[300px] -left-[180px] -top-[180px] md:-left-[190px] md:-top-[190px] lg:-left-[150px] lg:-top-[150px] xl:-left-[225px] xl:-top-[225px] w-full h-full -z-10 opacity-0 transition-opacity duration-300 gradient-overlay select-none pointer-events-none">
                 <img src="./images/gradient/gradient-9.png" alt="Decorative background gradient"
                   class="-rotate-[90deg]" />
-              </div>
+              </div> -->
               <figure
                 class="inline-block size-14 rounded-full bg-linear-[156deg,_#FFF_32.92%,_#FFB9A2_91%] overflow-hidden relative">
-                <img src="images/avatar/avatar-2.png" alt="David Thompson avatar" class="max-w-full" />
+                <img src="images/about/TrainingandEducation.svg" alt="David Thompson avatar" class="max-w-full" />
               </figure>
               <p class="text-secondary/60 dark:text-accent/60 review-text">
                 We offer specialized training programs designed to educate your staff on the importance of data
@@ -571,14 +575,14 @@ Team section
             <div
               class="bg-background-2 dark:bg-background-5 rounded-[20px] relative overflow-hidden p-8 flex flex-col gap-y-6 z-0">
               <!-- Gradient overlay for active slide -->
-              <div
+              <!-- <div
                 class="absolute max-md:w-[350px] max-md:h-[300px] -left-[180px] -top-[180px] md:-left-[190px] md:-top-[190px] lg:-left-[150px] lg:-top-[150px] xl:-left-[225px] xl:-top-[225px] w-full h-full -z-10 opacity-0 transition-opacity duration-300 gradient-overlay select-none pointer-events-none">
                 <img src="./images/gradient/gradient-9.png" alt="Decorative background gradient"
                   class="-rotate-[90deg]" />
-              </div>
+              </div> -->
               <figure
                 class="inline-block size-14 rounded-full bg-linear-[156deg,_#FFF_32.92%,_#83E7EE_91%] overflow-hidden relative">
-                <img src="images/avatar/avatar-3.png" alt="Michael Wilson avatar" class="max-w-full" />
+                <img src="images/about/DataAudit.svg" alt="Michael Wilson avatar" class="max-w-full" />
               </figure>
               <p class="text-secondary/60 dark:text-accent/60 review-text">
                 Our experts conduct data audits to help you identify and manage personal data within your organisation
@@ -601,14 +605,14 @@ Team section
             <div
               class="bg-background-2 dark:bg-background-5 rounded-[20px] relative p-8 flex flex-col gap-y-6 z-0 overflow-hidden">
               <!-- Gradient overlay for active slide -->
-              <div
+              <!-- <div
                 class="absolute max-md:w-[350px] max-md:h-[300px] -left-[180px] -top-[180px] md:-left-[190px] md:-top-[190px] lg:-left-[150px] lg:-top-[150px] xl:-left-[225px] xl:-top-[225px] w-full h-full -z-10 opacity-0 transition-opacity duration-300 gradient-overlay select-none pointer-events-none">
                 <img src="./images/gradient/gradient-9.png" alt="Decorative background gradient"
                   class="-rotate-[90deg]" />
-              </div>
+              </div> -->
               <figure
                 class="inline-block size-14 rounded-full bg-linear-[156deg,_#FFF_32.92%,_#C6F56F_91%] overflow-hidden relative">
-                <img src="images/avatar/avatar-4.png" alt="Emily Rodriguez avatar" class="max-w-full" />
+                <img src="images/about/DataProtection.svg" alt="Emily Rodriguez avatar" class="max-w-full" />
               </figure>
               <p class="text-secondary/60 dark:text-accent/60 review-text">
                 We guide you in conducting DPIAs to assess and mitigate the risks associated with your data processing

@@ -325,7 +325,8 @@ Services section
                     <div
                         class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
                         <div class="flex items-center justify-center">
-                            <span class="ns-shape-47 text-[52px] text-secondary dark:text-accent"></span>
+                            <!-- <span class="ns-shape-47 text-[52px] text-secondary dark:text-accent"></span> -->
+                              <img class="icon-dark-mode w-20 h-20" src="images/services-icon/89.svg" alt="">
                         </div>
                         <div class="space-y-2">
                             <h3 class="text-heading-5">Immediate Compliance Readiness</h3>
@@ -340,7 +341,8 @@ Services section
                     <div
                         class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
                         <div class="flex items-center justify-center">
-                            <span class="ns-shape-12 text-[52px] text-secondary dark:text-accent"></span>
+                            <!-- <span class="ns-shape-12 text-[52px] text-secondary dark:text-accent"></span> -->
+                             <img class="icon-dark-mode w-20 h-20" src="images/services-icon/90.svg" alt="">
                         </div>
                         <div class="space-y-2">
                             <h3 class="text-heading-5">Comprehensive Expertise</h3>
@@ -355,7 +357,8 @@ Services section
                     <div
                         class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
                         <div class="flex items-center justify-center">
-                            <span class="ns-shape-8 text-[52px] text-secondary dark:text-accent"></span>
+                            <!-- <span class="ns-shape-8 text-[52px] text-secondary dark:text-accent"></span> -->
+                             <img class="icon-dark-mode w-20 h-20" src="images/services-icon/91.svg" alt="">
                         </div>
                         <div class="space-y-2">
                             <h3 class="text-heading-5">Business Continuity Assurance</h3>
@@ -371,7 +374,8 @@ Services section
                     <div
                         class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
                         <div class="flex items-center justify-center">
-                            <span class="ns-shape-3 text-[52px] text-secondary dark:text-accent"></span>
+                            <!-- <span class="ns-shape-3 text-[52px] text-secondary dark:text-accent"></span> -->
+                             <img class="icon-dark-mode w-20 h-20" src="images/services-icon/92.svg" alt="">
                         </div>
                         <div class="space-y-2">
                             <h3 class="text-heading-5">Strategic Partnership</h3>
@@ -387,7 +391,8 @@ Services section
                     <div
                         class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
                         <div class="flex items-center justify-center">
-                            <span class="ns-shape-52 text-[52px] text-secondary dark:text-accent"></span>
+                            <!-- <span class="ns-shape-52 text-[52px] text-secondary dark:text-accent"></span> -->
+                              <img class="icon-dark-mode w-20 h-20" src="images/services-icon/93.svg" alt="">
                         </div>
                         <div class="space-y-2">
                             <h3 class="text-heading-5">Continuous Knowledge Transfer</h3>
@@ -445,7 +450,8 @@ Services section
                         <!-- card one  -->
                         <div data-ns-animate data-delay="0.4"
                             class="max-w-[405px] w-full p-8 bg-white dark:bg-background-8 rounded-[20px] space-y-6">
-                            <span class="ns-shape-3 text-[52px] text-secondary dark:text-accent inline-block"></span>
+                            <!-- <span class="ns-shape-3 text-[52px] text-secondary dark:text-accent inline-block"></span> -->
+                             <img class="w-20 h-20" src="images/services-icon/D117.svg" alt="">
 
                             <div class="space-y-2">
                                 <h3 id="portfolio-management-heading" class="text-heading-5">Cost-Effective Excellence
@@ -469,7 +475,7 @@ Services section
                         <!-- card two  -->
                         <div data-ns-animate data-delay="0.5"
                             class="max-w-[405px] w-full p-8 bg-white dark:bg-background-8 rounded-[20px] space-y-6">
-                            <span class="ns-shape-35 text-[52px] text-secondary dark:text-accent inline-block"></span>
+                             <img class="w-20 h-20" src="images/services-icon/D118.svg" alt="">
 
                             <div class="space-y-2">
                                 <h3 id="financial-planning-heading" class="text-heading-5">Objectivity and Independence
@@ -492,7 +498,7 @@ Services section
                         <!-- cards three  -->
                         <div data-ns-animate data-delay="0.7"
                             class="max-w-[405px] w-full p-8 bg-white dark:bg-background-8 rounded-[20px] space-y-6">
-                            <span class="ns-shape-1 text-[52px] text-secondary dark:text-accent inline-block"></span>
+                            <img class="w-20 h-20" src="images/services-icon/D119.svg" alt="">
 
                             <div class="space-y-2">
                                 <h3 id="growth-assist-heading" class="text-heading-5">Scalability and Flexibility</h3>

@@ -8,7 +8,7 @@
       <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Our Tools</span>
       <h1 data-ns-animate data-delay="0.2" class="font-normal lg:text-heading-2">Cookie Consent Management (CCM)</h1>
 
-      <p data-ns-animate data-delay="0.4" class="max-w-[700px] mx-auto">
+      <p data-ns-animate data-delay="0.4" class="max-w-[1000px] mx-auto">
           A Cookie Consent Manager enables organizations (Controllers) to comply with the General Data Protection
           Regulation (GDPR), the ePrivacy Directive, and other global privacy laws by managing the lawful use of cookies
           and tracking technologies.
@@ -56,286 +56,7 @@
 <!-- =========================
 Services section
 ===========================-->
-<section class="py-14 md:py-16 lg:py-[88px] xl:py-[100px] pt-[100px]">
-  <div class="main-container">
-    <!-- <div class="text-center space-y-5 mb-[70px]">
-      <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Our Tools</span>
-      <div class="space-y-3">
-        <h2 data-ns-animate data-delay="0.3" class="max-w-[878px] mx-auto">
-          Cookie Consent Management (CCM)
-        </h2>
-        
-        <h6 class="max-w-[700px] mx-auto  space-y-2 text-center">Our CCM solution empowers Controllers to:</h6>
 
-        <ul class="list-disc list-inside">
-          <li
-            class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">
-            Obtain, store, and manage consent in a compliant manner.
-          </li>
-          <li
-            class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">
-            Prevent unlawful tracking by blocking non-essential cookies until consent is given.
-          </li>
-          <li
-            class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">
-            Ensure Data Subject rights are respected (e.g., withdrawal of consent).
-          </li>
-          <li
-            class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">
-            Demonstrate accountability with auditable consent logs.</li>
-        </ul>
-
-        <h6>Cookie Consent Manager and GDPR Compliance</h6>
-        <p>GDPR and related EU laws impose strict requirements for cookies and similar tracking technologies:</p>
-        <ul class="max-w-[700px] mx-auto list-disc list-inside space-y-2 text-center">
-          <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3">GDPR (EU) – Prior, informed, and freely given consent (Art. 6(1)(a), Art. 7).</li>
-          <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3">ePrivacy Directive (EU Cookie Law) – Explicit consent before storing or accessing information on a user’s
-            device.</li>
-          <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3">CCPA/CPRA (California, USA) – Right to opt-out of “sale/sharing” of personal data.</li>
-          <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3">DPDP Act, 2023 (India) – Consent-based processing of personal data.</li>
-        </ul>
-        <p>Failure to comply may result in fines, reputational harm, and enforcement actions.</p>
-      </div>
-    </div> -->
-
-    <!-- Cards Grid -->
-    <div class="grid grid-cols-12 xl:gap-8 md:gap-8 gap-y-5">
-
-      <!-- CARD 1 -->
-      <div data-ns-animate data-delay="0.5" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/23.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/23.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2 px-6">
-            <h3 class="text-heading-5">Cookie Categorization</h3>
-
-            <!-- Wrap paragraph + ul inside one container -->
-            <div
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              <p>
-                Our CCM automatically identifies and groups cookies into categories that
-                enable Controllers to provide clear and granular choices to Data Subjects
-                as required under Art. 5(1)(a) – Transparency and Art. 7.
-              </p>
-
-              <p>Categories include:</p>
-              <ul class="list-disc list-inside text-left ">
-                <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3">Necessary cookies (always active)</li>
-                <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">Functional cookies</li>
-                <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">Performance/Analytics cookies</li>
-                <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">Marketing/Tracking cookies</li>
-                <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">Custom categories (organization-defined)</li>
-              </ul>
-            </div>
-          </div>
-
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 2 -->
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-           <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/24.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/24.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Cookie Scanner & Auto Classification</h3>
-            <p
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              The automated scanner detects both first- and third-party cookies, analyzes their functions, and
-              classifies them based on privacy impact. This supports GDPR’s accountability principle (Art. 5(2)) by
-              enabling Controllers to maintain accurate and up-to-date records of processing (Art. 30).
-            </p>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/25.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/25.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Consent Banner & Pop-up</h3>
-            <div
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              <p>
-                The banner informs users, in plain and accessible language, about the use of cookies, ensuring GDPR
-                transparency requirements (Art. 12–14) are met.
-              </p>
-
-              <p>It enables:</p>
-              <ul class="list-disc list-inside text-left">
-                <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">Prior consent for non-essential cookies (Art. 6(1)(a)).</li>
-                <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">Clear accept/reject/customize options.</li>
-                <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">Display on first visit and after material changes in processing.</li>
-
-              </ul>
-            </div>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-           <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/26.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/26.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Consent Preference Center</h3>
-            <div
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              <p>Provides Data Subjects with ongoing control to view, modify, or withdraw consent at any time as
-                required
-                by GDPR Art. 7(3). Unlike one-time banners, it ensures continuous compliance and user autonomy.</p>
-            </div>
-
-
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/27.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/27.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5">Cookie Blocking Before Consent</h3>
-            <div
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              <p>Non-essential cookies and scripts are blocked until valid consent is obtained. This is critical for
-                compliance with GDPR Art. 6(1)(a) (lawfulness of processing) and the ePrivacy Directive, which require
-                prior consent.</p>
-            </div>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-            <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/28.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/28.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="space-y-2">
-            <h3 class="text-heading-5"> Consent Logging & Audit Trail </h3>
-            <div
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              <p>Every consent action (given, updated, withdrawn) is time-stamped, encrypted, and stored to provide
-                verifiable evidence of compliance with GDPR’s accountability obligations (Art. 5(2) and Art. 30).</p>
-            </div>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-
-      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
-        <div
-          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
-          <div class="flex items-center justify-center">
-             <figure class="max-w-[26px] max-h-[17px]">
-                <img src="images/gdpr-iconb/29.svg" alt="revenue"
-                  class="w-full h-full object-cover dark:hidden" />
-                <img src="images/gdpr-icon/29.svg" alt="revenue"
-                  class="w-full h-full object-cover hidden dark:block" />
-              </figure>
-          </div>
-          <div class="">
-            <h3 class="text-heading-5"> Integration with Consent & Rights Management</h3>
-            <div
-              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
-              <p>Integrates cookie preferences into the organization’s broader Consent Management Platform. This ensures
-                consistency when honoring Data Subject Rights such as erasure (Art. 17), restriction (Art. 18), or
-                objection (Art. 21).</p>
-            </div>
-          </div>
-          <div>
-            <button
-              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
-              <span>Read more</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-
-
-    </div>
-  </div>
-</section>
 
 
 <section class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-24 md:pb-32 lg:pb-44 xl:pb-[200px]">
@@ -829,9 +550,297 @@ Solutions section
   </div>
 </section> -->
 
-<!-- =========================
-Pricing section
-===========================-->
+<section class="">
+  <div class="main-container">
+
+
+  <div class="text-center space-y-5 mb-[70px]">
+     <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Key Features</span>
+      <div class="space-y-3">
+        <!-- <h2 data-ns-animate data-delay="0.3" class="max-w-[878px] mx-auto">
+          Data Protection Impact Assessment (DPIA)
+        </h2> -->
+        
+      </div>
+    </div>
+    <!-- <div class="text-center space-y-5 mb-[70px]">
+      <span data-ns-animate data-delay="0.2" class="badge badge-yellow-v2">Our Tools</span>
+      <div class="space-y-3">
+        <h2 data-ns-animate data-delay="0.3" class="max-w-[878px] mx-auto">
+          Cookie Consent Management (CCM)
+        </h2>
+        
+        <h6 class="max-w-[700px] mx-auto  space-y-2 text-center">Our CCM solution empowers Controllers to:</h6>
+
+        <ul class="list-disc list-inside">
+          <li
+            class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">
+            Obtain, store, and manage consent in a compliant manner.
+          </li>
+          <li
+            class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">
+            Prevent unlawful tracking by blocking non-essential cookies until consent is given.
+          </li>
+          <li
+            class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">
+            Ensure Data Subject rights are respected (e.g., withdrawal of consent).
+          </li>
+          <li
+            class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">
+            Demonstrate accountability with auditable consent logs.</li>
+        </ul>
+
+        <h6>Cookie Consent Manager and GDPR Compliance</h6>
+        <p>GDPR and related EU laws impose strict requirements for cookies and similar tracking technologies:</p>
+        <ul class="max-w-[700px] mx-auto list-disc list-inside space-y-2 text-center">
+          <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3">GDPR (EU) – Prior, informed, and freely given consent (Art. 6(1)(a), Art. 7).</li>
+          <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3">ePrivacy Directive (EU Cookie Law) – Explicit consent before storing or accessing information on a user’s
+            device.</li>
+          <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3">CCPA/CPRA (California, USA) – Right to opt-out of “sale/sharing” of personal data.</li>
+          <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3">DPDP Act, 2023 (India) – Consent-based processing of personal data.</li>
+        </ul>
+        <p>Failure to comply may result in fines, reputational harm, and enforcement actions.</p>
+      </div>
+    </div> -->
+
+    <!-- Cards Grid -->
+    <div class="grid grid-cols-12 xl:gap-8 md:gap-8 gap-y-5">
+
+      <!-- CARD 1 -->
+      <div data-ns-animate data-delay="0.5" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/23.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/23.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2 px-6">
+            <h3 class="text-heading-5">Cookie Categorization</h3>
+
+            <!-- Wrap paragraph + ul inside one container -->
+            <div
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              <p>
+                Our CCM automatically identifies and groups cookies into categories that
+                enable Controllers to provide clear and granular choices to Data Subjects
+                as required under Art. 5(1)(a) – Transparency and Art. 7.
+              </p>
+
+              <p>Categories include:</p>
+              <ul class="list-disc list-inside text-left ">
+                <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3">Necessary cookies (always active)</li>
+                <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">Functional cookies</li>
+                <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">Performance/Analytics cookies</li>
+                <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">Marketing/Tracking cookies</li>
+                <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">Custom categories (organization-defined)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+           <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/24.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/24.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Cookie Scanner & Auto Classification</h3>
+            <p
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              The automated scanner detects both first- and third-party cookies, analyzes their functions, and
+              classifies them based on privacy impact. This supports GDPR’s accountability principle (Art. 5(2)) by
+              enabling Controllers to maintain accurate and up-to-date records of processing (Art. 30).
+            </p>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/25.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/25.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Consent Banner & Pop-up</h3>
+            <div
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              <p>
+                The banner informs users, in plain and accessible language, about the use of cookies, ensuring GDPR
+                transparency requirements (Art. 12–14) are met.
+              </p>
+
+              <p>It enables:</p>
+              <ul class="list-disc list-inside text-left">
+                <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">Prior consent for non-essential cookies (Art. 6(1)(a)).</li>
+                <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">Clear accept/reject/customize options.</li>
+                <li class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 ">Display on first visit and after material changes in processing.</li>
+
+              </ul>
+            </div>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+           <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/26.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/26.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Consent Preference Center</h3>
+            <div
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              <p>Provides Data Subjects with ongoing control to view, modify, or withdraw consent at any time as
+                required
+                by GDPR Art. 7(3). Unlike one-time banners, it ensures continuous compliance and user autonomy.</p>
+            </div>
+
+
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/27.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/27.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5">Cookie Blocking Before Consent</h3>
+            <div
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              <p>Non-essential cookies and scripts are blocked until valid consent is obtained. This is critical for
+                compliance with GDPR Art. 6(1)(a) (lawfulness of processing) and the ePrivacy Directive, which require
+                prior consent.</p>
+            </div>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+            <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/28.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/28.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-heading-5"> Consent Logging & Audit Trail </h3>
+            <div
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              <p>Every consent action (given, updated, withdrawn) is time-stamped, encrypted, and stored to provide
+                verifiable evidence of compliance with GDPR’s accountability obligations (Art. 5(2) and Art. 30).</p>
+            </div>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+      <div data-ns-animate data-delay="0.6" class="col-span-12 md:col-span-6 xl:col-span-4">
+        <div
+          class="px-6 py-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6 text-center grid items-center justify-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
+          <div class="flex items-center justify-center">
+             <figure class="max-w-[26px] max-h-[17px]">
+                <img src="images/gdpr-iconb/29.svg" alt="revenue"
+                  class="w-full h-full object-cover dark:hidden" />
+                <img src="images/gdpr-icon/29.svg" alt="revenue"
+                  class="w-full h-full object-cover hidden dark:block" />
+              </figure>
+          </div>
+          <div class="">
+            <h3 class="text-heading-5"> Integration with Consent & Rights Management</h3>
+            <div
+              class="card-content max-w-[361px] mx-auto line-clamp-3 overflow-hidden transition-all duration-500 ease-in-out">
+              <p>Integrates cookie preferences into the organization’s broader Consent Management Platform. This ensures
+                consistency when honoring Data Subject Rights such as erasure (Art. 17), restriction (Art. 18), or
+                objection (Art. 21).</p>
+            </div>
+          </div>
+          <div>
+            <button
+              class="toggleBtn btn btn-white dark:btn-transparent dark:hover:btn-accent hover:btn-secondary btn-md">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
 
 
 <!-- =========================
